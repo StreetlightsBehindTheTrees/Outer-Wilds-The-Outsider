@@ -1,0 +1,217 @@
+ManifestFileVersion: 0
+CRC: 1949341291
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 91a83c4e8160627fdd0dbd15325955f0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fba4dc797b8b4280104cf0feb53ff189
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3d7fee243786b7a43aeb607db88d4b36, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 040dd594681f07a4a975890a61d44be5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 25bccd967fc1f654db4d2e7a844e55aa, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 64247dd7b0c5ac640a6d9ae5360a0f5a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2357c7ea4be9dc840867927064ff876e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0697417d0b4243b48a036bfb10342726, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 034b758dcb27c9746a7640cdb345b333, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Ending Images/QM_TimeWarp_1.png
+- Assets/Ending Images/EyeDestruction_RW_8.png
+- Assets/Ending Images/EyeRed_8.png
+- Assets/Ending Images/SolanumVessel_Reaction_0_1.png
+- Assets/Ending Images/QM_VesselFall_1.png
+- Assets/Ending Images/EyeDestruction_SS_2.png
+- Assets/Ending Images/SolanumVessel_Reaction_BG.png
+- Assets/Ending Images/QM_TimeWarp_7.png
+- Assets/Ending Images/SolanumVessel_Back_K1_2.png
+- Assets/Ending Images/EyeRed_4.png
+- Assets/Ending Images/EyeRed_6.png
+- Assets/Ending Images/BigBang_FromEye.png
+- Assets/Ending Images/EyeRed_3.png
+- Assets/Ending Images/NewUniverseScene3_Planets_7.png
+- Assets/Ending Images/NewUniverseScene3_Planets_9.png
+- Assets/Ending Images/EyeRed_2.png
+- Assets/Ending Images/EyeDestruction_SS_3.png
+- Assets/Ending Images/BigBangHearthianReaction_2.png
+- Assets/Ending Images/EyeAbove_2.png
+- Assets/Ending Images/NewUniverseScene2_Planet_0.png
+- Assets/Ending Images/NewUniverseScene3_Planets_6.png
+- Assets/Ending Images/NewUniverseScene2_Planet_10.png
+- Assets/Ending Images/NewUniverseScene2_Planet_N1.png
+- Assets/Ending Images/EyeDestruction_RW_3.png
+- Assets/Ending Images/EyeBigBang_0.png
+- Assets/Ending Images/QM_TimeWarp_5.png
+- Assets/Ending Images/VesselShadow.png
+- Assets/Ending Images/NewUniverseScene2_Planet_8.png
+- Assets/Ending Images/EyeDestruction_RW_1.png
+- Assets/Ending Images/Vessel_NewUniverse_6.png
+- Assets/Ending Images/Vessel_Final_1.png
+- Assets/Ending Images/EyeRed_7.png
+- Assets/Ending Images/EyeDestruction_NOM_0.png
+- Assets/Ending Images/SolanumVessel_Reaction_4.png
+- Assets/Ending Images/EyeDestruction_NOM_2.png
+- Assets/Ending Images/EyeAbove_0.png
+- Assets/Ending Images/NewUniverseScene3_Planets_5.png
+- Assets/Ending Images/NewUniverseScene3_Planets_11.png
+- Assets/Ending Images/EyeDestruction_NOM_5.png
+- Assets/Bundle/Ending/eyeAmbience.wav
+- Assets/Ending Images/EyeDestruction_RW_5.png
+- Assets/Ending Images/NewUniverseScene2_Planet_11.png
+- Assets/Ending Images/EyeDestruction_RW_0.png
+- Assets/Ending Images/EyeRed_0.png
+- Assets/Ending Images/NewUniverseScene2_Planet_7.png
+- Assets/Ending Images/NewUniverseScene2_Planet_N3.png
+- Assets/Ending Images/NewUniverseScene3_Planets_4.png
+- Assets/Ending Images/Vessel_NewUniverse_7.png
+- Assets/Ending Images/EyeAbove_1.png
+- Assets/Ending Images/EyeRed_5.png
+- Assets/Ending Images/NewUniverseScene3_Planets_3.png
+- Assets/Ending Images/EyeDestruction_RW_4.png
+- Assets/Ending Images/QM_TimeWarp_3.png
+- Assets/Ending Images/NewUniverseScene2_Planet_5.png
+- Assets/Ending Images/EyeAbove_6.png
+- Assets/Ending Images/SolanumVessel_Back_K3_0.png
+- Assets/Ending Images/EyeDestruction_RW_9.png
+- Assets/Ending Images/EyeDestruction_RW_7.png
+- Assets/Ending Images/VesselEyeBack.png
+- Assets/Ending Images/QM_TimeWarp_2.png
+- Assets/Ending Images/EyeDestruction_RW_2.png
+- Assets/Ending Images/NewUniverseScene3_Planets_0.png
+- Assets/Ending Images/SolanumVessel_Reaction_2.png
+- Assets/Ending Images/Vessel_NewUniverse_2.png
+- Assets/Ending Images/Vessel_Final_6.png
+- Assets/Bundle/Ending/Eye Root.prefab
+- Assets/Ending Images/Vessel_NewUniverse_4.png
+- Assets/Ending Images/EyeDestruction_SS_1.png
+- Assets/Ending Images/SolanumVessel_Back_K0_0.png
+- Assets/Ending Images/NewUniverseScene3_Planets_10.png
+- Assets/Ending Images/EyeDestruction_NOM_4.png
+- Assets/Ending Images/SolanumVessel_Scene1_0.png
+- Assets/Ending Images/EyeBigBang_4.png
+- Assets/Ending Images/BigBangHearthian.png
+- Assets/Ending Images/SolanumVessel_Reaction_0_2.png
+- Assets/Ending Images/BigBangHearthianReaction_4.png
+- Assets/Ending Images/EyeBigBang_1.png
+- Assets/Ending Images/SolanumVessel_Back_K2_1.png
+- Assets/Ending Images/Vessel_Final_0.png
+- Assets/Ending Images/EyeDestruction_SS_4.png
+- Assets/Ending Images/EyeBigBang_2.png
+- Assets/Ending Images/QM_TimeWarp_4.png
+- Assets/Ending Images/Vessel_Final_2.png
+- Assets/Ending Images/NewUniverseScene3_Planets_8.png
+- Assets/Ending Images/EyeDestruction_SS_6.png
+- Assets/Ending Images/BigBangHearthianReaction_5.png
+- Assets/Ending Images/NewUniverse_Cloud_1.png
+- Assets/Ending Images/BigBangHearthianReaction_3.png
+- Assets/Ending Images/NewUniverseScene3_BG.png
+- Assets/Ending Images/QM_VesselFall_0.png
+- Assets/Ending Images/Vessel_NewUniverse_1.png
+- Assets/Ending Images/EyeAbove_3.png
+- Assets/Ending Images/EyeDestruction_NOM_7.png
+- Assets/Ending Images/NewUniverseScene2_Planet_N2.png
+- Assets/Ending Images/NewUniverse_Cloud_2.png
+- Assets/Ending Images/QM_VesselLanded_3.png
+- Assets/Ending Images/EyeDestruction_NOM_3.png
+- Assets/Ending Images/Vessel_Final_5.png
+- Assets/Ending Images/NewUniverseScene2_Planet_3.png
+- Assets/Ending Images/QM_TimeWarp_0.png
+- Assets/Ending Images/SolanumVessel_Reaction_0_0.png
+- Assets/Ending Images/SolanumVessel_Scene2_6.png
+- Assets/Ending Images/EyeRed_1.png
+- Assets/Ending Images/SolanumVessel_Back_K2_0.png
+- Assets/Ending Images/NewUniverseScene2_Planet_2.png
+- Assets/Ending Images/QM_VesselLanded_0.png
+- Assets/Ending Images/EyeDestruction_SS_0.png
+- Assets/Ending Images/Vessel_Final_4.png
+- Assets/Ending Images/SolanumVessel_Scene2_0.png
+- Assets/Ending Images/Vessel_NewUniverse_3.png
+- Assets/Ending Images/Vessel_NewUniverse_5.png
+- Assets/Ending Images/QM_VesselLanded_2.png
+- Assets/Ending Images/SolanumVessel_Scene2_4.png
+- Assets/Ending Images/NewUniverseScene2_BG.png
+- Assets/Ending Images/NewUniverse_BG.png
+- Assets/Bundle/Ending/ost_Duality.wav
+- Assets/Ending Images/SolanumVessel_Reaction_3.png
+- Assets/Ending Images/SolanumVessel_Back_K0_1.png
+- Assets/Ending Images/EyeDestruction_NOM_6.png
+- Assets/Ending Images/EyeZoomOut_BG.png
+- Assets/Ending Images/EyeBigBang_5.png
+- Assets/Ending Images/EyeDestruction_SS_7.png
+- Assets/Ending Images/SolanumVessel_Scene2_7.png
+- Assets/Ending Images/QuantumMoon_Scene2.png
+- Assets/Ending Images/EyeBigBang_3.png
+- Assets/Ending Images/NewUniverseScene2_Planet_9.png
+- Assets/Ending Images/QuantumMoon_Scene1.png
+- Assets/Ending Images/SolanumVessel_Reaction_5.png
+- Assets/Ending Images/NewUniverseScene2_Planet_1.png
+- Assets/Ending Images/EyeAbove_7.png
+- Assets/Ending Images/Vessel_NewUniverse_0.png
+- Assets/Ending Images/QM_VesselFall_2.png
+- Assets/Ending Images/EyeAbove_4.png
+- Assets/Ending Images/BigBangHearthianReaction_0.png
+- Assets/Ending Images/QM_VesselFall_3.png
+- Assets/Ending Images/EyeDestruction_NOM_1.png
+- Assets/Ending Images/SolanumVessel_Back_K2_3.png
+- Assets/Ending Images/SolanumVessel_Reaction_0_3.png
+- Assets/Ending Images/EyeDestruction_SS_5.png
+- Assets/Ending Images/SolanumVessel_Scene2_2.png
+- Assets/Ending Images/SolanumVessel_Back_K2_2.png
+- Assets/Ending Images/SolanumVessel_Scene2_5.png
+- Assets/Ending Images/NewUniverseScene2_Planet_6.png
+- Assets/Ending Images/NewUniverseScene3_Planets_1.png
+- Assets/Ending Images/EyeDestruction_RW_6.png
+- Assets/Ending Images/Vessel_Final_3.png
+- Assets/Ending Images/SolanumVessel_Scene2_3.png
+- Assets/Ending Images/QM_TimeWarp_6.png
+- Assets/Ending Images/SolanumVessel_Back_K1_1.png
+- Assets/Ending Images/EyeAbove_8.png
+- Assets/Ending Images/NewUniverseScene2_Planet_4.png
+- Assets/Ending Images/EyeAbove_5.png
+- Assets/Ending Images/NewUniverse_Cloud_0.png
+- Assets/Ending Images/NewUniverseScene3_Planets_2.png
+- Assets/Ending Images/SolanumVessel_Reaction_1.png
+- Assets/Ending Images/Vessel_Final_7.png
+- Assets/Ending Images/SolanumVessel_Back_K1_0.png
+- Assets/Ending Images/SolanumVessel_Scene2_1.png
+- Assets/Ending Images/Vessel_NewUniverse_BG.png
+- Assets/Ending Images/NewUniverseScene4_BG.png
+- Assets/Ending Images/BigBangHearthianReaction_1.png
+- Assets/Ending Images/SolanumVessel_Scene1_1.png
+- Assets/Ending Images/QuantumMoon.png
+- Assets/Ending Images/QM_VesselLanded_1.png
+- Assets/Ending Images/SolanumVessel_Back_K0_2.png
+Dependencies: []

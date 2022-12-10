@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\44751\\Desktop\\Files\\OuterWilds\\Modding\\SBtT.NewJourney\\ModTemplate\\ModTemplate.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\44751\\Desktop\\Files\\OuterWilds\\Modding\\SBtT.NewJourney\\ModTemplate\\ModTemplate.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\44751\\Desktop\\Files\\OuterWilds\\Modding\\SBtT.NewJourney\\ModTemplate\\ModTemplate.csproj",
+        "projectName": "ModTemplate",
+        "projectPath": "C:\\Users\\44751\\Desktop\\Files\\OuterWilds\\Modding\\SBtT.NewJourney\\ModTemplate\\ModTemplate.csproj",
+        "packagesPath": "C:\\Users\\44751\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\44751\\Desktop\\Files\\OuterWilds\\Modding\\SBtT.NewJourney\\ModTemplate\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\44751\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\44751\\Desktop\\Files\\VSPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "OWML": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "OuterWildsGameLibs": {
+              "target": "Package",
+              "version": "[1.1.11.73, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

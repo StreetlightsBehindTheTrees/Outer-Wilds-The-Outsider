@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 3530627018
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 110868e878e481ac58cbcc16b3ac3beb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Audio/ost_Datura.wav
+- Assets/Audio/ost_WhenWorldsCollide.wav
+- Assets/Audio/ost_RiversGrooveV2.wav
+- Assets/Audio/ost_FriendV2.wav
+- Assets/Audio/ost_ConflictedVoyageV2.wav
+Dependencies: []

@@ -1,0 +1,10 @@
+C:\Users\44751\Desktop\Files\OuterWilds\Modding\SBtT.TheOutsider\TheOutsider\obj\Debug\net48\TheOutsider.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\44751\Desktop\Files\OuterWilds\Modding\SBtT.TheOutsider\TheOutsider\obj\Debug\net48\TheOutsider.AssemblyInfoInputs.cache
+C:\Users\44751\Desktop\Files\OuterWilds\Modding\SBtT.TheOutsider\TheOutsider\obj\Debug\net48\TheOutsider.AssemblyInfo.cs
+C:\Users\44751\Desktop\Files\OuterWilds\Modding\SBtT.TheOutsider\TheOutsider\obj\Debug\net48\TheOutsider.csproj.CoreCompileInputs.cache
+C:\Users\44751\AppData\Roaming\OuterWildsModManager\OWML\Mods\SBtT.TheOutsider\default-config.json
+C:\Users\44751\AppData\Roaming\OuterWildsModManager\OWML\Mods\SBtT.TheOutsider\manifest.json
+C:\Users\44751\AppData\Roaming\OuterWildsModManager\OWML\Mods\SBtT.TheOutsider\TheOutsider.dll
+C:\Users\44751\AppData\Roaming\OuterWildsModManager\OWML\Mods\SBtT.TheOutsider\TheOutsider.pdb
+C:\Users\44751\Desktop\Files\OuterWilds\Modding\SBtT.TheOutsider\TheOutsider\obj\Debug\net48\TheOutsider.dll
+C:\Users\44751\Desktop\Files\OuterWilds\Modding\SBtT.TheOutsider\TheOutsider\obj\Debug\net48\TheOutsider.pdb

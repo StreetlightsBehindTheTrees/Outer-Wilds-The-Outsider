@@ -7,3 +7,6 @@ It is intended to be played after finishing the base game and Echoes of the Eye,
 On this new journey, you will find the writings of a Nomai who seperated from the rest of the clan.
 
 For best performance, it is recommended you play with just this mod enabled (there are no required mods).
+
+## Thanks
+* The Modding Discord

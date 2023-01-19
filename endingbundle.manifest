@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1949341291
+CRC: 3907011167
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 91a83c4e8160627fdd0dbd15325955f0
+    Hash: bd0fe21b7c48349f3bbe928c0b5bba78
   TypeTreeHash:
     serializedVersion: 2
     Hash: fba4dc797b8b4280104cf0feb53ff189
@@ -88,7 +88,6 @@ Assets:
 - Assets/Ending Images/NewUniverseScene3_Planets_5.png
 - Assets/Ending Images/NewUniverseScene3_Planets_11.png
 - Assets/Ending Images/EyeDestruction_NOM_5.png
-- Assets/Bundle/Ending/eyeAmbience.wav
 - Assets/Ending Images/EyeDestruction_RW_5.png
 - Assets/Ending Images/NewUniverseScene2_Planet_11.png
 - Assets/Ending Images/EyeDestruction_RW_0.png
@@ -96,6 +95,7 @@ Assets:
 - Assets/Ending Images/NewUniverseScene2_Planet_7.png
 - Assets/Ending Images/NewUniverseScene2_Planet_N3.png
 - Assets/Ending Images/NewUniverseScene3_Planets_4.png
+- Assets/Bundle/Ending/eyeAmbienceV2.mp3
 - Assets/Ending Images/Vessel_NewUniverse_7.png
 - Assets/Ending Images/EyeAbove_1.png
 - Assets/Ending Images/EyeRed_5.png

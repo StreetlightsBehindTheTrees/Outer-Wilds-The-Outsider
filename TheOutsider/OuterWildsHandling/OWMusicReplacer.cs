@@ -15,6 +15,8 @@ namespace TheOutsider.OuterWildsHandling
         AudioClip defaultSpaceMusic;
         float travellerVolume;
 
+        ShipResources shipResources;
+
         public OWMusicReplacer(OutsiderAudio audio)
         {
             this.audio = audio;
@@ -42,8 +44,9 @@ namespace TheOutsider.OuterWildsHandling
             travelSource._audioLibraryClip = AudioType.None;  //Stop from replacing it every time play.
             travelSource._clipArrayLength = 0;
             travellerVolume = travelSource.GetMaxVolume();  //0.35f
-        }
 
+            shipResources = GameObject.FindObjectOfType<ShipResources>();
+        }
         public void OnUpdate()
         {
             if (OWPatches.ReturnToNormalTravelMusic)  //When enter stop trigger
@@ -66,7 +69,12 @@ namespace TheOutsider.OuterWildsHandling
                     travelSource.clip = audio.RiverGroove;
                     audio.SetDBAudioVolumesActive(false);
                 }
-                if (travelSource.volume > 0.1f) //If is playing.
+
+                if (shipResources._hullBreach) //Fade out when ship explodes.
+                {
+                    travelSource.SetLocalVolume(Mathf.Lerp(travelSource.GetLocalVolume(), 0f, Time.deltaTime));
+                }
+                else if (travelSource.volume > 0.1f) //If is playing.
                 {
                     if (PlayerState.IsInsideShip())
                     {

@@ -28,6 +28,8 @@ namespace TheOutsider.OuterWildsHandling
         readonly Material FriendConversationSymbols;
         readonly Material FriendConversationSymbolsAlt;
 
+        readonly Material Quantum;
+
         //Wood old metallic: 0.18
         public OWMaterials(AssetBundle bundle)
         {
@@ -66,6 +68,8 @@ namespace TheOutsider.OuterWildsHandling
             StrangerWoodLight = FindMat("Structure_DW_Mangrove_Wood_Light_mat");
 
             DreamLanternFlame = FindMat("Effects_IP_LanternFlame_mat");
+
+            Quantum = FindMat("Rock_QM_Shard_mat");
 
             //Structure_NOM_OrbTrack_mat
             //Structure_NOM_ProbeWindow_mat
@@ -145,6 +149,8 @@ namespace TheOutsider.OuterWildsHandling
             //General
             if (name.Contains("Arc ")) return NomaiText; //Set Nomai Text mat
             if (name.Contains("GhostMatter")) return GhostMatterCrystal;
+            
+            if (name.Contains("QuantumRock")) return Quantum;
 
             //Specific.
             switch (name)

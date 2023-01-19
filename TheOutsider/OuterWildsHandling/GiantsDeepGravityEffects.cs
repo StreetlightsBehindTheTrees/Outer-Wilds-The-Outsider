@@ -110,8 +110,6 @@ namespace TheOutsider.OuterWildsHandling
         {
             foreach (var item in GiantsDeepPull.list)
             {
-                item.enabled = true;    //Start update and fixed update.
-
                 if (item is DarkBrambleDetacher surfaceDetachers) surfaceDetachers.BreakAway(); //All but Power Station.
                 else item.BeginAttractionToGiantsDeep();
             }
@@ -125,7 +123,15 @@ namespace TheOutsider.OuterWildsHandling
                 float gravity = Locator.GetPlayerController().GetNormalAccelerationScalar();
 
                 if (gravity > 0f || PlayerState.IsInsideShip()) OWPatches.AllowPlayerGrounded = true;
-                else OWPatches.AllowPlayerGrounded = false;
+                else
+                {
+                    var volume = Locator.GetPlayerForceDetector()._inheritedVolume;
+                    if (volume != null && volume.name.Contains("GravityCrystal"))
+                    {
+                        OWPatches.AllowPlayerGrounded = true;
+                    }
+                    else OWPatches.AllowPlayerGrounded = false;
+                }
 
                 yield return null;
             }

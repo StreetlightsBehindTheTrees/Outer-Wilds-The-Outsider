@@ -26,6 +26,7 @@ namespace TheOutsider.MonoBehaviours
         //2 - Pillars appearing
         //3 - Text timing
         public static FriendConversationFixes Instance { get; private set; }
+        public NomaiConversationManager ConversationManager => conversationManager;
         void Awake()
         {
             if (Log.ErrorIf(Instance != null, "This shouldn't happen!!!")) return;

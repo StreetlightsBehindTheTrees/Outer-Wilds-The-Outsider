@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3401392719
+CRC: 1781658645
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: bba202b72a0cd85f6241013dc52e6b76
+    Hash: f758056a406575c362aa61508888ed91
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 4077501f7e3e4a1b54fac2258bde9d8b
+    Hash: 5040c8bf7129c0f016040915b4a53188
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -48,6 +48,10 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 89271c10bedda514a9fef37ceb5f526a, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 64960e60016b9174392f7e903dd3f38e, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 930e209056f2aa241bbd8b369b223bad, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: ea0b90e0294e41140976095cacfad5f9, type: 3}
@@ -64,6 +68,10 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: c3beec511cdafc449b96f44449663f95, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 85d098e1ebf61a14a805924ee5a90280, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 3a13fbe167f61984ba3fbd65c8ae0f39, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 1f602412fb56d5844acb7434ec52276d, type: 3}
@@ -71,6 +79,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 4eca0612bbafa0b439c7abec581127ae, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 38e4d433f3f97234aa734760ddda2661, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d8592143aba9d594fb3338233ad486ee, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 2b196863fe3adb64881d3f08b219194d, type: 3}
 - Class: 114
@@ -91,6 +101,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 44e6c85460fc91746b86ccb3c4135daf, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 040dd594681f07a4a975890a61d44be5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bff48905f8c9a37428ca4411334856ff, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: b5854b05af5b41043a11365f15c3647c, type: 3}
 - Class: 114
@@ -152,6 +164,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: ab8cdd3c3b0382c45b5b2d2dd85fbbbb, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 9fc2294cf3b0d3346b0a42bed190f7a4, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: e514175ccf2c4344ea6fd67ee496b027, type: 3}
@@ -163,6 +177,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 44aa9aac3f798ff478ea63d7fdd28e3e, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: ab1b94fc079c818499e6d839ed219328, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9658202d1a6c92e48bbf426244f25704, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 6de50a4d994951846a2135fc48f2414c, type: 3}
 - Class: 114
@@ -195,6 +211,8 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 120
   Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
 - Class: 135
   Script: {instanceID: 0}
 - Class: 136
@@ -206,6 +224,8 @@ ClassTypes:
 - Class: 213
   Script: {instanceID: 0}
 - Class: 222
+  Script: {instanceID: 0}
+- Class: 223
   Script: {instanceID: 0}
 - Class: 224
   Script: {instanceID: 0}
@@ -223,6 +243,8 @@ Assets:
 - Assets/TEXT/Power Station/PowerStation_AHB.bytes
 - Assets/TEXT/Study Tower/StudyTower_Disturbing.bytes
 - Assets/Bundle/Dream Root.prefab
+- Assets/Other Materials/FriendClothes.mat
+- Assets/TEXT/South Pole/SimulationHouseInside_2.bytes
 - Assets/TEXT/Friend Responses/Friend_You+Prisoner.bytes
 - Assets/TEXT/South Pole/EyeShack.bytes
 - Assets/Other Materials/LOD_Ghostbird_EYE_MummySkin_d.png
@@ -236,14 +258,17 @@ Assets:
 - Assets/Log Images/DB_STUDY_TOWER.png
 - Assets/TEXT/South Pole/ArtHouse.bytes
 - Assets/TEXT/South Pole/Eye_Friend.bytes
+- Assets/TEXT/Observatory/Observatory_R_Eye.bytes
 - Assets/Audio/sfx_creakingPart3-V2.wav
 - Assets/Outer Wilds Meshes/WarpCore/WarpCoreGlass.mat
 - Assets/TEXT/Power Station/PowerStation.bytes
 - Assets/TEXT/Friend Responses/Friend_Me+Prisoner.bytes
+- Assets/Other Materials/Props_HEA_Telescope.mat
 - Assets/TEXT/Friend Responses/Friend_FirstTalk.bytes
 - Assets/Images Misc/Occlusion/OcclusionLight_StudyTower.png
 - Assets/TEXT/Examples/Test.bytes
 - Assets/TEXT/PowerStation_TheOutsiderLog.bytes
+- Assets/TEXT/South Pole/FriendQuantum.bytes
 - Assets/TEXT/Friend Responses/Friend_You+Datura.bytes
 - Assets/Bundle/Title Root.prefab
 - Assets/TEXT/Friend Responses/Friend_Datura+Prisoner.bytes
@@ -253,10 +278,12 @@ Assets:
 - Assets/TEXT/Power Station/PowerStation_STandPPH.bytes
 - Assets/Audio/sfx_crushStart.wav
 - Assets/TEXT/Friend Responses/Friend_You+Me.bytes
+- Assets/TEXT/Landing Area/ShuttleCrusher_NomaiShuttleC.bytes
 - Assets/TEXT/Landing Area/ShuttleCrusher_StrangerShip.bytes
 - Assets/Log Images/DB_SHUTTLE_CRUSHER.png
 - Assets/Images Misc/JellyfishImage2.png
 - Assets/Images Misc/Decal_NOM_Symbols_01_New.png
+- Assets/Bundle/Mat/GlowWhite.mat
 - Assets/TEXT/Misc/Feldspar_NEW.bytes
 - Assets/Images Misc/Decal_NOM_Symbols_03_NewMat.png
 - Assets/Bundle/Mat/Glow 1.mat
@@ -269,23 +296,27 @@ Assets:
 - Assets/Bundle/Title/Textures/LOD_Terrain_DB_VineDetail_d.png
 - Assets/TEXT/Projection Pool House/PPH_BrokenMessage.bytes
 - Assets/Bundle/Mat/Structure_NOM_CopperOld_mat.mat
-- Assets/TEXT/Hunting Blind/AHB_DiscoverySteal.bytes
+- Assets/TEXT/Hunting Blind/AHB_Discovery.bytes
 - Assets/TEXT/Landing Area/FeldsparRecording1.bytes
 - Assets/Bundle/Giants Deep Colliders Root.prefab
 - Assets/Audio/sfx_buildingDetach2.wav
 - Assets/Images Misc/Materials/EchoesOfTheEye-small.mat
-- Assets/TEXT/Observatory/Observatory_FirstText.bytes
+- Assets/TEXT/Observatory/Observatory_AfterFind.bytes
+- Assets/TEXT/Observatory/Observatory_R_2_Find.bytes
 - Assets/TEXT/Stranger_TheOutsiderLog.bytes
 - Assets/Log Images/DB_INITIAL_CAMP.png
 - Assets/Audio/sfx_creakingPart1.wav
 - Assets/Bundle/Textures/Props_NOM_GravityCrystal_n.png
 - Assets/Audio/sfx_supernova_dream_V2.wav
+- Assets/TEXT/South Pole/DaturaReturnGift.bytes
 - Assets/Images Misc/UI_DarkBramble.png
 - Assets/Images Misc/Materials/SecretRoomPainting.mat
 - Assets/Log Images/OUTSIDER_EYE_OTU.png
 - Assets/TEXT/South Pole/Friend.bytes
 - Assets/Other Materials/Props_HEA_CampsiteSleepingBag_n.png
+- Assets/TEXT/Observatory/Observatory_Computer.bytes
 - Assets/Log Images/DB_SIMULATION_HOUSE.png
+- Assets/Other Materials/Decal_IP_ProjectionHouse_d.png
 - Assets/TEXT/Friend Responses/Friend_Datura+Me.bytes
 - Assets/TEXT/South Pole/Art_Deal.bytes
 - Assets/Bundle/Mat/Structure_NOM_Whiteboard_mat.mat
@@ -301,18 +332,20 @@ Assets:
 - Assets/TEXT/TheOutsiderShipLogLibrary.asset
 - Assets/Log Images/DB_DRIFTING_DEATH.png
 - Assets/TEXT/Misc/Gabbro_NEW_LoopEnd.bytes
-- Assets/TEXT/Observatory/Observatory_Recording_3_OnBody.bytes
+- Assets/Other Materials/Materials/Decal_IP_ProjectionHouse_d.mat
+- Assets/TEXT/Observatory/Observatory_R_4_OnBody.bytes
 - Assets/Bundle/Custom Shaders/CustomScroll.shader
 - Assets/TEXT/Hunting Blind/AHB_EscapePod.bytes
+- Assets/TEXT/Misc/SecretPoem.bytes
 - Assets/Bundle/Power Station Pivot.prefab
 - Assets/TEXT/Misc/Slate_NEW.bytes
 - Assets/Audio/sfx_buildingDetach3.wav
 - Assets/Audio/DB_Ambience.wav
-- Assets/TEXT/Observatory/Observatory_Recording_1.bytes
+- Assets/TEXT/Observatory/Observatory_R_1_Collector.bytes
 - Assets/Images Misc/UI_PowerStation_Outline.png
 - Assets/Images Misc/Materials/Eye_Duality.mat
 - Assets/TEXT/Landing Area/InitialCamp.bytes
-- Assets/TEXT/Observatory/Observatory_Recording_2_AfterPPH.bytes
+- Assets/TEXT/Observatory/Observatory_R_3_AtPPH.bytes
 - Assets/TEXT/Power Station/PowerStation_z_Computer.bytes
 - Assets/TEXT/Power Station/PowerStation_BV.bytes
 - Assets/Audio/ost_StudyTower.wav
@@ -337,10 +370,11 @@ Assets:
 - Assets/TEXT/Hunting Blind/AHB_AnglerfishHunting.bytes
 - Assets/TEXT/Friend Responses/Friend_Explain+You.bytes
 - Assets/Images Misc/Occlusion/OcclusionLight_Basic.png
-- Assets/TEXT/Landing Area/ShuttleCrusher_NomaiShuttle.bytes
+- Assets/TEXT/Landing Area/ShuttleCrusher_NomaiShuttleB.bytes
 - Assets/TEXT/Power Station/PowerStation_Campsite.bytes
 - Assets/TEXT/South Pole/SimulationHouseInside.bytes
 - Assets/Bundle/Mat/CustomScroll.mat
+- Assets/TEXT/Landing Area/ShuttleCrusher_NomaiShuttleA.bytes
 - Assets/Images Misc/PlayerShip_NewPosters.png
 - Assets/Audio/ost_PowerStation.wav
 - Assets/Images Misc/Materials/BrittleHollowVSGiantsDeep_small.mat
@@ -358,6 +392,7 @@ Assets:
 - Assets/TEXT/Study Tower/StudyTower_Friend.bytes
 - Assets/Audio/sfx_crushReturn.wav
 - Assets/Images Misc/Materials/Portrait_small.mat
+- Assets/Images Misc/DB_Map.png
 - Assets/Audio/sfx_creakingPart2.wav
 - Assets/TEXT/South Pole/Datura_NomaiArgumentRecording.bytes
 - Assets/Audio/sfx_crushHit.wav

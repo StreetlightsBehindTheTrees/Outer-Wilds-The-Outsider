@@ -6,6 +6,9 @@
         public const string PlayerDetector = "PlayerDetector";
 
         public const string EnterDreamWorld = "EnterDreamWorld";
+        public const string ExitDreamWorld = "ExitDreamWorld";
+
+        public const string ShipExplode = "ShipHullBreach";
     }
 
     public static class OWPath

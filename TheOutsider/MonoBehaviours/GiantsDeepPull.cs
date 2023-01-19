@@ -14,7 +14,13 @@ namespace TheOutsider.MonoBehaviours
         protected OWRigidbody followingRB;
         bool doFollowing = false;
 
-        void Awake() => list.Add(this);
+        protected ConstantForceDetector forceDetector;
+
+        protected virtual void Awake()
+        {
+            list.Add(this);
+            enabled = false;
+        }
         void OnDestroy() => list.Remove(this);
         OWRigidbody CreateRB(GameObject obj, bool kinematic)
         {
@@ -48,7 +54,8 @@ namespace TheOutsider.MonoBehaviours
         {
             enabled = true;
             transform.parent = null;    //Must be at base level or else Dark Bramble itself gets effected.
-            
+            doFollowing = true; //Required for Dark Bramble Detacher to not give errors when waiting for detach in Update.
+
             //---------------- Find and Set Kinematic colliders ----------------//
             GameObject followingRBObj = new GameObject($"{name}FollowedRB");
             var kinematicColliders = transform.Find("KinematicColliders");
@@ -79,7 +86,7 @@ namespace TheOutsider.MonoBehaviours
             detectorObj.transform.localRotation = Quaternion.identity;
             detectorObj.layer = 20; //Basic Detector
             detectorObj.SetActive(false);
-            ConstantForceDetector forceDetector = detectorObj.AddComponent<ConstantForceDetector>();
+            forceDetector = detectorObj.AddComponent<ConstantForceDetector>();
             forceDetector._fieldMultiplier = 1f;
             forceDetector._inheritElement0 = true;
             detectorObj.SetActive(true);
@@ -106,8 +113,6 @@ namespace TheOutsider.MonoBehaviours
             fluidDetector.AddVolume(OWObjects.GiantsDeepOcean);
             fluidDetector.AddVolume(OWObjects.GiantsDeepAtmosphere);
             fluidDetector.AddVolume(OWObjects.GiantsDeepClouds);
-
-            doFollowing = true;
         }
 
         void FixedUpdate()

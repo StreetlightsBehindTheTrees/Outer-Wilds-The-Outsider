@@ -48,7 +48,7 @@ namespace TheOutsider.MonoBehaviours
                         originalIntensities.Add(item.light, new Float() { Value = item.originalIntensity });
                     }
                 }
-                else Log.Error($"Cull group not found for {targetObj.name}.");
+                else Log.Error($"Cull group not found for {targetObj.name} for lights.");
             }
             else Log.Error($"Obj not found: {name} -> {targetName}");
 
@@ -75,7 +75,7 @@ namespace TheOutsider.MonoBehaviours
                     return OutsiderSector.SouthPole;
 
                 case OutsiderLightSwitch.HuntingBlind:
-                    return OutsiderSector.HuntingBlind;
+                    return OutsiderSector.HuntingBlindCloser;
 
                 case OutsiderLightSwitch.ShuttleCrusher:
                     shuttleCrusher = FindObjectOfType<ShuttleCrusher>();

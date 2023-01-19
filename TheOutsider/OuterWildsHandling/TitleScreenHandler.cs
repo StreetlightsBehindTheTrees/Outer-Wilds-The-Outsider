@@ -6,6 +6,8 @@ namespace TheOutsider.OuterWildsHandling
 {
     public sealed class TitleScreenHandler
     {
+        static bool isReturnToTitle = false;
+
         GameObject brambles;
         RectTransform EotELogo;
         RectTransform theOutsiderLogo;
@@ -40,6 +42,12 @@ namespace TheOutsider.OuterWildsHandling
             tf.localScale = Vector3.one * 0.1f;
 
             campfireLight = Object.FindObjectOfType<Light>();
+
+            if (isReturnToTitle) //Don't make warning text appear on return.
+            {
+                brambles.GetComponentInChildren<Canvas>().gameObject.SetActive(false);
+            }
+            isReturnToTitle = true;
         }
         public void OnUpdate()
         {

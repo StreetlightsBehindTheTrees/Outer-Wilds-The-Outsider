@@ -10,6 +10,8 @@
         public const string LogPowerStation = "POWER_STATION";
 
         public const string ComputerParentPowerStation = "Station";
+        public const string ComputerParentObservatory = "Observatory";
+
         public const string PowerStation = "PowerStation";
         public const string FriendMusic = "MUSIC_FRIEND";
     }
@@ -27,6 +29,8 @@
         public const string SouthPole = "SectorDB_SouthPole";
         public const string StudyTower = "SectorDB_StudyTower";
         public const string HuntingBlind = "SectorDB_HuntingBlind";
+        public const string HuntingBlindCloser = "SectorDB_CloseHuntingBlind";
+
         public const string ShuttleCrusher = "SectorDB_ShuttleCrusher";
 
         public const string EyeShack = "SectorDB_EyeShack";
@@ -51,6 +55,7 @@
     public sealed class OutsiderAsset
     {
         public const string PowerStationComputer = "PowerStation_z_Computer.bytes";
+        public const string ObservatoryComputer = "Observatory_Computer.bytes";
         public const string FeldsparRecording1 = "FeldsparRecording1.bytes";
 
         public const string FeldsparDialogue = "Feldspar_NEW.bytes";

@@ -83,6 +83,26 @@ namespace TheOutsider.OutsiderHandling
             //---------------- Dark Bramble New Ambient Light ----------------//
             dbAmbientLight = GameObject.Find(OWPath.DBAtmoCookie).GetComponent<Light>();
             dbAmbientLight.cookie = bundle.LoadAsset<Texture>(OutsiderAsset.DBAtmoCookie);
+
+            //---------------- Remove extra Inhabitant from Stranger ----------------//
+            var circle = GameObject.Find("Interactables_DreamFireHouse_Zone3/DreamFireChamber_DFH_Zone3/MummyCircle");
+            if (circle != null)
+            {
+                var circleController = circle.GetComponent<MummyCircleController>();
+                
+                var newAnims = new Animator[20];    //Remove at index 14 and 15
+                for (int i = 0; i < 14; i++)  newAnims[i] = circleController._animators[i];
+                for (int i = 14; i < 20; i++) newAnims[i] = circleController._animators[i + 2];
+                circleController._animators = newAnims;
+
+                var m = circle.transform.Find("MummyPivot (8)/Prefab_IP_SleepingMummy_v2");
+                if (m != null)
+                {
+                    GameObject.Destroy(m.Find("Mummy_IP_Anim").gameObject);
+                    GameObject.Destroy(m.Find("Mummy_IP_ArtifactAnim").gameObject);
+                    GameObject.Destroy(m.Find("Pointlight_IP_Mummy").gameObject);
+                }
+            }
         }
         public void OnUpdate()
         {
@@ -151,6 +171,18 @@ namespace TheOutsider.OutsiderHandling
                     child.GetComponent<InnerFogWarpVolume>()._containerWarpVolume = objects.BrambleDimensionWarpVolume;
                 }
             }
+
+            /*
+            var audioSignals = root.GetComponentsInChildren<AudioSignal>();
+            foreach (var signal in audioSignals)
+            {
+                var name = signal.name;
+                if (name == "QuantumSignal_Datura")
+                {
+                    signal._name = (SignalName)1200;
+                }
+            }
+            */
 
             //---------------- Occlusion ----------------//
             var occlusionGroups = root.GetComponentsInChildren<SectorVolumeOcclusionGroup>(f);
@@ -306,6 +338,11 @@ namespace TheOutsider.OutsiderHandling
                 lightsCullGroup._staticLights.Add(new LightsCullGroup.LightData(light, light.intensity));
             }
         }
+        void RemoveLights(Transform tf)
+        {
+            var lights = tf.GetComponentsInChildren<Light>();
+            foreach (var light in lights) GameObject.Destroy(light.gameObject);
+        }
         #endregion
 
         #region ModifyNomaiStuff
@@ -314,14 +351,18 @@ namespace TheOutsider.OutsiderHandling
             var computer = tf.GetComponent<NomaiComputer>();
             var sector = computer.FindSector();
             computer._sector = sector;
-            
-            if (tf.parent.name.Contains(OutsiderConstants.ComputerParentPowerStation))
+
+            string name = tf.parent.name;
+            if (name.Contains(OutsiderConstants.ComputerParentPowerStation))
             {
-                var asset = bundle.LoadAsset<TextAsset>(OutsiderAsset.PowerStationComputer);
-                computer._nomaiTextAsset = asset;
+                computer._nomaiTextAsset = bundle.LoadAsset<TextAsset>(OutsiderAsset.PowerStationComputer);
+                sector.GetComponent<SectorLightsCullGroup>().BuildLightsCullGroup();
             }
-            
-            sector.GetComponent<SectorLightsCullGroup>().BuildLightsCullGroup();
+            else if (name.Contains(OutsiderConstants.ComputerParentObservatory))
+            {
+                computer._nomaiTextAsset = bundle.LoadAsset<TextAsset>(OutsiderAsset.ObservatoryComputer);
+                RemoveLights(tf);
+            }
         }
         void ModifyRemoteViewer(Transform tf)
         {
@@ -590,6 +631,15 @@ namespace TheOutsider.OutsiderHandling
 
                     var animator = tf.GetComponentInChildren<Animator>();
                     animator.runtimeAnimatorController = animatorSolanum;
+
+                    //---------------- Other Hand ----------------//
+                    var shoulder = spine4.Find($"{rig}ClavicleR/{rig}ShoulderR");
+                    var elbow = shoulder.Find($"{rig}ElbowR");
+
+                    ResetStuffOnEnterDreamworld.Shoulder = shoulder;
+                    ResetStuffOnEnterDreamworld.Elbow = elbow;
+                    ResetStuffOnEnterDreamworld.Neck = neck2;
+                    ResetStuffOnEnterDreamworld.Jaw = neck2.Find($"{rig}Head/{rig}Jaw");
 
                     //---------------- Staff ----------------//
                     var wrist = spine4.Find($"{rig}ClavicleL/{rig}ShoulderL/{rig}ElbowL/{rig}WristL");

@@ -8,28 +8,47 @@ namespace TheOutsider.MonoBehaviours
     /// <summary> Class for all objects to be pulled of the surface of Dark Bramble. </summary>
     public sealed class DarkBrambleDetacher : GiantsDeepPull
     {
-        bool breakAwayCheck = false;    //Might not be needed, but just in case.
+        DirectionalForceVolume[] fieldsToFadeOut;
         float breakAwayTime;
-        float RandomBetween(float a, float b) => Mathf.Lerp(a, b, Random.value);
-        void Update()
+        
+        bool brokenAway = false;
+        float t = 0f;
+
+        protected override void Awake()
         {
-            if (breakAwayCheck && Time.time > breakAwayTime)
-            {
-                breakAwayCheck = false;
-                BeginAttractionToGiantsDeep();
-                CreateAndPlayAudioSource();
-                FadeOutSurfaceGravityFields();
-                //owRB.AddVelocityChange(transform.up * 3f);
-            }
+            base.Awake();
+            fieldsToFadeOut = GetComponentsInChildren<DirectionalForceVolume>();
         }
-        //public void BreakAway() => StartCoroutine(BreakAwayinator());
+        float RandomBetween(float a, float b) => Mathf.Lerp(a, b, Random.value);
         public void BreakAway()
         {
-            breakAwayCheck = true;
+            enabled = true;
             float waitTime = RandomBetween(0f, 3f);
             breakAwayTime = Time.time + waitTime;
+        }
+        void Update()
+        {
+            if (Time.time > breakAwayTime)
+            {
+                if (!brokenAway)
+                {
+                    brokenAway = true;
+                    BeginAttractionToGiantsDeep();
+                    CreateAndPlayAudioSource();
+                    
+                    ManageVolumes();
+                }
 
-            //yield return new WaitForSecondsRealtime(waitTime);  //Not working????
+                FadeOutSurfaceGravityFields();
+            }
+        }
+        void ManageVolumes()
+        {
+            if (gameObject.name == OutsiderSector.StudyTowerRoot) //Only do for Study Tower when breaks away.
+            {
+                var hack = Vector3.Distance(transform.position, Locator.GetPlayerBody().GetPosition()); //Gets it done.
+                if (hack < 60f) Locator.GetPlayerForceDetector()._activeInheritedDetector = forceDetector;
+            }
         }
         void CreateAndPlayAudioSource()
         {
@@ -44,18 +63,16 @@ namespace TheOutsider.MonoBehaviours
             audioSource.clip = clip;
             audioSource._audioSource.Play();
         }
-        void FadeOutSurfaceGravityFields() //Turn off gravity crystals, etc.
+        void FadeOutSurfaceGravityFields() //Turn down gravity crystals
         {
-            var dirFields = GetComponentsInChildren<DirectionalForceVolume>();
-            float t = 0f;
-            float fadeOutTime = 2f;
-            while (t < fadeOutTime)
-            {
-                t += Time.deltaTime * 0.1f;
-                foreach (var field in dirFields) field._fieldMagnitude = Mathf.Lerp(field._fieldMagnitude, 0f, t / fadeOutTime);
-            }
+            float fadeOutTime = 4f;
+            float targetLowGravity = 3f;
 
-            foreach (var field in dirFields) Destroy(field.gameObject);
+            t += Time.deltaTime;
+            foreach (var field in fieldsToFadeOut)
+            {
+                field._fieldMagnitude = Mathf.Lerp(field._fieldMagnitude, targetLowGravity, t / fadeOutTime);
+            }
         }
     }
 }

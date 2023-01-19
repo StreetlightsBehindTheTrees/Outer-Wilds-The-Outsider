@@ -77,7 +77,7 @@ namespace TheOutsider
             handler.music.loop = false;
 
             var eyeAudio = eyeRootTF.Find("Sector_OutsiderEye/OUTSIDER_EYE_AUDIO").GetComponent<OWAudioSource>();
-            eyeAudio.clip = endingBundle.LoadAsset<AudioClip>("eyeAmbience.wav");
+            eyeAudio.clip = endingBundle.LoadAsset<AudioClip>("eyeAmbienceV2.mp3");
             eyeAudio.loop = false;
             eyeAudio.SetMaxVolume(0.7f);
 
@@ -390,7 +390,8 @@ namespace TheOutsider
         void GoToCredits()
         {
             music.Pause();
-            if (!ModMain.isDevelopmentVersion) PlayerData.SaveEyeCompletion(); //Return to normal game on reload.
+            //if (!ModMain.isDevelopmentVersion)
+                PlayerData.SaveEyeCompletion(); //Return to normal game on reload.
 
             GUIMode.SetRenderMode(GUIMode.RenderMode.FPS);
             LoadManager.LoadScene(OWScene.Credits_Fast, LoadManager.FadeType.ToBlack, 1f, true);

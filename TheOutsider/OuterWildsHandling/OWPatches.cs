@@ -97,9 +97,16 @@ namespace TheOutsider.OuterWildsHandling
 
             //---------------- DEBUG - TEMPORARY ----------------//
             if (!ModMain.isDevelopmentVersion) return;
-
-            harmony.AddPrefix<ShipLogManager>("Start", type, nameof(OWPatches.ShipLogManager_Start)); //Complete Ship Log
+            //harmony.AddPrefix<NomaiText>("LateInitialize", type, nameof(OWPatches.NomaiText_LateInitialize)); //Print nomai text to see where errors are
+            //harmony.AddPrefix<ShipLogManager>("Start", type, nameof(OWPatches.ShipLogManager_Start)); //Complete Ship Log
+            
             //harmony.AddPrefix<SectorDetector>("OnAddSector", type, nameof(OWPatches.OnAddSector));
+        }
+
+        public static bool NomaiText_LateInitialize(NomaiText __instance)
+        {
+            if (__instance._nomaiTextAsset != null) Log.Print(__instance._nomaiTextAsset.name);
+            return true;
         }
 
         //--------------------------------------------- Text and Ship Log ---------------------------------------------//
@@ -113,6 +120,9 @@ namespace TheOutsider.OuterWildsHandling
                 {
                     __0 = __0.Replace("Eye", "<color=lightblue>Eye</color>");
 
+                    __0 = __0.Replace("Brittle Hollow", "<color=lightblue>Brittle Hollow</color>");
+                    __0 = __0.Replace("Ember Twin", "<color=lightblue>Ember Twin</color>");
+
                     __0 = __0.Replace("Dark Bramble", "<color=lightblue>Dark Bramble</color>");
                     __0 = __0.Replace("Vessel", "<color=lightblue>Vessel</color>");
 
@@ -120,6 +130,29 @@ namespace TheOutsider.OuterWildsHandling
                     __0 = __0.Replace("Datura", "<color=lightblue>Datura</color>");
                     __0 = __0.Replace("FRIEND", "<color=lime>FRIEND</color>");
                     __0 = __0.Replace("Friend", "<color=lime>Friend</color>");
+
+                    //__0 = __0.Replace("#####", "[<color=red>#####</color>]");
+
+                    if (__0.Contains("#####"))
+                    {
+                        int errorLength = Random.Range(5, 11);
+                        string hash = "";
+                        for (int i = 0; i < errorLength; i++) hash += '#';
+
+                        __0 = __0.Replace("#####", $"[<color=red>{hash}</color>]");
+                        
+                        string l = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!?";
+                        string newText = "";
+                        for (int i = 0; i < __0.Length; i++)
+                        {
+                            char c = __0[i];
+                            if (c == '#') newText += l[Random.Range(0, l.Length)];
+                            else newText += c;
+                        }
+
+                        __0 = newText;
+                    }
+
                     //Base game names replaced in UpdateDisplayText so effects base game text.
 
                     __result = __0;
@@ -224,6 +257,14 @@ namespace TheOutsider.OuterWildsHandling
             text = text.Replace("YARROW", "<color=yellow>YARROW</color>");
             text = text.Replace("Yarrow", "<color=yellow>Yarrow</color>");
 
+            /*
+            text = text.Replace("RAMIE", "<color=red>Ramie</color>");
+            text = text.Replace("Ramie", "<color=red>Ramie</color>");
+
+            text = text.Replace("Spire", "<color=maroon>Spire</color>");
+            */
+
+            /*
             if (text.Contains("PRUNSEL"))
             {
                 string l = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
@@ -234,6 +275,7 @@ namespace TheOutsider.OuterWildsHandling
                 }
                 text = text.Replace("PRUNSEL", replace);
             }
+            */
 
             __instance.TranslatedText = text;
         }
@@ -347,7 +389,7 @@ namespace TheOutsider.OuterWildsHandling
             //Flip velocity if seed-to-seed to stop scout being fired backwards into seed over and over.
             if (__0.CompareTag("Probe") && name.Contains("Index"))
             {
-                //if (name.Contains("Index1")) Locator.GetShipLogManager().RevealFact("PS_POWER_STATION_X4");   //from station
+                if (name.Contains("Index1")) Locator.GetShipLogManager().RevealFact("PS_POWER_STATION_X4");   //from station
                 if (name.Contains("Index2")) Locator.GetShipLogManager().RevealFact("PS_POWER_STATION_R1");     //from planet
 
                 Vector3 vector = __0.GetVelocity() - __instance._attachedBody.GetVelocity();

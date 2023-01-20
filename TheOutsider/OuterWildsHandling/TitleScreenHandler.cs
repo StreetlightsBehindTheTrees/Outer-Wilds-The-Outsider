@@ -43,7 +43,7 @@ namespace TheOutsider.OuterWildsHandling
 
             campfireLight = Object.FindObjectOfType<Light>();
 
-            if (isReturnToTitle) //Don't make warning text appear on return.
+            if (true) //isReturnToTitle) //Don't make warning text appear on return.
             {
                 brambles.GetComponentInChildren<Canvas>().gameObject.SetActive(false);
             }

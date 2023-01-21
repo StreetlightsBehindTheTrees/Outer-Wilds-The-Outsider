@@ -37,6 +37,9 @@ namespace TheOutsider
                 return;
             }
             else Log.Success($"The Outsider Loaded!");
+
+            if (isDevelopmentVersion) Log.Error("THIS MESSAGE SHOULD NOT APPEAR! IF IT DOES, SHOUT AT ME.");
+
             IsLoaded = true;
 
             //---------------- Get all assets ----------------//

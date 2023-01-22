@@ -8,3 +8,4 @@ C:\Users\44751\AppData\Roaming\OuterWildsModManager\OWML\Mods\SBtT.TheOutsider\T
 C:\Users\44751\AppData\Roaming\OuterWildsModManager\OWML\Mods\SBtT.TheOutsider\TheOutsider.pdb
 C:\Users\44751\Desktop\Files\OuterWilds\Modding\SBtT.TheOutsider\TheOutsider\obj\Debug\net48\TheOutsider.dll
 C:\Users\44751\Desktop\Files\OuterWilds\Modding\SBtT.TheOutsider\TheOutsider\obj\Debug\net48\TheOutsider.pdb
+C:\Users\44751\Desktop\Files\OuterWilds\Modding\SBtT.TheOutsider\TheOutsider\obj\Debug\net48\TheOutsider.csproj.AssemblyReference.cache

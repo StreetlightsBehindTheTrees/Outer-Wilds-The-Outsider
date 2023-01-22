@@ -165,7 +165,7 @@ namespace TheOutsider.OuterWildsHandling
 
                 case "SolarPanels":
                 case "GlassSphere":
-                case "Glass_Proxy":
+                case "StationGlass_Outside":
                 case "NomaiShuttle_Glass":
                     return NomaiSolidGlassOpaque;
                 case "GlassSphere-Inside":

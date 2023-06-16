@@ -3,7 +3,9 @@
   "author": "Streetlights Behind the Trees",
   "name": "The Outsider",
   "uniqueName": "SBtT.TheOutsider",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "owmlVersion": "2.9.0",
-  "conflicts": [ "xen.NewHorizons" ]
+  "conflicts": [ "xen.NewHorizons" ],
+  "dependencies": [ "orclecle.TranslationForTheOutsider", "JohnCorby.VanillaFix" ],
+  "warning": "Make sure to keep Vanilla Fix enabled after disabling the mod to avoid save file corruption"
 }

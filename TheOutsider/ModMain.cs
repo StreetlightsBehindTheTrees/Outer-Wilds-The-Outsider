@@ -5,6 +5,8 @@ using TheOutsider.OuterWildsHandling;
 using TheOutsider.OutsiderHandling;
 using TheOutsider.DebugStuff;
 using UnityEngine.SceneManagement;
+using System.IO;
+using System.Reflection;
 
 namespace TheOutsider
 {
@@ -21,12 +23,19 @@ namespace TheOutsider
         SolarSystemHandler solarSystem;
         TitleScreenHandler titleScreen;
 
+        public static ModMain Instance { get; private set; }
+
         public static bool isDevelopmentVersion => false;
         public static DebugModShipLogMode debugModShipLog => DebugModShipLogMode.Off;
         public enum DebugModShipLogMode { Off, AutoCompleteAll, RemoveModLogs }
         public static bool IsLoaded { get; set; }
 
         bool setGamma = false;
+
+        void Awake()
+        {
+            Instance = this;
+        }
 
         void Start()
         {
@@ -73,6 +82,10 @@ namespace TheOutsider
                 DebugControls debugControls = new DebugControls(ModHelper);
                 ModHelper.Events.Unity.OnUpdate += debugControls.OnUpdate;
             }
+
+            // Load fixes
+            var bugFixAssembly = Assembly.LoadFrom(Path.Combine(ModHelper.Manifest.ModFolderPath, "TheOutsiderFixes.dll"));
+            bugFixAssembly.GetType("TheOutsiderFixes.TheOutsiderFixes", true).GetMethod("Initialize").Invoke(null, null);
         }
         void OnLoadScene(Scene scene) {
             if (scene.name == "TitleScreen") titleScreen.OnSceneLoad(prefabs[Prefab.Title]);

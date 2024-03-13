@@ -1,0 +1,2401 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TranslationTable_XML xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- Color Table: Start -->
+  <color_table>
+    <key>Eye</key>
+    <value>Occhio</value>
+  </color_table>
+  <color_table>
+    <key>Brittle Hollow</key>
+    <value>Vuoto Fragile</value>
+  </color_table>
+  <color_table>
+    <key>Ember Twin</key>
+    <value>Gemello Braci</value>
+  </color_table>
+  <color_table>
+    <key>Dark Bramble</key>
+    <value>Rovo Oscuro</value>
+  </color_table>
+  <color_table>
+    <key>Vessel</key>
+    <value>Vascello</value>
+  </color_table>
+  <color_table>
+    <key>DATURA</key>
+    <value>DATURA</value>
+  </color_table>
+  <color_table>
+    <key>Datura</key>
+    <value>Datura</value>
+  </color_table>
+  <color_table>
+    <key>FRIEND</key>
+    <value>AMICO</value>
+  </color_table>
+  <color_table>
+    <key>Friend</key>
+    <value>Amico</value>
+  </color_table>
+  <!-- Color Table: End -->
+  <!-- Disc Table: Start -->
+  <disc_table> <!-- "disc" is "pietra" in Italian, just like the rocks used by Solanum -->
+    <key>'Explain' Disc</key>
+    <value>Pietra "Spiegazione"</value>
+  </disc_table>
+  <disc_table>
+    <key>'Prisoner' Disc</key>
+    <value>Pietra "Prigioniero"</value>
+  </disc_table>
+  <disc_table>
+    <key>'Friend' Disc</key>
+    <value>Pietra "Amico"</value>
+  </disc_table>
+  <disc_table>
+    <key>'Me' Disc</key>
+    <value>Pietra "Io"</value>
+  </disc_table>
+  <disc_table>
+    <key>'Datura' Disc</key>
+    <value>Pietra "Datura"</value>
+  </disc_table>
+  <!-- Disc Table: End -->
+  <!-- Misc: Start -->
+  <entry>
+    <key>Friend</key>
+    <value>Amico</value>
+  </entry>
+  <entry>
+    <key>SlateScientist5_Were the structures on Dark Bramble always there?</key>
+    <value>Quelle costruzioni su Rovo Oscuro sono sempre state lì?</value>
+  </entry>
+  <entry>
+    <key>ScientistAnswerNEW_Well... yeah.</key>
+    <value>Beh... Sì.</value>
+  </entry>
+  <entry>
+    <key>ScientistAnswerNEW_You know the little Anglerfish in the Museum? It got caught on the landing gear of one of our ships when it was flying close to get a good look at the structures, remember?</key>
+    <value>Hai presente la piccola rana pescatrice al Museo? La poveretta è rimasta attaccata al carrello d'atterraggio di una delle nostre navi quando stava volando vicino a Rovo Oscuro per dare un'occhiata a quelle strutture, ricordi?</value>
+  </entry>
+  <entry>
+    <key>ScientistAnswerNEW_...I think you need to wake up a bit from your pre-launch campout. Do a couple of jumps, maybe.</key>
+    <value>...penso che tu ti debba ripigliare un po' dopo esserti svegliato. Fai due salti, magari.</value>
+  </entry>
+  <entry>
+    <key>FeldsparRecording_Trip 4, entry #... who cares. Crashes: 2. Boring crashes: 0.</key>
+    <value>Spedizione #4, nota #... non fa niente. Schianti: 2. Schianti noiosi: 0.</value>
+  </entry>
+  <entry>
+    <key>FeldsparRecording_Well Dark Bramble, here I am! Saw what I though were two crashed ships over there, but it sorta looks intentional?</key>
+    <value>Bene Rovo Oscuro, eccomi qui! Mi è sembrato di vedere due navi schiantate qui, ma sebrano distruzioni intenzionali?</value>
+  </entry>
+  <entry>
+    <key>FeldsparRecording_One looks Nomaian but the other one I’ve got no clue.</key>
+    <value>Una sembra essere di origine Nomai, ma l'altra è totalmente sconosciuta.</value>
+  </entry>
+  <entry>
+    <!--"[ignoring the] Dark Bramble-y-ness" is difficult to translate in italian as a single word, so i've translated it like "if you don't count that we're on DB".-->
+    <key>FeldsparRecording_I had a wander around, using these walkways. It’s quite peaceful, ignoring the Dark Bramble-y-ness of it all.</key>
+    <value>Ho fatto un giro su queste passerelle. È abbastanza tranquillo, se non conti il pianeta su cui ci troviamo.</value>
+  </entry>
+  <entry>
+    <key>FeldsparRecording_Some places I couldn’t get into - I have some ideas, so if anyone is listening to this and wants some help, come chat with me.</key>
+    <value>Ci sono un paio di posti in cui non sono riuscio a entrare - ho qualche idea a riguardo, quindi se qualcuno è interessato o vuole una mano con questa questione venga a parlare con me.</value>
+  </entry>
+  <entry>
+    <key>FeldsparRecording_...After I return, that is. Well, unless you’re as mad as I am, and want to come find me inside Dark Bramble!</key>
+    <value>...quando sono tornato, ovviamente. Beh, a meno che tu non sia pazzo quanto me, e voglia venire a trovarmi dentro Rovo Oscuro!</value>
+  </entry>
+  <entry>
+    <key>FeldsparRecording_Anyway, off inside I go! To adventure!</key>
+    <value>In ogni caso, andiamo! All'avventura!</value>
+  </entry>
+  <entry>
+    <key>FeldsparFeldspar1_Hey, can I ask you something real quick?</key>
+    <value>Ehi, posso farti una domanda?</value>
+  </entry>
+  <entry>
+    <key>FeldsparSkip_Oh, uh... okay. No time for grand heroic tales, huh?</key>
+    <value>Ah, uh... certo. Non ti va di sentire storie eroiche eh?</value>
+  </entry>
+  <entry>
+    <key>FeldsparPrimaryMenu_So, whaddya want then, hatchling?</key>
+    <value>Allora, cosa vuoi, Sassolino?</value>
+  </entry>
+  <entry>
+    <key>FeldsparFeldsparPrimaryMenu_Can you help me figure something out?</key>
+    <value>Puoi darmi una mano a capire una cosa?</value>
+  </entry>
+  <entry>
+    <key>FeldsparFeldsparSecondary_Can you help me figure something out?</key>
+    <value>Puoi darmi una mano a capire una cosa?</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOut_Well, I’ll probably answer as cryptically as usual, but sure, hatchling, what is it?</key>
+    <value>Ti risponderò per indovinelli come sempre, ma certo, Sassolino, dimmi tutto.</value>
+  </entry>
+  <entry>
+    <key>FeldsparFigureSomethingOut_The Northern Observatory has two security measures and I can’t get in!</key>
+    <value>L'Osservatorio a Nord ha due misure di sicurezza e non riesco a entrare!</value>
+  </entry>
+  <entry>
+    <key>FeldsparFigureSomethingOut_There’s a painting in the Village that I think is hiding a room behind it.</key>
+    <value>C'è un dipinto nel Villaggio che ho ragione di credere nasconda una stanza segreta.</value>
+  </entry>
+  <entry>
+    <key>FeldsparFigureSomethingOut_How might I get to the top of the Study Tower?</key>
+    <value>Come faccio a raggiungere la cima della Torre di Studio?</value>
+  </entry>
+  <entry>
+    <key>FeldsparFigureSomethingOut_How might I find the Projection Pool House?</key>
+    <value>Come posso raggiungere la Stanza della Pozza di Proiezione?</value>
+  </entry>
+  <entry>
+    <key>FeldsparFigureSomethingOut_How might I open the door at the end of the secret path behind the jellyfish?</key>
+    <value>Come posso aprire la porta dell'edificio alla fine del passaggio dietro la Medusa?</value>
+  </entry>
+  <entry>
+    <key>FeldsparFigureSomethingOut_Actually, I’ll figure it out on my own.</key>
+    <value>Guarda, in realtà me la caverò da solo.</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOut0_Hmm... two security measures, eh?</key>
+    <value>Hmmm... due misure di sicurezza, eh?</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOutResponseA_Well, once you know what they are... then uh... then you can get in.</key>
+    <value>Vedi, quando scopri quali sono... puoi uhh... beh, entrare.</value>
+  </entry>
+  <entry>
+    <key>FeldsparFigureSomethingOutResponseA_...Right.</key>
+    <value>...Certo.</value>
+  </entry>
+  <entry>
+    <key>FeldsparFigureSomethingOutResponseA_And... how do I find out what they are?</key>
+    <value>E... come scopro quali sono?</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOutResponseA1_Cool. Glad I could be of help.</key>
+    <value>Grande. Sono contento di averti aiutato.</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOutResponseA2_Well, I don’t know. Explore! Look around! Ask someone! ...else!</key>
+    <value>Ehi, non lo so. Esplora! Guardati intorno! Chiedi a qualcun... altro!</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOutResponseA2_Try to get somewhere hard to reach. There’s usually good stuff in hard to reach places.</key>
+    <value>Prova ad andare in un posto difficile da raggiungere. Di solito ci sono ottime informazioni in luoghi come quelli.</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOut4_Secret room behind a painting? Hmm. Let me think...</key>
+    <value>Una stanza segreta dietro un dipinto? Hmmm. Fammi pensare...</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOut4_Uhhhmmm.</key>
+    <value>Uhhhmmm.</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOut4_Uuuuuuuuuuuuuuuuuhhhhhhhhhhhhhhhhhhhh.</key>
+    <value>Uuuuuuuuuuuuuuuuuhhhhhhhhhhhhhhhhhhhh.</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOutResponseC_Hhhhhmmmmmmmmmmmm.</key>
+    <value>Hhhhhmmmmmmmmmmmm.</value>
+  </entry>
+  <entry>
+    <key>FeldsparFigureSomethingOutResponseC_...Nevermind, I’ll... figure it out myself.</key>
+    <value>...Non fa niente, ce... ce la farò da solo.</value>
+  </entry>
+  <entry>
+    <key>FeldsparFigureSomethingOutResponseC_...Yes?</key>
+    <value>...Sì?</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOutResponseC1_Ah. Yes. Use that brain of yours.</key>
+    <value>Ah. Certo. Usa quel tuo cervello.</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOutResponseC1_Well, if you need help with anything else, I'll be sitting right here.</key>
+    <value>Bene, se ti serve aiuto con qualcos'altro io sono qui.</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOutResponseC2_Uhhhhhhhhhh.</key>
+    <value>Uhhhhhhhhhh.</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOutResponseC2_HHHHHHHHMMMMMMMMMMMMMMMMMMMM?????</key>
+    <value>HHHHHHHHMMMMMMMMMMMMMMMMMMMM?????</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOutResponseC2_MMMMMMMMMMMMMMMMM!!!!!!!!!!!!!!!!!!!!</key>
+    <value>MMMMMMMMMMMMMMMMM!!!!!!!!!!!!!!!!!!!!</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOutResponseC2_...Nah. I got nothing.</key>
+    <value>...Nah. Non mi viene in mente nulla.</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOutResponseD_Someone turned off the ideas lightbulb above my head, I guess.</key>
+    <value>Qualcuno ha spento la lampadina dell'idea da sopra la mia testa, immagino.</value>
+  </entry>
+  <entry>
+    <key>FeldsparFigureSomethingOutResponseD_...What does that even mean?</key>
+    <value>...Cosa vuol dire?</value>
+  </entry>
+  <entry>
+    <key>FeldsparFigureSomethingOutResponseD_Well, thanks anyway.</key>
+    <value>Beh, grazie comunque.</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOutResponseD1_You tell me, hatchling. You tell me.</key>
+    <value>Dimmelo tu, Sassolino. Dimmelo tu.</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOutResponseD2_Yeah, catch ya later, hatchling. Sorry I couldn’t be of more help.</key>
+    <value>Certo, ci vediamo dopo, Sassolino. Mi spiace per non essere stato d'aiuto.</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOut1_That’s the stupid-looking tall structure, isn’t it?</key>
+    <value>È quella struttura stupidamente alta, vero?</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOut1_Ah yes, the stairs have collapsed, right? Well, then you’ll need to find something else to get you up through the staircase, won’t you?</key>
+    <value>Ah già, le scale hanno ceduto, vero? Allora ti servirà un altro modo di salire, no?</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOutResponseB_Yup.</key>
+    <value>Già.</value>
+  </entry>
+  <entry>
+    <key>FeldsparFigureSomethingOutResponseB_Thanks, Feldspar.</key>
+    <value>Grazie, Feldspato.</value>
+  </entry>
+  <entry>
+    <key>FeldsparFigureSomethingOutResponseB_That’s not very helpful.</key>
+    <value>Non è molto utile.</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOutResponseB1_You’re welcome, hatchling.</key>
+    <value>Non c'è di che, Sassolino.</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOutResponseB2_It is, you just don’t know it yet.</key>
+    <value>Lo è, solo che ancora non lo sai.</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOut2_The what?</key>
+    <value>Cosa?</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOut2_Oh, it fell in here, did it? Well then you’re not going to find it by randomly wandering around this place...</key>
+    <value>Oh, è caduta qui dentro, vero? Beh, sicuramente non la troverai andando in giro a caso...</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOut2_So, do what you did to find me! ...Though, I doubt it’s sending out a signal like I am, so... that might be a problem.</key>
+    <value>Quindi, fai la stessa cosa che hai fatto per trovare me! ...Anche se dubito che emetta un segnale come faccio io, quindi... potrebbe essere un problema.</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOut2_Hey, you’re smart. You’ll figure something out.</key>
+    <value>Eh, tu sei intelligente. Troverai una soluzione.</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOut3_Ha, you found that too? Well, if you payed attention, you might have noticed that the door is actually on Dark Bramble’s surface.</key>
+    <value>Ha, te ne sei accorto anche tu? Se fai attenzione, puoi notare che la porta è ancora sulla superficie di Rovo Oscuro.</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOut3_So, maybe the solution... lies on the surface.</key>
+    <value>Allora forse la soluzione... si trova sulla superficie.</value>
+  </entry>
+  <entry>
+    <key>FigureSomethingOutCancel_Alright. It’s always more fun that way, anyway, so good call.</key>
+    <value>D'accordo. È comunque più divertente così, quindi grazie.</value>
+  </entry>
+  <entry>
+    <key>FeldsparFoundSomethingMenu_I found a way to the top of the Study Tower, and...</key>
+    <value>Ho trovato un modo per salire in cima alla Torre di Studio, e...</value>
+  </entry>
+  <entry>
+    <key>FoundSomethingNew1_... Uhuh. ... Oh. ... Huh?</key>
+    <value>...Uhuh. ...Oh. ...Huh?</value>
+  </entry>
+  <entry>
+    <key>FoundSomethingNew1_Wait wait wait. Giant's Deep tore it off the surface, and you rode the tower on over?!</key>
+    <value>Aspetta un attimo. Profondo Gigantesco l'ha strappata dalla superficie, e tu con lei?!</value>
+  </entry>
+  <entry>
+    <!-- "to out-Feldspar me?" is difficult to translate. I've chosen something like "Are you trying to dethronize me from my [universally known] role as Feldspar?" idk could be better-->
+    <key>FoundSomethingNew1_Damn. Are you trying to out-Feldspar me? Well done, hatchling, proud of you.</key>
+    <value>Incredibile. Stai cercando di detronizzarmi dal mio ruolo di Feldspato? Ottimo lavoro, Sassolino, sono fiero di te.</value>
+  </entry>
+  <entry>
+    <key>FoundSomethingNew1_(Hmm... now what could I do to top that maneuver?)</key>
+    <value>(Hmmm... e adesso cosa posso fare per surclassare anche questa impresa?)</value>
+  </entry>
+  <entry>
+    <key>FoundSomethingNew1_(Oh, I know! I could land on that Sun Station thing!)</key>
+    <value>(Ah, lo so! Potrei atterrare su quella Stazione Solare!)</value>
+  </entry>
+  <entry>
+    <key>FoundSomethingNew1_(...)</key>
+    <value>(...)</value>
+  </entry>
+  <entry>
+    <key>FoundSomethingNew1_(Nah, that would be dumb.)</key>
+    <value>(Nah, sarebbe da stupidi.)</value>
+  </entry>
+  <entry>
+    <key>FoundSomething1_“The ship is fragile! It can break! You can’t subject it to extreme conditions!” Not like I was trying to land on the Sun Station, now, was I?</key>
+    <value>"La nave è fragile! Si può rompere! Non puoi sottoporla a condizioni estreme!" Non è che volessi atterrare sulla Stazione Solare dopotutto, no?</value>
+  </entry>
+  <entry>
+    <key>FeldsparExplore_Your scout tracker will tell you the scout is in two places at once, but I don’t think that’s... wrong, exactly, because space doesn’t work right in here. That seed looks small, see? But inside... Well...</key>
+    <value>Il sistema di tracciamento dello Scout ti dirà che lo Scout si trova in due luoghi contemporaneamente, ma non penso che si... sbagli, perché lo spazio non funziona normalmente qui. Quel seme sembra piccolo, ma al suo interno... beh...</value>
+  </entry>
+  <entry>
+    <key>FeldsparExplore_I’ve had a lot of time to think about this, and my theory is that these seeds really hate the fabric of spacetime.</key>
+    <value>Ho avuto un sacco di tempo per pensarci, e la mia teoria è che questi semi odiano a morte il tessuto dello spaziotempo.</value>
+  </entry>
+  <entry>
+    <key>FeldsparExplore_Good luck exploring Dark Bramble!</key>
+    <value>Buona fortuna nell'esplorazione di Rovo Oscuro!</value>
+  </entry>
+  <entry>
+    <key>FeldsparCore_If I were you, I’d go take a walk and see where it ends. But, stop before the uh...</key>
+    <value>Se fossi in te, andrei a vedere fin dove finisce. Ma fermati prima del... uh...</value>
+  </entry>
+  <entry>
+    <key>FeldsparCore_...Well, you'll know when to stop.</key>
+    <value>...Beh, saprai quando fermarti.</value>
+  </entry>
+  <entry>
+    <key>Feldspar5a_My story goes like this. I’d just finished exploring the core of Giant’s Deep, and I wanted to try my hand at Dark Bramble, seeing as no one had ever been inside before.</key>
+    <value>Questa è la mia storia. Avevo appena finito di esplorare il nucleo di Profondo Gigantesco e volevo provare a entrare dentro Rovo Oscuro, dato che nessuno ci era mai entrato prima.</value>
+  </entry>
+  <entry>
+    <key>GabbroGabbroMenu_GABBRO I JUST GOT PULLED OFF OF DARK BRAMBLE.</key>
+    <value>GABBRO SONO APPENA STATO STRAPPATO VIA DA ROVO OSCURO.</value>
+  </entry>
+  <entry>
+    <key>PulledOffDarkBramble_Hmm? Oh, yeah. Giant's Deep sure earns it's name, huh?</key>
+    <value>Hmm? Ah, sì. Profondo Gigantesco è sicuramente degno del suo nome eh?</value>
+  </entry>
+  <entry>
+    <key>PulledOffDarkBramble_Anyway, here comes the sun.</key>
+    <value>In ogni caso, ecco che giunge il Sole.</value>
+  </entry>
+  <entry>
+    <key>PulledOffDarkBramble_See you next loop, time buddy.</key>
+    <value>Ci vediamo nel prossimo anello, compagno temporale.</value>
+  </entry>
+  <entry>
+    <key>HowDoYouStayCalm_The sun is exploding right now, so I could ask the same to you... but seriously, I meditate.</key>
+    <value>Il Sole sta esplodendo praticamente adesso, quindi potrei chiederti la stessa cosa... comunque davvero, medito.</value>
+  </entry>
+  <entry>
+    <key>MeditateMenu_Want me to teach you? It'll be the next loop before you know it. ...Either way.</key>
+    <value>Vuoi che ti insegni? Il prossimo anello arriverà prima che tu te ne accorga. ...Qualunque cosa tu faccia.</value>
+  </entry>
+  <entry>
+    <key>NoMeditate_Ok. Well, here comes the sun.</key>
+    <value>Ok. Beh, ecco che giunge il Sole.</value>
+  </entry>
+  <entry>
+    <key>WhatAreYouDoing_merge_Uh, maybe I'll tell you next loop? Suns going.</key>
+    <value>Uh, magari te lo dico nel prossimo anello? Mi sa che il Sole è andato.</value>
+  </entry>
+  <entry>
+    <key>WhereToExplore_merge_Here’s something you might like — the sun is about to blow up. I'll talk to you next loop, is that alright?</key>
+    <value>Ho una grande notizia - il Sole sta per esplodere. Facciamo che te lo dico nel prossimo anello, va bene?</value>
+  </entry>
+  <entry>
+    <key>ThisPlanet_merge_...Oh, you meant, like, tell you more about it? I gotcha. Well, I'll talk next loop. Sound good?</key>
+    <value>...Oh, intendevi qualcosa tipo dirti di più? Ho capito. Facciamo nel prossimo anello. Va bene?</value>
+  </entry>
+  <entry>
+    <key>GabbrosShip_Well, I'll worry about it another loop.</key>
+    <value>Beh, me ne preocuuperò in un altro anello.</value>
+  </entry>
+  <entry>
+    <key>FoundSomethingMenu_Nice, nice. How about you tell me all about it next loop? No need to rush.</key>
+    <value>Bene, bene. Che ne pensi di dirmelo nel prossimo anello? Non c'è fretta.</value>
+  </entry>
+  <entry>
+    <key>GabbroMain_Hey, it's getting near the end of the loop, huh?</key>
+    <value>Ehi, l'anello sta per concludersi, eh?</value>
+  </entry>
+  <entry>
+    <key>GabbroMain_If it isn’t my time buddy! Come lower your eyelids to die with the sun with me.</key>
+    <value>Se non è il mio compagno temporale! Dai, vieni con me a goderti la fine dell'anello, e quindi del Sole e delle nostre vite.</value>
+  </entry>
+  <entry>
+    <key>GabbroMain_Heyo, time buddy. It’s a good thing I never get bored of dying by supernova, huh?</key>
+    <value>Ehilà, compagno temporale. Meno male che non mi stufo mai di morire per la supernova, eh?</value>
+  </entry>
+  <entry>
+    <key>GabbroMain_A few loops ago, one of these structures falling from the sky fell on my island. Dying like that was kind of unpleasant.</key>
+    <value>Qualche anello fa, una di queste strutture che cadono dal cielo è finita sulla mia isola. Morire così non è stato carino.</value>
+  </entry>
+  <!-- Misc: End -->
+  <!-- places Names: Start -->
+  <entry>
+    <key>Bramble Power Station</key>
+    <value>Centrale Elettrica di Rovo Oscuro</value>
+  </entry>
+  <entry>
+    <key>Northern Observatory</key>
+    <value>Osservatorio a Nord</value>
+  </entry>
+  <entry>
+    <key>Study Tower and Projection Pool House</key>
+    <value>Torre di Studio e Stanza della Pozza di Proiezione</value>
+  </entry>
+  <entry>
+    <key>Projection Pool House</key>
+    <value>Stanza della pozza di Proiezione</value>
+  </entry>
+  <entry>
+    <key>Bramble Village</key>
+    <value>Villaggio del Rovo</value>
+  </entry>
+  <entry>
+    <key>Initial Campsite and Shuttle Crusher</key>
+    <value>Accampamento Iniziale e Distruggi-Navi</value>
+  </entry>
+  <entry>
+    <key>Anglerfish Hunting Blind</key>
+    <value>Vicolo Cieco di Caccia delle Rane Pescatrici</value>
+  </entry>
+  <!-- Places Names: End -->
+  <!-- Secret Poem: Start -->
+  <entry>
+    <key>FRIEND: Failure of communication,</key>
+    <value>AMICO: La comunicazione è fallita,</value>
+  </entry>
+  <entry>
+    <key>FRIEND: Made worse by long duration.</key>
+    <value>AMICO: e molto tempo è passato dalla dipartita.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: In our minds, meaning of words undergo mutation,</key>
+    <value>AMICO: Nelle nostre menti le parole cambiano di significato,</value>
+  </entry>
+  <entry>
+    <key>FRIEND: Until we live in worlds of fabrication.</key>
+    <value>AMICO: finché il mondo in cui viviamo non è altro che un prefabbricato.</value>
+  </entry>
+  <!-- Secret Poem: End (You can check hidden meaning of this poem in `darkbundle` file.) -->
+  <!-- Bramble Station: Start -->
+  <entry>
+    <key>DATURA: Wooooooo! Finally finished building this stupid space station!</key>
+    <value>DATURA: Wooooooo! Finalmente ho finito di costruire questa dannata stazione spaziale!</value>
+  </entry>
+  <entry>
+    <key>DATURA: Couldn’t have done it without you Friend! (And your ship!)</key>
+    <value>DATURA: Non ce l'avrei fatta senza di te (e la tua nave), Amico!</value>
+  </entry>
+  <entry>
+    <key>DATURA: These seed things are great! Saved having to build giant long cables everywhere.</key>
+    <value>DATURA: Questi semi sono fantastici! Mi hanno permesso di collegare lunghe distanze senza dover usare cavi mastodontici.</value>
+  </entry>
+  <entry>
+    <key>DATURA: It’s pretty cool, huh?</key>
+    <value>DATURA: Bello, eh?</value>
+  </entry>
+  <entry>
+    <key>&lt;color=orange&gt;WARNING:&lt;/color&gt; Coronal Mass Ejection!</key>
+    <value>&lt;color=orange&gt;ATTENZIONE:&lt;/color&gt; Espulsione di Massa Coronale!</value>
+  </entry>
+  <entry>
+    <key>&lt;color=red&gt;ERROR:&lt;/color&gt; Gravity Stability System has been damaged!</key>
+    <value>&lt;color=red&gt;ERRORE:&lt;/color&gt; Il Sistema di Stabilizzazione Gravitazionale è stato danneggiato!</value>
+  </entry>
+  <entry>
+    <key>&lt;color=orange&gt;WARNING:&lt;/color&gt; Giant's Deep approaching in &lt;TimeMinutesGDApproach&gt; MINUTES, &lt;TimeSecondsGDApproach&gt; SECONDS!</key>
+    <value>&lt;color=orange&gt;ATTENZIONE:&lt;/color&gt; Profondo Gigantesco in avvicinamento tra &lt;TimeMinutesGDApproach&gt; MINUTI, &lt;TimeSecondsGDApproach&gt; SECONDI!</value>
+  </entry>
+  <!-- Bramble Station: End -->
+  <!-- Initial Campsite: 1st House: Start -->
+  <entry>
+    <key>DATURA: Landed! Dark Bramble. Kinda cool. Kinda... spooky.</key>
+    <value>DATURA: Atterraggio effettuato. Rovo Oscuro. Piuttosto interessante. Piuttosto... inquietante.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Hmm. There’s nothing edible here. I brought some supplies, the ice will be good for water, but these brambles (I imagine) will only be useful as a building material...</key>
+    <value>DATURA: Hmmm. Non c'è niente di commestibile qui. Ho portato delle razioni, il ghiaccio andrà bene per l'acqua, ma questi rovi (suppongo) andranno bene solo come materiale da costruzione...</value>
+  </entry>
+  <entry>
+    <key>DATURA: Well... This planet does have... anglerfish... in it... doesn’t it?</key>
+    <value>DATURA: Ah, e... questo pianeta ha... delle Rane Pescatrici... al suo interno... non è così?</value>
+  </entry>
+  <entry>
+    <key>DATURA: Not sure what I’m going to do with my shuttle. Suppose I’ll camp here for now. It’s actually quite nice! In this air pocket, anyway. Weird trees.</key>
+    <value>DATURA: Non so cosa fare con la mia nave. Farò un campo provvisorio qui, nel frattempo. Non è così male! In questa bolla d'aria. Strani alberi.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Ugh. Yarrow... I know your intentions are good, but maybe it’s time to give up the obsession with the Eye. You know, the whole ’letting go’ thing everyone goes on about.</key>
+    <value>DATURA: Ugh. Yarrow... So che hai buone intenzioni, ma forse è guinto il momento di abbandonare la tua ossessione per l'Occhio. Sai, il "rinunciare" di cui parlano tutti.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Jetpacking around this planet is quite fun! I should keep a couple eyes on my fuel, though.</key>
+    <value>DATURA: Volare con il jetpack su questo pianeta è abbastanza divertente! Meglio tenere d'occhio il carburante però.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Last night, I had a dream of bridges connecting up all the ice islands... They were burning. And I was burning. But if I stay here a while, a non-burning variant could be useful.</key>
+    <value>DATURA: Ieri notte ho sognato dei ponti che collegavano tutte le isole di ghiaccio... Stavano bruciando. E anche io stavo bruciando. Se mi stabilisco qui per un po', una variante ignifuga sarebbe utile.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Ahhh, this planet reminds me of one I went to with Filix. Gusty Gardens... Oh yeah, and Cosmic Cove! And...! Those... Those were good times.</key>
+    <value>DATURA: Ahhh, questo pianeta mi ricorda quello che ho visitato con Filix. Pianta Ventosa... Ah sì, e Baia Cosmica! E...! Quelli... Quelli erano bei tempi.</value>
+  </entry>
+  <entry>
+    <key>DATURA: But here I am on Dark Bramble! ...alone. ...Ugh, I have to focus. I’m on a mission!</key>
+    <value>DATURA: Ma eccomi qui su Rovo Oscuro! ...da solo. ...Ugh, devo concentrarmi. Sono in missione!</value>
+  </entry>
+  <entry>
+    <key>Here lies my first house. Murdered by Giant’s Deep.</key>
+    <value>Qui giace la mia prima casa. Uccisa da Profondo Gigantesco.</value>
+  </entry>
+  <!-- Initial Campsite: 1st House: End -->
+  <!-- Shuttle Crusher: Three Panels: Start -->
+  <entry>
+    <key>DATURA: Right, the shuttle is just sitting here, and I can’t send it back without sending ME back, so...</key>
+    <value>DATURA: Perfetto, la nave sta lì a far niente, e non posso rimandarla indietro senza rimandare ME indietro, quindi...</value>
+  </entry>
+  <entry>
+    <key>DATURA: I’m gonna smash it to bits! It’ll be... symbolic.</key>
+    <value>DATURA: La distruggerò in mille pezzi. Sarà... simbolico.</value>
+  </entry>
+  <entry>
+    <key>DATURA: You know, to say: I will not return until I have accomplished what I set out to do!</key>
+    <value>DATURA: Lo dico adesso: non tornerò indietro finchè non avrò completato ciò per cui sono venuto qui!</value>
+  </entry>
+  <entry>
+    <key>DATURA: Update: So... I did it, I suppose.</key>
+    <value>DATURA: Aggiornamento: Ce... l'ho fatta, immagino.</value>
+  </entry>
+  <entry>
+    <key>DATURA: I used this smashy smashy device on the shuttle: which dented it, and set off the shuttle’s alarm, which was, well, alarming.</key>
+    <value>DATURA: Ho usato questo dispositvo distruggitutto sulla nave: ne ha rotto un pezzo, il che ha fatto scattare l'allarme della nave, che è stato, beh, allarmante.</value>
+  </entry>
+  <entry>
+    <key>DATURA: And the warp core fell out, so I went over to grab it - might be useful, I thought. But after returning to the shelter here to use the device a second time, the shuttle blew up!</key>
+    <value>DATURA: E il Nucleo di Curvatura è caduto fuori, quindi sono andato a prenderlo - potrebbe servirmi, ho pensato. Ma quando sono tornato al rifugio per attivare nuovamente il dispositivo, la nave è esplosa!</value>
+  </entry>
+  <entry>
+    <key>DATURA: Mission accomplished. But also wow, I almost died! I should be more careful...</key>
+    <value>DATURA: Missione compiuta! Ma wow, ho rischiato di morire! Devo stare più attento...</value>
+  </entry>
+  <entry>
+    <key>DATURA: Update... again: I’ve set up a Projection Pool on the ice island west from here, so I can talk to Filix and my daughter.</key>
+    <value>DATURA:  Aggiornamento... ancora: Ho installato una Pozza di Proiezione sull'isola di ghiaccio a ovest da qui, così posso parlare a Filix e a mia figlia.</value>
+  </entry>
+  <entry>
+    <key>DATURA: ...But instead, Bells and Pye called, informing me the <![CDATA[<color=lightblue>Gravity Cannons</color>]]> were improved a bit since I left - they, too, realised the issue of my shuttle being stuck here.</key>
+    <value>DATURA: ...Ma invece, hanno chiamato Bells e Pye, e mi hanno informato che i <![CDATA[<color=lightblue>Cannoni Gravitazionali</color>]]> sono stati migliorati dalla mia partenza - e hanno anche realizzato che la mia nave è bloccata qui.</value>
+  </entry>
+  <entry>
+    <key>DATURA: They told me that they were trying to recall it from the <![CDATA[<color=lightblue>Gravity Cannon</color>]]>, but the switch they had added wasn’t working for some reason, and told me to check if there was something up with my shuttle... Hahaha... Uh... Whoops...</key>
+    <value>DATURA: Mi hanno detto che hanno provato a richiamarla dal <![CDATA[<color=lightblue>Cannone Gravitazionale</color>]]>, ma il dispositivo che hanno installato non funzionava per qualche motivo, e mi hanno chiesto se fosse successo qualcosa alla nave... Hahaha... Uh... Ops...</value>
+  </entry>
+  <!-- Shuttle Crusher: Three Panels: End -->
+  <!-- Shuttle Crusher: Crush Ship of Friend: Start -->
+  <entry>
+    <key>DATURA: Aha! It would seem Friend enjoys some symbolism too!</key>
+    <value>DATURA: Aha! Sembra che anche ad Amico piacciano le azioni simboliche!</value>
+  </entry>
+  <entry>
+    <key>DATURA: Friend asked why I've written and am writing my thoughts and leaving them around the place. I told them it's kinda a Nomai thing.</key>
+    <value>DATURA: Amico mi ha chiesto perché ho scritto e sto scrivendo i miei pensieri in giro. Gli ho detto che è una cosa da Nomai.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Nomai are <![CDATA[<i>]]>(or are supposed to be)<![CDATA[</i>]]> nomads, so I suppose it's a way of telling other Nomai clans ’HA HA! We were here first!’</key>
+    <value>DATURA: I Nomai sono <![CDATA[<i>]]>(o dovrebbero essere)<![CDATA[</i>]]> nomadi, quindi immagino che sia un modo per dire agli altri clan Nomai "HAHA! Siamo arrivati prima noi!".</value>
+  </entry>
+  <entry>
+    <key>DATURA: Or warn them of dangers or cool stuff or something.</key>
+    <value>DATURA: O per avvertirli di pericoli o luoghi interessanti.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Welp, time to destroy another ship! I used the machine just the once, which damaged their ship and caused the ship's alarm to go off. Remembering last time, I waited.</key>
+    <value>DATURA: Beh, è il momento di distruggere un'altra nave! Ho usato quel macchinario solo una volta, e ho danneggiato la sua nave e ho fatto partire l'allarme. Ricordandomi com'era andata l'ultima volta, ho aspettato.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Friend was a bit confused why I wasn't using the device again, but I assured them I knew what I was doing. We waited... and waited... then, bang! Their ship exploded too. Then they understood.</key>
+    <value>DATURA: Amico non capiva perché non volevo usare il dispositivo di nuovo, ma gli ho assicurato che sapevo quel che facevo. Abbiamo aspettato... e aspettato... e poi, BANG! È esposa anche la sua nave. Ha capito subito.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Friend used to go off to their clan occasionally. Perhaps building a house here made it so they don't need to? Anyway, I'm glad you're here, Friend.</key>
+    <value>DATURA: Amico andava a trovare il suo clan certe volte. Forse costruirgli una casa qui ne ha cancellato il bisogno? In ogni caso, sono contento che tu sia qui, Amico.</value>
+  </entry>
+  <!-- Shuttle Crusher: Crush Ship of Friend: End -->
+  <!-- Shuttle Crusher: Call to Solanum: Start -->
+  <entry>
+    <key>DATURA: Hey little one! You’ll be off to the school on Brittle Hollow soon! (With no railings above a black hole.) I imagine you’ll be glad to get away from all this sand, eh?</key>
+    <value>DATURA: Ehi, piccola! Presto andrai a scuola su Vuoto Fragile (senza una recinzione sopra al buco nero)! Immagino tu sia felice di andartene da tutta questa sabbia, eh?</value>
+  </entry>
+  <entry>
+    <key>SOLANUM: Yeah, but I don’t like that Mom is going to be the teacher!</key>
+    <value>SOLANUM: Sì, ma non mi piace che la maestra non sarà mamma!</value>
+  </entry>
+  <entry>
+    <key>DATURA: Hahaha. Sometimes I wonder if Filix is intentionally doing this to you. Hypothesis: much embarrassment awaits you.</key>
+    <value>DATURA: Hahaha. Certe volte mi chiedo se Filix lo stia facendo apposta. Ipotesi: ti attende molto imbarazzo.</value>
+  </entry>
+  <entry>
+    <key>SOLANUM: Nooooooo! ...oh! I just remembered! I wanted to ask you about some things... The Eye? What is it? I keep hearing about it.</key>
+    <value>SOLANUM: Noooooo! ...oh! Mi è appena venuto in mente! Volevo chiederti una cosa... L'Occhio? Cos'è? Ne sento parlare ovunque.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Oh, uh. Right. Well, let’s see... Filix detected a signal on the Vessel - a signal from something older than the universe. Spooky. And we can’t find the signal anymore, so... I mean that’s it really.</key>
+    <value>DATURA: Oh, uh. Giusto. Vediamo... Quando eravamo sul Vascello Filix ha captato un segnale - un segnale da qualcosa di più vecchio dell'universo stesso. Inquietante. E non troviamo più il segnale, quindi... beh, è tutto qui.</value>
+  </entry>
+  <entry>
+    <key>SOLANUM: The Vessel. That was the other thing! What happened to the Vessel?</key>
+    <value>SOLANUM: Il Vascello. Era quella l'altra cosa! Cosa gli è successo?</value>
+  </entry>
+  <entry>
+    <key>DATURA: Oh... Darling, that’s... not a happy story. Another time, maybe.</key>
+    <value>DATURA: Oh... Amore, quella non è... una bella storia. Un'altra volta, magari.</value>
+  </entry>
+  <entry>
+    <key>SOLANUM: Aw! But I’m curious!</key>
+    <value>SOLANUM: Aw! Ma sono curiosa!</value>
+  </entry>
+  <entry>
+    <key>DATURA: You’re curious, are you? Well, alright. But don’t tell your mother I didn’t warn you.</key>
+    <value>DATURA: Sei curiosa, vero? Va bene. Ma non dire a tua madre che non ti avevo avvisato.</value>
+  </entry>
+  <entry>
+    <key>DATURA: So! I suppose I’ll tell it from my perspective. Ahem! I was once a crew member of: the Vessel - a moon-sized space ship capable of warping anywhere.</key>
+    <value>DATURA: Allora, te lo racconterò dal mio punto di vista. Ahem! Una volta ero un membro dell'equipaggio del Vascello - una nave spaziale di grandezza lunare in grado di eseguire la curvatura ovunque.</value>
+  </entry>
+  <entry>
+    <key>DATURA: I was reading in the library, when suddenly we warp! But, on our arrival there was a horrible screeching sound! We had crashed. I try to look for your mother, but I am forced onto an Escape Pod.</key>
+    <value>DATURA: Stavo leggendo nella biblioteca, quando all'improvviso viene attivata la curvatura! Ma al nostro arrivo si sentì un orribile verso stridulo! Ci eravamo schiantati. Provai a crcare tua madre, ma mi trascinarono in una Capsula di Salvataggio.</value>
+  </entry>
+  <entry>
+    <key>DATURA: I landed on Ember Twin, and Filix landed on Brittle Hollow. Both groups had to rebuild to survive.</key>
+    <value>DATURA: Io sono atterrato su Gemello Braci, e Filix su Vuoto Fragile. Entrambi i gruppi hanno dovuto adattarsi per sopravvivere.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Many years passed until finally, a shuttle was sent from Brittle Hollow, and we were reunited. Us on Ember Twin were then told why we crashed, and about the Eye. After that, the... failed efforts to find the Eye began.</key>
+    <value>DATURA: Passarono molti anni finché finalmente una nave fu mandata da Vuoto Fragile, e ci ricongiungemmo. Dissero a noi, schiantati su Gemello Braci, perché avevamo effettuato la curvatura, e riguardo l'Occhio. Dopo, beh... cominciarono i tentativi falliti di trovarlo.</value>
+  </entry>
+  <entry>
+    <key>SOLANUM: Did everyone get to an escape pod?!</key>
+    <value>SOLANUM: Sono saliti tutti sulle Capsule di Salvataggio?</value>
+  </entry>
+  <entry>
+    <key>DATURA: Uh... not quite everyone. Only three of the five escape pods were launched.</key>
+    <value>DATURA: Uh... non proprio tutti. Solo tre delle cinque Capsule di Salvataggio sono partite.</value>
+  </entry>
+  <entry>
+    <key>SOLANUM: Three? What happened to the third one?</key>
+    <value>SOLANUM: Tre? Cos'è successo alla terza?</value>
+  </entry>
+  <entry>
+    <key>DATURA: Yeah, it... never got out of Dark Bramble.</key>
+    <value>DATURA: Sì, quella... non è mai uscita da Rovo Oscuro.</value>
+  </entry>
+  <entry>
+    <key>SOLANUM: Are they alright?</key>
+    <value>SOLANUM: Stanno bene?</value>
+  </entry>
+  <entry>
+    <key>DATURA: Uh, maybe! We haven’t been able to contact them yet, if they are still al... alright.</key>
+    <value>DATURA: Uh, forse! Non siamo ancora stati in grado di contattarli, se stanno... bene.</value>
+  </entry>
+  <entry>
+    <key>SOLANUM: Oh...</key>
+    <value>SOLANUM: Oh...</value>
+  </entry>
+  <entry>
+    <key>DATURA: Well... I did warn you.</key>
+    <value>DATURA: Beh... ti avveo avvisato.</value>
+  </entry>
+  <entry>
+    <key>FILIX: What are you two talking about?</key>
+    <value>FILIX: Di cosa state parlando voi due?</value>
+  </entry>
+  <entry>
+    <key>SOLANUM: Dad told me about how everyone died on the Vessel.</key>
+    <value>SOLANUM: Papà mi ha raccontato di come tutti quelli sul Vascello sono morti.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Solanum! I did not say that!</key>
+    <value>DATURA: Solanum! Non ho detto questo!</value>
+  </entry>
+  <!-- Shuttle Crusher: Call to Solanum: End -->
+  <!-- Anglerfish Hunting Blind: Outside: Start -->
+  <entry>
+    <key>Note to self: make tractor beams more accurate to save on jetpack fuel.</key>
+    <value>Nota a me stesso: Rendi i raggi a trazione più precisi per risparmiare sul carburante del jetpack.</value>
+  </entry>
+  <entry>
+    <!-- did my best for this pun, might suck. -->
+    <key>Anglerfish Hunting Blind\\n(See, Cycad? I can make puns too!)</key>
+    <value>Vicolo Cieco di caccia delle Rane Pescatrici\\n(Vedi, Cycad? Anch'io so fare battute.)</value>
+  </entry>
+  <!-- Anglerfish Hunting Blind: Outside: End -->
+  <!-- Anglerfish Hunting Blind: 1st Wall: Start -->
+  <entry>
+    <key>DATURA: In this building I’m hoping to catch an Anglerfish, because I’m hungry. And losing my sanity.</key>
+    <value>DATURA: In questo edificio spero di catturare una Rana Pescatrice. Perché ho fame. E sto impazzendo.</value>
+  </entry>
+  <entry>
+    <key>DATURA: I’ve repurposed the warp core from my shuttle to warp ME! Just in case an... Ju-Just in case.</key>
+    <value>DATURA: Ho rielaborato il Nucleo di Curvatura che ho recuperato dalla mia nave in modo che la curvatura la faccia su di ME! Giusto in caso una... gi- giusto in caso.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Update: I’ve caught one! A small one, but I’ve caught one!</key>
+    <value>DATURA: Aggiornamento: Ne ho catturata una! Una piccola, ma ne ho catturata una!</value>
+  </entry>
+  <entry>
+    <key>DATURA: Can’t wait to bring some of this to my shelter at the &lt;color=orange&gt;South Pole&lt;/color&gt;!</key>
+    <value>DATURA: Non vedo l'ora di portarne un po' al mio rifugio al &lt;color=orange&gt;Polo Sud&lt;/color&gt;!</value>
+  </entry>
+  <entry>
+    <key>DATURA: It would seem sneaking around them works. They appear to be blind!</key>
+    <value>DATURA: Sembra che muoversi piano funzioni. Penso che siano cieche!</value>
+  </entry>
+  <entry>
+    <key>DATURA: This is an amazing discovery! I must tell the others immediately! Surely, they’ll have to consider my idea now!</key>
+    <value>DATURA: È una scoperta straordinaria! Devo subito dirlo agli altri! Sicuramente dovranno prestarmi attenzione adesso!</value>
+  </entry>
+  <!-- Anglerfish Hunting Blind: 1st Wall: End -->
+  <!-- Anglerfish Hunting Blind: Mouth of Anglerfish: Start -->
+  <entry>
+    <key>DATURA: I’ve finally collected enough courage to start exploring this planet’s insides! To adventure!</key>
+    <value>DATURA: Ho finalmete accumulato abbastanza coraggio per andare a esplorare l'interno di questo pianeta! All'avventura!</value>
+  </entry>
+  <entry>
+    <key>DATURA: Update: Well... I found... Escape Pod 3. I followed the lights they left to a seed... surrounded by Nomai. Who were all... no longer with us.</key>
+    <value>DATURA: Aggiornamento: Beh, ho trovato... la Capsula di Salvataggio 3. Ho seguito le luci che hanno lasciato fino a un seme... circondato da Nomai. Nessuno di loro... era più tra noi.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Escall (our ’leader’) was with them. I expected to feel anger upon seeing him again... But...</key>
+    <value>DATURA: Escall (il nostro "capitano") era con loro. Pensavo di provare rabbia rivedendolo, ma...</value>
+  </entry>
+  <entry>
+    <key>DATURA: I wonder... how he felt. Surrounded by his dying crew, knowing he had failed his entire clan, in his rush to warp to the Eye.</key>
+    <value>DATURA: Mi chiedo... come si sia sentito. Circondato dal suo equipaggio morente, sapendo che ha deluso il suo intero clan nella sua corsa alla curvatura verso l'Occhio.</value>
+  </entry>
+  <entry>
+    <key>DATURA: And there was nothing he could do, but wait... and die.</key>
+    <value>DATURA: E non c'era niente che potesse fare, se non aspettare... e morire.</value>
+  </entry>
+  <entry>
+    <key>DATURA: I... feel sorry for him.</key>
+    <value>DATURA: Mi dispiace per lui.</value>
+  </entry>
+  <!-- Anglerfish Hunting Blind: Mouth of Anglerfish: End -->
+  <!-- Anglerfish Hunting Blind: Near Warp Pad: Start -->
+  <entry>
+    <key>DATURA: Warp Pad! And a simple one! ...Yarrow, why are you and Root planning to waste so much time and resources building giant towers for EACH warp pad?!</key>
+    <value>DATURA: Una Piattaforma a Curvatura! E una semplice! ...Yarrow, perché tu e Root volete sprecare così tanto tempo e risorse per costruire quelle torri giganti per OGNI Piattaforma a Curvatura?!</value>
+  </entry>
+  <entry>
+    <key>DATURA: One tower is enough!</key>
+    <value>DATURA: Una torre è sufficiente!</value>
+  </entry>
+  <entry>
+    <key>DATURA: Well... I won’t admit this to him... but... It is a cool idea.</key>
+    <value>DATURA: Beh... non glielo dirò, ma... effettivamente è una grande idea.</value>
+  </entry>
+  <!-- Anglerfish Hunting Blind: Near Warp Pad: End -->
+  <!-- Anglerfish Hunting Blind: Scroll Near Warp Pad: Start -->
+  <entry>
+    <key>DATURA: Okay. I went to tell the others of my discovery, but when putting the projection stone in, I see... Yarrow.</key>
+    <value>DATURA: Bene, sono andato a comunicare agli altri la mia scoperta. Ma quando ho inserito la Pietra Proiezione, ho visto... Yarrow.</value>
+  </entry>
+  <entry>
+    <key>DATURA: So I tell him, and he was actually quite interested - enthused even. I argued we should use this knowledge to reach the Vessel, which he surprisingly agreed with. This conversation was going suspiciously well.</key>
+    <value>DATURA: Quindi ho parlato con lui, e si è dimostrato molto interesato - anzi, entusiasta. Gli ho detto che dovremmo usare questa nuova conoscenza per raggiungere il Vascello, e sorprendentemente era d'accordo. Questa conversazione sta filando troppo liscia.</value>
+  </entry>
+  <entry>
+    <key>DATURA: However, then he explained to me some Supernova-Time-Travel-complete nonsense plan he and Ramie were considering, which required an advanced warp core (which the Vessel has).</key>
+    <value>DATURA: Infatti, mi ha illustrato un piano assolutamente insensato su un viaggio nel tempo con una supernova che stavano pensando lui e Ramie, che richiede il Nucleo di Curvatura Avanzato (che è nel Vascello).</value>
+  </entry>
+  <entry>
+    <key>DATURA: The conversation went downhill rather quickly from there... After arguing a while, he ended the call.</key>
+    <value>DATURA: Da lì, la conversazione è andata degenerandosi... Dopo aver discusso un po', ha chiuso la comunicazione.</value>
+  </entry>
+  <entry>
+    <key>DATURA: ...Yarrow, I promise: One day, we’ll have a decent conversation. Or at least a neutral one.</key>
+    <value>DATURA: ...Yarrow, ti prometto che un giorno avremo una buona conversazione. O almeno una neutrale.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Update: Filix sweetly called to inform me: Melorae and Coleus also figured out: the whole blindness thing from the Ember Twin fossil, and she thought this knowledge would help me out. Aww. Thanks, dear.</key>
+    <value>DATURA: Aggiornamento: Filix mi ha chiamato per informarmi: anche Melorae e Coleus se ne sono accorti. Hanno capito tutta quella cosa della cecità dal fossile su Gemello Braci, e ha pensato che fosse un'informazione utile per me. Aww. Grazie, cara.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Hypothesis: Yarrow did not tell anyone I discovered it first! Boo! Hahaha... (I hope he is... alright. He seemed quite distressed by the end of our call.)</key>
+    <value>DATURA: Ipotesi: Yarrow non ha detto a nessuno che io l'ho scoperto per primo! Boo! Ahahah... (Spero... che stia bene. Mi è sembrato molto turbato alla fine della nostra chiamata.)</value>
+  </entry>
+  <!-- Anglerfish Hunting Blind: Scroll Near Warp Pad: End -->
+  <!-- Study Tower: Disturbing: Start -->
+  <entry>
+    <key>DATURA: Well this is a potentially disturbing discovery...</key>
+    <value>DATURA: Ed ecco qua una scoperta potenzialmente inquietante...</value>
+  </entry>
+  <entry>
+    <key>DATURA: I’ll have to see if I can confirm it in my &lt;color=orange&gt;Observatory&lt;/color&gt;... If this is what I think it is...</key>
+    <value>DATURA: Devo vedere se questi risultati vengono cofermati al mio &lt;color=orange&gt;Osservatorio&lt;/color&gt;... Se è quello che penso che sia...</value>
+  </entry>
+  <entry>
+    <key>DATURA: No, surely it isn’t. It’s fine. Everything’s fine.</key>
+    <value>DATURA: No, non può essere. Tutto bene. Va tutto bene.</value>
+  </entry>
+  <entry>
+    <key>DATURA: ...I should call my daughter...</key>
+    <value>DATURA: ...Devo chiamare mia figlia...</value>
+  </entry>
+  <!-- Study Tower: Disturbing: End -->
+  <!-- Study Tower: Spherical Region (Stranger): Start -->
+  <entry>
+    <key>DATURA: After crashing on Ember Twin, I saw... something strange up in space. I kept it to myself as no-one else seemed to notice it. Too distracted on, uh, surviving, I suppose.</key>
+    <value>DATURA: Dopo lo schianto su Gemello Braci, ho visto... qualcosa di strano nello spazio. Non l'ho detto a nessun altro perché non sembrava che nessun altro se ne fosse accorto. Troppo distratti, a uh, sopravvivere, immagino.</value>
+  </entry>
+  <entry>
+    <key>DATURA: I’ve been attempting to locate what I saw. And hey, if I locate the Eye, then we can all return to our living quarters prematurely!</key>
+    <value>DATURA: È da un po' che provo a localizzare ciò che ho visto. E beh, se è l'Occhio, potremo tornare a casa prima del previsto!</value>
+  </entry>
+  <entry>
+    <key>DATURA: An update: I’ve found it?! There’s a spherical region in space where the stars occasionally... flicker. As if those stars are... fake?</key>
+    <value>DATURA: Aggiornamento: L'ho... trovato? Nello spazio c'è una regione sferica dove le stelle certe volte... tremolano. Come se fossero... false.</value>
+  </entry>
+  <!-- Study Tower: Spherical Region: End -->
+  <!-- Study Tower: Meet Friend: Start -->
+  <entry>
+    <key>DATURA: WOAH! It appears we are not alone in this star system! Someone has just arrived here.</key>
+    <value>DATURA: WOAH! Sembra che non siamo soli in questo sistema stellare! Qualcuno è appena giunto qui.</value>
+  </entry>
+  <entry>
+    <key>DATURA: They sat on the walkway, and I sat with them, trying my best to comfort them - a happy person doesn’t come to Dark Bramble.</key>
+    <value>DATURA: Si è seduto sul ciglio della strada, e io con lui. Ho cercato di consolarlo, al meglio delle mie capacità - una persona felice non viene su Rovo Oscuro.</value>
+  </entry>
+  <entry>
+    <key>DATURA: It’s... nice to have company.</key>
+    <value>DATURA: È... bello avere compagnia.</value>
+  </entry>
+  <entry>
+    <key>DATURA: I’m not sure how much we have in common, but I hope we can be friends.</key>
+    <value>DATURA: Non so quante cose possiamo avere in comune, ma spero che potremo essere amici.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Update: Seems like they’re staying for a while! I’ll start building a house for them at the &lt;color=orange&gt;South Pole&lt;/color&gt;.</key>
+    <value>DATURA: Aggiornamento: Sembra che voglia rimanere qui un po'! Gli costruirò una casa al &lt;color=orange&gt;Polo Sud&lt;/color&gt;.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Before my clan crashed here, I had read about their species. If we could understand eachother’s languages, I’d love to hear their encounter with &lt;color=lightblue&gt;The Collector&lt;/color&gt; from their perspective.</key>
+    <value>DATURA: Prima che il mio clan si schiantasse qui, ho letto sulla loro specie. Se potessimo capirci, mi piacerebbe sentire dell'incontro con &lt;color=lightblue&gt;Il Collezionista&lt;/color&gt; dal loro punto di vista.</value>
+  </entry>
+  <entry>
+    <key>DATURA: If it’s not a touchy subject, of course.</key>
+    <value>DATURA: Se non è una questione di cui non vuole parlare, naturalmente.</value>
+  </entry>
+  <!-- Study Tower: Meet Friend: End -->
+  <!-- Top of Tower: Start -->
+  <entry>
+    <key>DATURA: Lami got in my <![CDATA[<color=orange>Observatory</color>]]> again!</key>
+    <value>DATURA: Ho beccato Lami nel mio <![CDATA[<color=orange>Osservatorio</color>]]> di nuovo!</value>
+  </entry>
+  <entry>
+    <key>DATURA: Ah, I know! I’ll add a detector that locks the door, if another ship (other than ours) is on Dark Bramble’s surface!</key>
+    <value>DATURA: Ah, lo so! Installerò un rilevatore che blocca la porta se un'altra nave (oltre alla nostra) si trova sulla superficie di Rovo Oscuro!</value>
+  </entry>
+  <entry>
+    <key>DATURA: Unless you want to jump down from orbit, Lami, I think I’ve won this game!</key>
+    <value>DATURA: A meno che tu non voglia buttarti giù da una nave di passaggio, Lami, questa l'ho vinta io!</value>
+  </entry>
+  <!-- Top of Tower: End -->
+  <!-- Bramble Village: Misc: Start -->
+  <entry>
+    <key>Eye Shack</key>
+    <value>Tempio dell'Occhio</value>
+  </entry>
+  <entry>
+    <key>Welcome back, friend!</key>
+    <value>Bentornato, Amico!</value>
+  </entry>
+  <!-- Bramble Village: Misc: End -->
+  <!-- Bramble Village: Art House: Start -->
+  <entry>
+    <key>Art House</key>
+    <value>Casa dell'Arte</value>
+  </entry>
+  <entry>
+    <key>FRIEND: This is home.</key>
+    <value>AMICO: Questa è casa.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: Feeling lost. I did not finish it. This is good enough.</key>
+    <value>AMICO: Mi sento perso. Non l'ho finita. Così è abbastanza.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: Curious star system here. More curious beings. I wish others were not decayed, and could meet you.</key>
+    <value>AMICO: Curioso sistema stellare qui. Ancor più curiosi esseri. Vorrei che gli altri non fossero deteriorati, e che potessero incontrarti.</value>
+  </entry>
+  <entry>
+    <key>DATURA: This thing we have going is... going quite well, I think!</key>
+    <value>DATURA: Questa cosa che abbiamo qui sta... andando bene, direi!</value>
+  </entry>
+  <entry>
+    <key>DATURA: I teach Friend the Nomai language so we can talk to each other, and they teach me art, as it appears to be very important to their species.</key>
+    <value>DATURA: Ho insegnato ad Amico la lingua Nomai, così possiamo parlare, e lui mi ha insegnao l'arte, che sembra essere molto importante per la sua specie.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Though, judging by my painting here, I have a lot to learn!</key>
+    <value>DATURA: Anche se, a giudicare da questo mio dipinto qui, ho ancora molto da imparare!</value>
+  </entry>
+  <entry>
+    <!-- I've tried to replicate Friend's difficulties to speak -->
+    <key>FRIEND: Talking is hard for me same. Not only you learning!</key>
+    <value>AMICO: Parlare per difficile me ugualmente. Non solo tu imparando!</value>
+  </entry>
+  <entry>
+    <key>DATURA: Does one have a lot to learn, or does another have a lot to teach?</key>
+    <value>DATURA: Ha qualcuno molto da imparare, o ha qualcun altro molto da insegnare?</value>
+  </entry>
+  <entry>
+    <key>FRIEND: What?</key>
+    <value>AMICO: Cosa?</value>
+  </entry>
+  <!-- Bramble Village: Art House: End -->
+  <!-- Bramble Village: Datura House: Start -->
+  <entry>
+    <key>Datura's House</key>
+    <value>Casa di Datura</value>
+  </entry>
+  <entry>
+    <key>FRIEND: Found quantum rock in ice!</key>
+    <value>AMICO: Trovato roccia quantica nel ghiaccio!</value>
+  </entry>
+  <entry>
+    <key>FRIEND: For you. From Friend.</key>
+    <value>AMICO: Per te. Da Amico.</value>
+  </entry>
+  <entry>
+    <key>DATURA: -record this. Hypothesis: I’ll need to listen back on this. So: You’re STILL looking for the Eye?</key>
+    <value>DATURA: -registra. Ipotesi: Dovrò riascoltare questa roba. Quindi state ANCORA cercando l'Occhio?</value>
+  </entry>
+  <entry>
+    <key>YARROW: ...Please... I really don’t enjoy arguments...</key>
+    <value>YARROW: ...Ti prego... Non mi piace discutere...</value>
+  </entry>
+  <entry>
+    <key>DATURA: Hey, don’t walk away! We’ve been stuck here for so long! Filix and I have a child now. This is no place to grow up. We need to change our efforts to getting out of here!</key>
+    <value>DATURA: Ehi, non andartene! Siamo rimasti bloccati qui da un sacco di tempo! Filix e io abbiamo una figlia adesso. E non può crescere qui. Dobbiamo direzionare i nostri sforzi verso l'andarcene.</value>
+  </entry>
+  <entry>
+    <key>YARROW: ...We will. Once we’ve found the Eye, we’ll begin constructing a new Vessel. ...Just a little longer.</key>
+    <value>YARROW: ...Lo faremo. Non appena avremo trovato l'Occhio, costruiremo un nuovo Vascello. ...Aspetta solo ancora un po'.</value>
+  </entry>
+  <entry>
+    <key>DATURA: But we’d need a Vessel to get to the Eye anyway! So, why don’t we build a Vessel first? Then, we could come back with other clans.</key>
+    <value>DATURA: Ma ci servirebbe un Vascello per arrivare all'Occhio comunque! Allora perché non coustruiamo prima il Vascello? Potremmo tornare qui con altri clan.</value>
+  </entry>
+  <entry>
+    <key>DATURA: And it would be nice to not be trapped: Nomai are supposed to explore the universe! That’s... like our whole thing!</key>
+    <value>DATURA: E sarebbe bello non essere in trappola: i Nomai dovrebbero esplorare l'Universo! È... la nostra ragione di vita!</value>
+  </entry>
+  <entry>
+    <key>YARROW: I know! ...I know. It’s just... finding the Eye ...is very important to us... All the Nomai who lost their lives coming here... We must find the Eye so they were not... all lost over nothing...</key>
+    <value>YARROW: Lo so! ...Lo so. È solo che... trovare l'Occhio... è molto importante per noi... per tutti i Nomai che hanno perso le loro vite arrivando qui... Dobbiamo trovare l'Occhio affinché tutto quello che abbiamo scrificato non sia stato per niente.</value>
+  </entry>
+  <entry>
+    <key>DATURA: ...Right. I understand. ...Well, I’ll figure a way out of here myself, then. I suppose I’ll... find the old Vessel.</key>
+    <value>DATURA: ...Certo. Capisco. Beh, immagino che troverò un modo per andarmene da qui da solo, allora. Andrò... a cercare il vecchio Vascello.</value>
+  </entry>
+  <entry>
+    <key>YARROW: ...How do you plan to do that? It’s... in Dark Bramble.</key>
+    <value>YARROW: ...Come hai intenzione di fare? È... all'interno di Rovo OScuro.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Then I... will go to Dark Bramble.</key>
+    <value>DATURA: E allora... Entrerò all'interno di Rovo Oscuro.</value>
+  </entry>
+  <entry>
+    <key>FILIX: What?</key>
+    <value>FILIX: Cosa?</value>
+  </entry>
+  <entry>
+    <!-- We keep "vous" for Yarrow to Filix to show his respect for her -->
+    <key>YARROW: Hmm? Woah! Uh, Filix! You’re the one who discovered the Eye’s signal on the Vessel, correct? ...Wow! It’s an honor to meet you! I’m-</key>
+    <value>YARROW: Hmmm? Woah! Uh, Filix! Sei tu che hai scoperto il segnale dell'Occhio sul Vascello, vero? ...Wow! È un onore incontrarti. Io-</value>
+  </entry>
+  <entry>
+    <!-- Same here for Filix to Yarrow but because she does't know him well-->
+    <key>FILIX: Yarrow, is it? Clary has told me of you. Do you mind standing over there? I need to speak with my partner.</key>
+    <value>FILIX: Yarrow, vero? Clary mi ha parlato di te. Ti dispiace allontanarti? Devo parlare con mio marito.</value>
+  </entry>
+  <entry>
+    <key>YARROW: ...Oh. ...uh, okay. Well, just shout if you need me. (...Clary talked about me?)</key>
+    <value>YARROW: ...Oh. ...uh, certo. Beh, chiamami se ti servo. (Clary ha parlato di me...?)</value>
+  </entry>
+  <entry>
+    <key>FILIX: Thank you. ...Datura... We’ve already been apart for so long...</key>
+    <value>FILIX: Grazie. ...Datura... Siamo stati lontano per così tanto...</value>
+  </entry>
+  <entry>
+    <key>DATURA: ...I know, and this hurts me just as much, but if no-one else is finding a way out of here... Well, do you want to come with me?</key>
+    <value>DATURA: ...Lo so, fa male a me quanto a te, ma se nessun altro trova una via d'uscita da questo posto... Beh, vuoi venire con me?</value>
+  </entry>
+  <entry>
+    <key>FILIX: I... can’t. I’m needed with search projects, Privet is my apprentice now, I’m a teacher at the new School District... and what about Solanum - our daughter? You can’t expect me to do all this alone...</key>
+    <value>FILIX: Io... non posso. Sono richiesta per i progetti di ricerca, Privet è il mio apprendista adesso, sono un'insegnante al nuovo Distretto Scolastico... e che mi dici di Solanum, nostra figlia? Non puoi aspettarti che io faccia tutto questo da sola...</value>
+  </entry>
+  <entry>
+    <key>DATURA: You can. I believe in you! And... I need you to believe in me, too. Please. I’ll... make one of those projection pools! It’ll be like I’m still here!</key>
+    <value>DATURA: Ce la puoi fare. Io credo in te! E... Mi serve che tu creda in me. Per favore. Io... costruirò una di quelle Pozze di Proiezione! Sarà come se fossi ancora lì!</value>
+  </entry>
+  <entry>
+    <key>FILIX: ...(No it won’t.)</key>
+    <value>FILIX: ...(No, non lo sarà.)</value>
+  </entry>
+  <entry>
+    <key>DATURA: It’ll be alright. Come here. ...Here’s how it’ll go: I’ll set up a base on the planet, I’ll search for the Vessel, and once I’ve found it, I’ll come back.</key>
+    <value>DATURA: Andrà tutto bene. Vieni qui. ...Ecco come andrà: creerò un accampamento su questo pianeta, cercherò il Vascello, e non appena l'avrò trovato, tornerò.</value>
+  </entry>
+  <entry>
+    <key>FILIX: ...Promise you will come back?</key>
+    <value>FILIX: ...Tu, prometti di ritornare?</value>
+  </entry>
+  <entry>
+    <key>DATURA: Of course. I promise.</key>
+    <value>DATURA: Certo. Lo prometto.</value>
+  </entry>
+  <!-- Bramble Village: Datura House: End -->
+  <!-- Bramble Village: Friend House: Start -->
+  <entry>
+    <key>Friend's House</key>
+    <value>Casa di Amico</value>
+  </entry>
+  <entry>
+    <key>DATURA: Here’s a... little model of Dark Bramble, I made for you (if you want it). From Datura.</key>
+    <value>DATURA: Ecco un... modellino di Rovo Oscuro, l'ho fatto per te (se lo vuoi). Da Datura.</value>
+  </entry>
+  <!-- Bramble Village: Friend House: End -->
+  <!-- Bramble Village: Datura Eye: Start -->
+  <entry>
+    <key>DATURA: I’ll say it. The Eye is... not my favourite thing in the universe.</key>
+    <value>DATURA: Lo dirò. L'Occhio non è... la mia cosa preferita dell'universo.</value>
+  </entry>
+  <entry>
+    <key>DATURA: It is why we are trapped in this star system. And continue to be trapped, thanks to my clan searching for it instead of a way out of here.</key>
+    <value>DATURA: È il motivo per cui siamo intrappolati in questo sistema stellare. E per cui continuiamo a rimanere intrappolati, grazie al mio clan che non smette di cercarlo al posto di trovare un modo per andarcene.</value>
+  </entry>
+  <entry>
+    <key>DATURA: To me, Yarrow and Ramie are Annona want-to-bes, attempting to make a discovery equivalent to his warp technology.</key>
+    <value>DATURA: Secondo me, Yarrow e Ramie vogliono essere come Annona, facendo una scoperta pari alla sua tecnologia di curvatura.</value>
+  </entry>
+  <entry>
+    <key>DATURA: All we know is that it is older than the universe. Believing it is anything good or worthwhile is pure speculation.</key>
+    <value>DATURA: Tutto ciò che sappiamo è che è più vecchio dell'uninverso stesso. Credere che sia qualcosa di buono o che valga la pena di trovare è pura speculazione.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Friend revealed to me a disturbing discovery their clan made: the Eye DESTROYS THE ENTIRE UNIVERSE when interacting with it.</key>
+    <value>DATURA: Amico mi ha rivelato una scoperta disturbante che ha fatto il suo clan: l'Occhio DISTRUGGE L'INTERO UNIVERSO se si interagisce con esso.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Friend’s... other friend deeply believed the Eye was good, and wrote off this discovery, disabling their Eye Signal Blocker thing.</key>
+    <value>DATURA: L'altro... amico di Amico era fermamente convinto che l'Occhio fosse buono, e ignorò questa scoperta, disattivando l'Inibitore del Segnale dell'Occhio.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Fortunately, it was reactivated, and he was locked away in a vault or something. Friend says he had good intentions, but...</key>
+    <value>DATURA: Fortunatamente è stato subito riattivato, e lui è stato imprigionato in una cassaforte con dei sigilli o una cosa del genere. Amico dice che avesse buone intenzioni, ma...</value>
+  </entry>
+  <entry>
+    <key>DATURA: ...that brief signal he released. Filix heard it. Escall ordered the warp and now... we’re all trapped here, because of him. ...Good intentions aren’t good enough.</key>
+    <value>DATURA: ...quel breve segnale che l'Occhio è riuscito a diffondere. Filix l'ha sentito. Escall ha ordinato di effettuare la curvatura e adesso... siamo tutti intrappolati qui, per colpa sua. ...Avere buone intenzioni non è abbastanza.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Sometimes... I wish I could be like Friend and... Yarrow, and just be able to see the Eye how they see it... Why am I the only one not interested in it? Is there... something wrong with me?</key>
+    <value>DATURA: Certe volte vorrei essere come Amico, e... Yarrow, ed essere in grado di vedere l'Occhio come lo vedono loro. Perché sono l'unico a cui non interessa? C'è... qualcosa di sbagliato in me?</value>
+  </entry>
+  <!-- Bramble Village: Datura Eye: End -->
+  <!-- Bramble Village: Friend Eye: Start -->
+  <entry>
+    <key>FRIEND: The Eye. On first discovery, all was known was it was older than the universe. Similar to Nomai, us curious beings made a big sacrifice to reach it.</key>
+    <value>AMICO: L'Occhio. Appena scoperto, si sapeva solo che fosse più vecchio dell'universo stesso. Come i Nomai, noi esseri curiosi facemmo un grande sacrificio per raggiungerlo.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: During the journey, a big known theory on our ’Vessel’ (as Datura would say) was the Eye created this universe.</key>
+    <value>AMICO: Durante il viaggio sul nostro "Vascello" (come lo chiamerebbe Datura), una teoria molto popolare sull'Occhio era che fosse stato lui a creare questo universo.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: Suppose this was not the first time. Hypothesis: could the Eye create the universe again every time it dies?</key>
+    <value>AMICO: Immagina che questa non sia stata la prima volta. Ipotesi: l'Occhio potrebbe creare l'universo da capo ogni volta che muore?</value>
+  </entry>
+  <entry>
+    <key>FRIEND: Once we arrived at the Eye... One saw a vision of it destroying the universe after one interacts with it.</key>
+    <value>AMICO: Una volta arrivati all'Occhio... Uno di noi lo analizzò e vide che avrebbe distrutto l'universo una volta che qualcuno ci avesse interagito.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: Most were horrified and devastated - their new purpose became hiding the Eye away to protect our universe.</key>
+    <value>AMICO: Molti erano terrificati e distrutti - il loro nuovo scopo divenne nascondere l'Occhio per proteggere il nostro universo.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: My other friend and I did not believe the Eye was to be feared. We still believe it is a creator. Suppose the vision was misinterpreted, or wrong, or unfinished?</key>
+    <value>AMICO: Il mio altro amico e io non credevamo che l'Occhio dovesse essere temuto. Crediamo ancora che sia un creatore. Immagina che l'analisi fosse male interpretata, o sbagliata, o non finita?</value>
+  </entry>
+  <entry>
+    <key>FRIEND: The others had been burnt on the inside, and did not wish to be burnt again, so they ignored us, and told us to move on and stop ’holding onto the past’...</key>
+    <value>AMICo: Gli altri erano stati bruciati profondamente, e non volevano essere bruciati una seconda volta, quindi ci hanno ignorati e ci hanno detto di andare avanti e smettere di "aggrapparci al passato".</value>
+  </entry>
+  <entry>
+    <key>FRIEND: I know it in my heart: the Eye is good. I believe there is more to its story than they wish to know.</key>
+    <value>AMICO: Me lo sento: L'Occhio è buono. Ritengo che la sua storia sia diversa da quello che vogliono credere.</value>
+  </entry>
+  <!-- Bramble Village: Friend Eye: End -->
+  <!-- Bramble Village: Both Eye: Start -->
+  <entry>
+    <key>DATURA: Friend and I have been discussing the Eye, to try to figure out its deal.</key>
+    <value>DATURA: Io e Amico stavamo discutendo riguardo all'Occhio, cercand di capire il suo scopo.</value>
+  </entry>
+  <entry>
+    <key>DATURA: So! It is older than the universe, and someone from Friend’s clan had a vision showing it would destroy the universe, if anyone touched it or whatever.</key>
+    <value>DATURA: Quindi! È più vecchio dell'universo stesso, e qualcuno del clan di Amico l'ha analizzato rivelando che distruggerebbe l'universo se qualcuno lo toccasse o qualcosa del genere.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: But one has to wonder how this universe was created then, if the Eye destroyed the previous universe? Perhaps it also created this one?</key>
+    <value>AMICO: Ma bisogna chiedersi come questo universo sia stato creato allora. E se l'Occhio avesse distrutto lo scorso universo? Che abbia anche creato questo?</value>
+  </entry>
+  <entry>
+    <key>DATURA: Yarrow and the others believe the Eye is quantum, so, if that’s true, I suppose it would be fitting for the Eye to be in a superposition of both good and bad, eh?</key>
+    <value>DATURA: Yarrow e gli altri ritengono che l'Occhio sia quantico, e se questo è vero immagino che avrebbe senso che sia in una duplice posizione di buono e malvagio.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: ...but does this not mean that blocking the Eye’s signal is wrong?</key>
+    <value>AMICO: ...ma questo non significa che bloccare il segnale dell'Occhio è sbagliato?</value>
+  </entry>
+  <entry>
+    <key>DATURA: Hmm... that’s difficult to answer. You wouldn’t want the location of the universe reset button being blasted for all to hear, would you?</key>
+    <value>DATURA: Hmmm... è... difficile dare una risposta. Non ti piacerebbe che la posizione del pulsante di reset dell'universo fosse sbandierata ai quattro venti, no?</value>
+  </entry>
+  <entry>
+    <key>FRIEND: Well, we can not keep it locked it away either because we are afraid to die, so-.</key>
+    <value>AMICO: Beh, in ogni caso non è che possimao tenerla nascosta solo perché abbiamo paura, quindi-</value>
+  </entry>
+  <entry>
+    <key>DATURA: I’m not afraid to die - death is just extremely uninteresting to me. And this universe isn’t over yet. So, let’s not be afraid to live, now, Friend.</key>
+    <value>DATURA: Non ho paura di morire - la morte non mi interessa affatto. E questo universo non è ancora finito. Quindi, non avere paura di vivere adesso, Amico.</value>
+  </entry>
+  <!-- Bramble Village: Both Eye: End -->
+  <!-- Sealed Structure: Outside: Start -->
+  <entry>
+    <key>DATURA: Friend, I’m back - the others left! Can you hear me?! I’m gonna leave a recording here for you!</key>
+    <value>DATURA: Amico, sono tornato - gli altri se ne sono andati! Mi senti? ti lascio qui una registrazione!</value>
+  </entry>
+  <entry>
+    <key>DATURA: Friend... I’m really sorry.</key>
+    <value>DATURA: Amico... mi dispiace molto.</value>
+  </entry>
+  <entry>
+    <key>DATURA: ...I shouldn’t have come here. This is your secret room and I should’ve respected that. ...Friend? Are you... there? ...At least knock on the door so I know!</key>
+    <value>DATURA: ...Non avrei dovuto venire qui. Questa è la tua stanza segreta e avrei dovuto rispettarlo. ...Amico? Sei... lì? ...Almeno bussa sulla porta per farmelo sapere!</value>
+  </entry>
+  <entry>
+    <key>DATURA: ...? Nothing... Maybe they’re asleep. (...Sheesh, look at this metal door and cage... They really don’t want me getting in there again, huh.)</key>
+    <value>DATURA: ...? Ninte... Magari sta dormendo. (...wow, guarda qui che porta di metallo... Non vuole proprio che io entri di nuovo eh?)</value>
+  </entry>
+  <entry>
+    <key>DATURA: (Well, I can’t chop my way in... Unless... Ow! Stupid metal... Uh, I need like a... like an explosion or something to blast this stupid door down.)</key>
+    <value>DATURA: (Beh, non posso forzarla. A meno che... Ow! Dannato metallo... Uh, mi serve qualcosa come... come un'esplosione o qualcos'altro che butti giù questa stupida porta.)</value>
+  </entry>
+  <entry>
+    <key>DATURA: (But how would I make an explosion...? And a... safe one? Is there even such a thing?)</key>
+    <value>DATURA: (Ma come provoco un'esplosione...? E una... sicura? Esiste almeno una cosa del genere?)</value>
+  </entry>
+  <entry>
+    <key>DATURA: Ugh... my stupid curiosity... Ironic, is it not?</key>
+    <value>DATURA: Ugh... Dannata curiosità... Ironico, eh?</value>
+  </entry>
+  <entry>
+    <key>DATURA: ...Whoops, forgot to stop recording.</key>
+    <value>DATURA: ...Ops, ho dimenticato di fermare la registrazione.</value>
+  </entry>
+  <!-- Sealed Structure: Outside: End -->
+  <!-- Sealed Structure: Inside: Start -->
+  <entry>
+    <key>DATURA: ...Okay... recording now... I’m keeping quiet because... some ’friends’ are here... talking with Friend.</key>
+    <value>DATURA: ...Ok... sta registrando... Parlo a bassa voce perché... alcuni "amici" sono qui... Stanno parlando con Amico.</value>
+  </entry>
+  <entry>
+    <key>DATURA: So... I need to process what I just went through...</key>
+    <value>DATURA: Allora... Devo ripercorrere ciò che è appena successo...</value>
+  </entry>
+  <entry>
+    <key>DATURA: Uh, I... was curious where Friend disappears off to sometimes... and it lead me here. There was no door... so I walked in.</key>
+    <value>DATURA: Io, uh... ero curioso di sapere dove scompariva Amico certe volte... e sono arrivato fin qui. Non c'era una porta... quindi sono entrato.</value>
+  </entry>
+  <entry>
+    <key>DATURA: At first, I thought it was merely a nice quiet place for them to hang out, and get some alone time.</key>
+    <value>DATURA: All'inizio, ho pensato che fosse solo un posto tranquillo dove potesse passare un po' di tempo da solo.</value>
+  </entry>
+  <entry>
+    <key>DATURA: But... I picked up a weird lantern-resembling object from the ground before... tripping on the metal ledge there... and I suppose I got knocked unconscious?</key>
+    <value>DATURA: Ma... ho raccolto un oggetto somigliante a una lanterna dal pavimento... e sono inciampato su quel bordino di metallo lì... e credo di essere svenuto?</value>
+  </entry>
+  <entry>
+    <key>DATURA: I woke up (or started dreaming?) almost immediately in... Friend’s house. ...but it wasn’t Friend’s house. It was a... copy... on some other planet, with a ringed planet in the sunsetting sky.</key>
+    <value>DATURA: Mi sono svegliato (o ho cominciato a sognare?) praticamente subito nella... casa di Amico. ...Ma non era la casa di Amico. Era una... copia... su un altro pianeta, sovrastato da un pianeta dai molti anelli nel cielo dell'alba.</value>
+  </entry>
+  <entry>
+    <key>DATURA: It weirded me out, so I exited, and walked across a bridge into another building where... there were a lot of Friend’s elders.</key>
+    <value>DATURA: Mi ha sorpreso, quindi sono uscito e ho camminato attravarso un ponte fino a un'altro edificio, dove... c'erano molti degli anziani del clan di Amico.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Upon seeing me, they were surprised, startled... but not hostile... at least. Still, I attempted to remain out of their way.</key>
+    <value>DATURA: Quando mi hanno visto, sono stati sorpresi, incuriositi... ma non ostili almeno. Comunque, ho provato a non intralciarli.</value>
+  </entry>
+  <entry>
+    <key>DATURA: I decided to wander around the planet before night fell, took a raft to an area with buildings surrounding a giant hole, went over to have a look at it, but... suddenly red lights began flashing.</key>
+    <value>DATURA: Decisi di esplorare il pianeta prima che calasse la notte. Presi una zattera fino a un'area piena di edifici che circondavano un buco gigantesco, e ci entrai, per dare un'occhiata. Improvvisamente, delle luci rosse mi accecarono.</value>
+  </entry>
+  <entry>
+    <key>DATURA: On a balcony, I saw one of Friend’s kind cover their ears, before yelling out and disappearing into the air.</key>
+    <value>DATURA: Su un balcone, vidi uno del clan di Amico coprirsi le orecchie, prima di urlare e dissolversi nell'aria.</value>
+  </entry>
+  <entry>
+    <key>DATURA: I don’t know what I did, but I definitely did something wrong, as the rest immediately began hunting me down.</key>
+    <value>DATURA: Non so cos'ho fatto, ma sicuramente era qualcosa di sbagliato, dato che gli altri hanno preso subito a insegiuirmi.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Panicking, I was able to escape by taking a raft to a hidden, old (burned?) structure to hide at... I sat down, closed my eyes... and... waited...</key>
+    <value>DATURA: Nel panico, mi sono nascosto in una vecchia casa nascosta (bruciata?) dopo aver preso una zattera. Mi sono seduto, ho chiuso gli occhi... e... ho aspettato...</value>
+  </entry>
+  <entry>
+    <key>DATURA: ...</key>
+    <value>DATURA: ...</value>
+  </entry>
+  <entry>
+    <key>DATURA: ...A... while later... Friend wakes me up. ...I hugged them tightly, wanting to tell them I’m sorry... but looking over, I see: Friend’s ’still alive’ friends (whatever they meant by that).</key>
+    <value>DATURA: ...Un... po' di tempo dopo... Amico mi ha svegliato. ...L'ho abbracciato stretto, volendo scusarmi... ma gardando oltre, ho visto gli amici "ancora vivi" di Amico (qualunque cosa volessero dire con quello).</value>
+  </entry>
+  <entry>
+    <key>DATURA: I’m just... worried I did something really bad. ...I didn’t intend to... I hope I can tell Friend-</key>
+    <value>DATURA: Ho paura... di aver fatto qualcosa di molto sbagliato. ...Non volevo... Spero di poterlo dire ad Amico-</value>
+  </entry>
+  <entry>
+    <key>DATURA: Uh... One of them is... approaching me. ...uh, hello there? Is that a projection-</key>
+    <value>DATURA: Uh... Uno di loro si sta... avvicinando. Uh, ciao? È una proiezione quella-</value>
+  </entry>
+  <entry>
+    <key>DATURA: ...</key>
+    <value>DATURA: ...</value>
+  </entry>
+  <entry>
+    <key>DATURA: Oh... what? You’re gonna lock them away? Ha, is that your solution for everything, or something? ...uh, hey! Let go of me! Ah! Friend! I-!</key>
+    <value>DATURA: Oh... cosa? Li vuoi rinchiudere? Ah, è l'unica soluzione che usate per tutto? ...Uh, ehi! Lasciatemi andare! Ah! Amico! I-io...!</value>
+  </entry>
+  <!-- Sealed Structure: Inside: End -->
+  <!-- Sealed Structure: Inside from Friend: Start -->
+  <entry>
+    <key>FRIEND: ...Goodbye, friends. ...This will be my home for a little while, it seems. ...Oh, Datura, Datura. Getting yourself into trouble as always! Hahaha.</key>
+    <value>AMICO: ...Addio, amici. ...Sembra che questa sarà casa mia per un po'. ...Oh, Datura, Datura. Ti metti nei guai come sempre! Ahahah.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: I hope he knows I am not mad at him. My friends are just attempting to appease our decayed elders (who have decided this).</key>
+    <value>AMICO: Spero sappia che non sono arrabbiato con lui. I miei amici stanno solo provando ad accontetare i nostri anziani deteriorati (che hanno deciso di fare così).</value>
+  </entry>
+  <entry>
+    <key>FRIEND: I should get to sleep. They will all be waiting for me. Hypothesis: I will see you again, Datura. Worry not.</key>
+    <value>AMICO: Devo andare a dormire. Mi staranno aspettando. Ipotesi: ci rivedremo, Datura. Non preoccparti.</value>
+  </entry>
+  <entry>
+    <key>...</key>
+    <value>…</value>
+  </entry>
+  <entry>
+    <key>NO AUDIO DETECTED FOR 10 MINUTES, STOPPING RECORDING</key>
+    <value>NESSUN SUONO RILEVATO PER 10 MINUTI. REGISTRAZIONE INTERROTTA.</value>
+  </entry>
+  <!-- Sealed Structure: Inside from Friend: End -->
+  <!-- Dream Friend House: Misc: Start -->
+  <entry>
+    <key>Friend1_...</key>
+    <value>...</value>
+  </entry>
+  <entry>
+    <key>FriendFriend1_Are you...?</key>
+    <value>Tu sei...?</value>
+  </entry>
+  <entry>
+    <key>FriendFriend1_Is this...?</key>
+    <value>Questo è...?</value>
+  </entry>
+  <entry>
+    <key>Friend2_...</key>
+    <value>...</value>
+  </entry>
+  <!-- Dream Friend House: Misc: End -->
+  <!-- Dream Friend House: Explain Me: Start -->
+  <entry>
+    <key>FRIEND: You are in my home star system! (A simulation of it.)</key>
+    <value>AMICO: Ti trovi nel mio sistema stellare natale! (È una simulazione del sistema, in realtà.)</value>
+  </entry>
+  <entry>
+    <key>FRIEND: I am curious: how are you here? Are you from the outside star system? Or are you from elsewhere, like us?</key>
+    <value>AMICO: Sono curioso. Come sei giunto qui? Vieni dal di fuori del sistema stellare? O da qualche altra parte, come noi?</value>
+  </entry>
+  <entry>
+    <key>FRIEND: Please make yourself at home! And stay for as long a while as you like. ...I would avoid the others, however.</key>
+    <value>AMICO: Fai come se fossi a casa tua! E stai pure quanto vuoi. ...Eviterei di incontrare gli altri, però.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: This was built for one to be a while, as we searched for a new home. However, over time, more and more of us (our elders) decayed irreversibly into this simulation.</key>
+    <value>AMICO: Questo posto è stato costruito come rifugio temporaneo, finché non avessimo trovato una nuova casa, ma nel tempo sempre più dei nostri anziani si sono deteriorati irreversibilmente all'interno della simulazione.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: There were very few of us left alive outside (mostly the youngest), when the Nomai arrived.</key>
+    <value>AMICO: Quando sono arrivati i Nomai erano rimasti vivi pochissimi di noi (soprattutto i più giovani).</value>
+  </entry>
+  <entry>
+    <key>FRIEND: After, our decayed elders suggested we silently observe the Nomai to ensure the Eye was not found.</key>
+    <value>AMICO: Subito dopo, i nostri anziani deteriorati hanno suggerito di osservare silenziosamente i Nomai per assicurarci che non trovassero l'Occhio.</value>
+  </entry>
+  <!-- Dream Friend House: Explain Me: End -->
+  <!-- Dream Friend House: Datura and Prisoner: Start -->
+  <entry>
+    <key>FRIEND: Datura did not like the sound of our Prisoner, seeing how he released the Eye’s signal despite hearing of the vision of the Eye destroying the universe.</key>
+    <value>AMICO: A Datura non piaceva il nostro Prigioniero, dato che aveva rilasciato il segnale dell'Occhio pur sapendo che poteva distruggere l'universo.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: One thing they have in common (and one I wish they did not) is becoming big fluffy bundles of anger due to the Eye.</key>
+    <value>AMICO: Una cosa che hanno in comune (e che vorrei non avessero) è che entrambi diventano due grandi batuffoli di rabbia quando si parla dell'Occhio.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: Our Prisoner believed with unbreakable confidence that the Eye was pure good. Seeing the others hide it away, he viewed them as fearful, evil, and... idiotic.</key>
+    <value>AMICO: Il nostro Prigioniero credeva fermamente che l'Occhio fosse puramente benevolo. Vedendo gli altri che lo nascondevano, li considerò pavidi, cattivi e... stupidi.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: Him and I told them we were not afraid of the Eye... But I suppose it is easy to call others afraid, and say they are not able to accept the truth, despite you not knowing everything either.</key>
+    <value>AMICO: Io e lui dicemmo agli altri che non avevamo paura dell'Occhio... Ma immagino che sia facile disprezzare gli altri, e dire che non riescono ad accettare la verità, quando anche tu stesso non sai nulla.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: Datura did not care much for the Eye. A while away from his clan built up an anger towards them - he had a big falling out with a Nomai... Yarrow, I believe.</key>
+    <value>AMICO: A Datura non interessava l'occhio. Stando lontano dal suo clan ha sviluppato rabbia nei loro confronti - ha avuto un brutto litigio con un Nomai... Yarrow, mi pare.</value>
+  </entry>
+  <!-- Dream Friend House: Datura and Prisoner: End -->
+  <!-- Dream Friend House: You and Prisoner: Start -->
+  <entry>
+    <key>FRIEND: A long while ago, the one we call our Prisoner used to be my friend.</key>
+    <value>AMICO: Molto tempo fa, colui che chiamiamo il nostro Prigioniero era mio amico.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: He would tell me how he wished to ’set the wrongs of our elders right’ by releasing the Eye’s signal... I didn’t realise he was serious!</key>
+    <value>AMICO: Mi diceva come voleva che "gli anziani capissero i loro errori" rilasciando il segnale dell'Occhio... Non pensavo fosse serio!</value>
+  </entry>
+  <entry>
+    <key>FRIEND: ...I miss him.</key>
+    <value>AMICO: ...Mi manca.</value>
+  </entry>
+  <!-- Dream Friend House: You and Prisoner: End -->
+  <!-- Dream Friend House: Explain Datura: Start -->
+  <entry>
+    <key>FRIEND: Hahaha, you explain him to me! He was a good friend to me, but not always to his clan... or to himself.</key>
+    <value>AMICO: Hahaha, spiegamelo tu! È stato un grande amico per me, ma non sempre per il suo clan... o per se stesso.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: Part of me wishes he escaped this star system, but I know... it is improbable.</key>
+    <value>AMICO: Una parte di me spera che sia riuscito a scappare da questo sistema stellare, ma lo so ... che è impossibile.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: A long while has passed since I was with him on Dark Bramble. ...However, this might seem strange: it still feels recent, somehow.</key>
+    <value>AMICO: È passato molto tempo da quando vivevo con lui su Rovo Oscuro. ...Comunque, sembrerà strano, ma mi sembra che non sia passato molto.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: Hypothesis: you can only make so many unique memories here. After a long enough while, the days and months and... thousands of years... all blend together.</key>
+    <value>AMICO: Ipotesi: Ci sono pochi ricordi unici che puoi fare in questo posto. Dopo un po', i giorni, i mesi e... le migliaia di anni... sono tutti una cosa sola.</value>
+  </entry>
+  <!-- Dream Friend House: Explain Datura: End -->
+  <!-- Dream Friend House: You and Me: Start -->
+  <entry>
+    <key>FRIEND: Hello there! You are a curious being.</key>
+    <value>AMICO: Ciao! Sei un essere curioso.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: It is nice to meet you! A long while has passed since anyone new has come here. I am glad that translator device of yours made it over!</key>
+    <value>AMICO: Sono felice di incontrarti! È passato molto tempo da quando qualcuno è venuto qui. Sono felice che quel traduttore che porti con te sia arrivato attravarso il sogno!</value>
+  </entry>
+  <entry>
+    <key>FRIEND: The simulation is strange with what it decides to bring over. Perhaps all my Nomai writing made the simulation recognise the device?</key>
+    <value>AMICO: La simulazione è molto schizzinosa con quello che decide di riprodurre. Forse tutte le mie scritture Nomai hanno fatto riconoscere quel dispositivo alla simulazione?</value>
+  </entry>
+  <!-- Dream Friend House: You and Me: End -->
+  <!-- Dream Friend House: Explain Prisoner: Start -->
+  <entry>
+    <key>FRIEND: A friend of mine let out the Eye’s signal, and was decayed and imprisoned in this simulation.</key>
+    <value>AMICO: Un mio amico ha rilasciato il segnale dell'Occhio, di conseguenza è stato imprigionato in questa simulazione e si è deteriorato.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: A long while passed and, when the Nomai arrived, all of our elders had decayed into this simulation, with just the youngest still left alive outside.</key>
+    <value>AMICO: È passato un po' di tempo e, quando sono giunti i Nomai, tutti i nostri anziani si erano deteriorati nella simulazione, con solo i più giovani rimasti in vita fuori.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: Hearing of the Nomai’s arrival, our decayed elders... burned the remaining archived codes for our Prisoner’s vault.</key>
+    <value>AMICO: Avendo sentito dell'arrivo dei Nomai, i nostri anzianin deteriorati... hanno bruciato i codici degli archivi per liberare il Prigioniero che erano rimasti.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: I planned to free him! And the others outside wanted to help! We are not all monsters, I hope you can believe. But... we discovered there was nothing we could do now.</key>
+    <value>AMICO: Volevo liberarlo! E gli altri all'esterno volevano aiutarmi! Non siamo tutti dei mostri, spero tu possa credermi. Ma... scoprimmo che non potevamo fare nulla.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: The controls raising our Prisoner’s submerged structure out of our Vessel’s water were destroyed, by one of our elders at some point.</key>
+    <value>AMICO: I controlli per far riemergere la struttura sommersa contenente il prigioniero dall'acqua del nostro Vascello erano stati distrutti da uno dei nostri anziani.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: Raising it outside also raises the simulated version of the structure, allowing access to the underground from within the simulation (and letting our Prisoner leave to join the rest of the decayed when freed).</key>
+    <value>AMICO: Farla riemergere all'esterno avrebbe fatto anche riemergere la verione simuata della struttura, permettendo l'accesso al sotterraneo dall'interno della simulazione (e permettendo che il nostro Prigioniero passasse il tempo fuori dalla prigionia con il resto dei deteriorati).</value>
+  </entry>
+  <entry>
+    <key>FRIEND: So, even if we freed him from his Vault, he would still be trapped underground. ...And so... I never saw him again.</key>
+    <value>AMICO: Quindi, anche se l'avessimo liberato, sarebbe comunque rimasto intrappolato nel sotterraneo. ...E così... non lo rividi mai più.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: I try not to think about what he has gone through. ...This is not easy for me to say, but I hope he has... I hope he is no longer alive. The alternative seems much worse.</key>
+    <value>AMICO: Provo a non pensare cos'ha passato. ... Non è facile per me dirlo, ma spero che sia... spero che non sia più in vita. L'alternativa è talmente peggiore.</value>
+  </entry>
+  <!-- Dream Friend House: Explain Prisoner: End -->
+  <!-- Dream Friend House: You and Datura: Start -->
+  <entry>
+    <key>FRIEND: ...Datura. We met for similar but opposite reasons.</key>
+    <value>AMICO: ...Datura. Ci siamo incontrati per ragioni simili ma opposte.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: After my other friend was imprisoned, I felt very burnt inside... and I ran. Fortunately, Datura was quite welcoming!</key>
+    <value>AMICO: Dopo che il mio altro amico fu imprigionato, mi sono sentito bruciato... e sono scappato. Per fortuna, Datura mi ha accolto amichevolmente!</value>
+  </entry>
+  <entry>
+    <key>FRIEND: Sometimes, I wish we had ran away. Us together into the galaxy! But... it was only a thought.</key>
+    <value>AMICO: Certe volte, mi sarebbe piaciuto se fossimo scappati. Noi due insieme in giro per la galassia! Ma... era solo un pensiero.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: Our opposing views on the Eye was surprisingly not an issue between us. (Hypothesis: Datura’s true issues were with something else?)</key>
+    <value>AMICO: Sorprendentemente le nostre diverse opinioni sull'Occhio non erano un problema tra di noi. (Ipotesi: I veri problemi di Datura erano con qualcos'altro?)</value>
+  </entry>
+  <entry>
+    <key>FRIEND: He was, however, quite disappointed to hear our Vessel was not able to travel intergalactically. (Not the escape pod he was hoping for!)</key>
+    <value>AMICO: Però, era molto deluso nel sapere che il nostro Vascello non era in grado di compiere viaggi intergalattici. (Non era la via d'uscita che sperava!)</value>
+  </entry>
+  <!-- Dream Friend House: You and Datura: End -->
+  <!-- Dream Friend House: Explain You: Start -->
+  <entry>
+    <key>FRIEND: Hello there! My name is Friend. ...That is what Datura called me before I understood his language.</key>
+    <value>AMICO: Ciao! Il mio nome è Amico. ...È ciò con cui mi ha chiamato Datura prima che io potessi capire il suo linguaggio.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: When Datura explained to me what ’friend’ meant and asked for my ’real’ name, I told him ’Friend’ was fine. My old name never fit me anyway, I felt.</key>
+    <value>AMICO: Quando Datura mi ha spiegato cosa volesse dire "amico" e mi ha chiesto qual era il mio vero nome, gli ho detto che "Amico" andava bene. Il mio vecchio nome non mi si addiceva comunque, ho pensato.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: We travelled here in search of the Eye of the universe and... I wish we never discovered it. The Eye has only burnt us...</key>
+    <value>AMICO: Abbiamo viaggiato in ricerca dell'Occhio dell'Universo e... vorrei che non l'avessimo mai trovato. L'Occhio non ha fatto altro che bruciarci...</value>
+  </entry>
+  <entry>
+    <key>FRIEND: This simulation is now our home. We are all spooky ghosts! My elders decayed willingly, but the youngest died mysteriously, and simultaneously.</key>
+    <value>AMICO: Questa simulazione è la nostra casa adesso. Siamo tutti dei marci fantasmi! Gli anziani sono deteriorati di loro spontanea volontà, ma i govani sono tutti morti nello stesso momento misteriosamente.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: I wish I could understand your language! What happened? Did something happen to the Nomai too?</key>
+    <value>AMICO: Vorrei poter capire la tua lingua! Cos'era successo? È successo qualcosa di simile anche ai Nomai?</value>
+  </entry>
+  <!-- Dream Friend House: Explain You: End -->
+  <!-- Dream Friend House: Datura and Me: Start -->
+  <entry>
+    <key>FRIEND: Have you been exploring our structures on the surface of Dark Bramble?</key>
+    <value>AMICO: Hai esplorato le nostre strutture sulla superficie di Rovo Oscuro?</value>
+  </entry>
+  <entry>
+    <key>FRIEND: Have you found Datura? Or... his body? When he wasn’t searching around inside Dark Bramble, he was usually in his Study Tower or Observatory (I helped build).</key>
+    <value>AMICO: Hai trovato Datura? O... il suo corpo? Quando non stava eslporando Rovo Oscuro di solito se ne stava sulla Torre di Studio o nell'Osservatorio (che l'ho aiutato a costruire).</value>
+  </entry>
+  <entry>
+    <key>FRIEND: Oh, it has a security measure, I remember that! An overly curious young Nomai occasionally visited him. (I wonder why Solanum never visited?)</key>
+    <value>AMICO: Oh, ha un'addizionale misura di sicurezza, me lo ricordo! Un piccolo Nomai troppo curioso veniva spesso a fargli visita. (Mi chiedo perché Solanum non sia mai venuta?)</value>
+  </entry>
+  <entry>
+    <key>FRIEND: Anyway, he used my quantum shard gift to effect the Observatory’s door, so to enter, you must not be looking at the door.</key>
+    <value>AMICO: Comunque ha usato la roccia quantica che gli ho regalato per dare proprietà quantiche alla porta dell'osservatorio, quindi per entrare devi farlo mentre non la guardi.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: The planet used to be whole! Can you imagine? On our Vessel, we did not notice it broke until a while after it had!</key>
+    <value>AMICO: Il pianeta era tutto d'un pezzo una volta! Puoi crederci? Dal nostro Vascello, non ce ne siamo accorti fino a un po' di tempo dopo che il Rovo è emerso!</value>
+  </entry>
+  <entry>
+    <key>FRIEND: Datura hypothesized the Eye’s signal bounced around in Dark Bramble before reaching the Nomai - why they warped there instead?</key>
+    <value>AMICO: Datura ha ipotizzato che il segnale dell'Occhio sia stato intrappolato per un momento all'interno dei sottospazi di Rovo Oscuro prima che raggiungesse il vascello dei Nomai - perché la curvatura li avrebbe condotti qui?</value>
+  </entry>
+  <!-- Dream Friend House: Datura and Me: End -->
+  <!-- Dream Friend House: Me and Prisoner: Start -->
+  <entry>
+    <key>FRIEND: I feel like I should be more excited - you might be able to free my friend!</key>
+    <value>AMICO: Credo che dovrei essere più eccitato - tu potresti essere in grado di liberare il mio amico!</value>
+  </entry>
+  <entry>
+    <key>FRIEND: But, in one way or another, I know he is no longer with us...</key>
+    <value>AMICO: Ma, in un modo o nell'altro, so che non è più tra noi...</value>
+  </entry>
+  <!-- Dream Friend House: Me and Prisoner: End -->
+  <!-- Projection Pool House: Solanum Stone: Start -->
+  <entry>
+    <key>SOLANUM: Dad? Where have you been? You haven’t called for so long! We were worried something happened to you.</key>
+    <value>SOLANUM: Papà? Dove sei stato? Non mi hai chiamato per così tanto! Eravamo preoccupati per te.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Sorry, Sol, I’ve been... going through... some things. So... Your pilgrimage to the Quantum Moon is soon, right?</key>
+    <value>DATURA: Scusami, Sol. Ho avuto... un po'... da fare. Quindi... Il tuo pellegrinaggio alla Luna Quantica è tra poco, vero?</value>
+  </entry>
+  <entry>
+    <key>SOLANUM: ...Yeah...</key>
+    <value>SOLANUM: ...Sì...</value>
+  </entry>
+  <entry>
+    <key>DATURA: ...Are you excited?</key>
+    <value>DATURA: ...Sei eccitata?</value>
+  </entry>
+  <entry>
+    <key>SOLANUM: Well... It’s just... ...Why are you still over there? You found the Vessel. That was your mission, wasn’t it? So, why haven’t you... come back? Do you just... do you just... hate me?</key>
+    <value>SOLANUM: Beh... È solo che... ...Perché sei ancora lì? Hai trovato il Vascello. Era quella la tua missione, no? Quindi perché non sei... tornato a casa? Forse mi... forse mi... odi?</value>
+  </entry>
+  <entry>
+    <key>DATURA: ...Darling. No, of course not. ...It’s not you... It’s... the other Nomai. We don’t really get along well and... I’m... I’m afraid of them... and the things they’ll say to (and about) me when I return.</key>
+    <value>DATURA: ...Tesoro. No, ovviamente no. ...Non sei tu... Sono... gli altri Nomai. Non andiamo proprio d'accordo e... ho... ho paura di loro... e delle cose che diranno a me (e su di me) quando torno.</value>
+  </entry>
+  <entry>
+    <key>SOLANUM: ...They’re not monsters, Dad. Are you sure it’s ’the other Nomai’ you are afraid of? Or... is it just me, Filix and Yarrow you’re worried about?</key>
+    <value>SOLANUM: ...Non sono dei mostri, Papà. Sei sicuro che siano "gli altri Nomai" di cui hai paura? O... sono solo io, Filix e Yarrow di cui ti preoccupi?</value>
+  </entry>
+  <entry>
+    <key>DATURA: ...</key>
+    <value>DATURA: ...</value>
+  </entry>
+  <entry>
+    <key>SOLANUM: Because... you have a lot more in common with the other Nomai than you think.</key>
+    <value>SOLANUM: Perché... hai molto più in comune con li altri Nomai di quanto tu creda.</value>
+  </entry>
+  <entry>
+    <key>DATURA: ...I do?</key>
+    <value>DATURA: ...Davvero?</value>
+  </entry>
+  <entry>
+    <key>SOLANUM: Time has caused many Nomai’s passion for the Eye search to deteriorate. Most of us wish to leave now, same as you.</key>
+    <value>SOLANUM: Il tempo ha fatto sì che la passione di molti Nomai per l'Occhio si sia affievolita. La maggior parte di noi se ne vogliono andare adesso, come te.</value>
+  </entry>
+  <entry>
+    <key>DATURA: ...Wait, really?</key>
+    <value>DATURA: ...Aspetta, davvero?</value>
+  </entry>
+  <entry>
+    <key>SOLANUM: Yes! So, please, Dad. Leave that place. There is going to be a vote soon to decide if we should continue to pursue the Eye, or instead find a way out of this star system.</key>
+    <value>SOLANUM: Sì! Quindi, per favore, Papà. Lascia quel posto. Presto ci sarà una votazione per decidere se dobbiamo continuare a cercare l'Occhio oppure se dobbiamo concentrarci sul trovare una via di fuga da questo sistema stellare.</value>
+  </entry>
+  <entry>
+    <key>SOLANUM: The <![CDATA[<color=orange>Sun Station</color>]]> and ’Time Loop’ plan has divided this clan, and it’s failure has demotivated it. Hypothesis: we will leave this star system soon.</key>
+    <value>SOLANUM: La <![CDATA[<color=orange>Stazione Solare</color>]]> e l'"Anello Temporale" hanno diviso il clan, e il suo fallimento ci ha demotivato. Ipotesi: presto ce ne andremo da questo sistema stellare.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Wow. So when’s this happening? I’ve just got one little thing to finish up here, and then I’ll be there.</key>
+    <value>DATURA: Wow. Quindi, quando? Devo giusto finire una cosa veloce qui, e arrivo subito.</value>
+  </entry>
+  <entry>
+    <key>SOLANUM: Ah, it’s... soon after my pilgrimage to the Quantum Moon, actually.</key>
+    <value>SOLANUM: Ah, è... poco dopo il mio pellegrinaggio alla Luna Quantica, in realtà.</value>
+  </entry>
+  <entry>
+    <key>DATURA: I see. Well, suppose I’ll be waiting for you at the <![CDATA[<color=lightblue>Gravity Cannon</color>]]> when you return, then? You can tell me all about your Quantum Moon trip!</key>
+    <value>DATURA: Capisco. Beh, immagino che ti aspetterò al <![CDATA[<color=lightblue>Cannone Gravitazionale</color>]]> quando torni? Potrai raccontarmi tutto del tuo viaggio sulla Luna Quantica!</value>
+  </entry>
+  <entry>
+    <key>SOLANUM: Uh... Sounds good! Though, I thought you wouldn’t care about the Quantum Moon.</key>
+    <value>SOLANUM: Uhh... Certo! Ma pensavo non ti interessasse la Luna Quantica.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Eh. My problem is with the Eye. The Quantum Moon is alright in my book.</key>
+    <value>DATURA: Eh. Il problema che ho è con l'Occhio. Non ho niente contro la Luna Quantica.</value>
+  </entry>
+  <entry>
+    <key>SOLANUM: I see. I’ll spare you no details! Well, see you then, <![CDATA[<color=lightblue>Dad-tura</color>]]>! Say hi to your imaginary friend for me!</key>
+    <value>SOLANUM:  Ho capito! Non risparmierò sui dettagli. Beh, ci vediamo lì, <![CDATA[<color=lightblue>Papà-tura</color>]]>! Salutami il tuo amico immaginario!</value>
+  </entry>
+  <entry>
+    <key>DATURA: See you- Friend is their name and they’re not imaginary! ...See you then, darling. Love you!</key>
+    <value>DATURA: Ci vediamo- Amico è il suo nome e non è immaginario! ...Ci vediamo lì, tesoro. Ti voglio bene!</value>
+  </entry>
+  <entry>
+    <key>SOLANUM: ...Love you too, Dad.</key>
+    <value>SOLANUM: ...Ti voglio bene anch'io, Papà.</value>
+  </entry>
+  <!-- Projection Pool House: Solanum Stone: End -->
+  <!-- Projection Pool House: Ash Projection Stone: Start -->
+  <entry>
+    <key><![CDATA[<color=red>ERROR:</color>]]> This stone has been damaged! Some text has been corrupted.</key>
+    <value><![CDATA[<color=red>ERRORE:</color>]]> Questa pietra è stata danneggiata! Parti di testo sono state corrotte.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Hello? Yarrow! #####</key>
+    <value>DATURA: Pronto? Yarrow! #####</value>
+  </entry>
+  <entry>
+    <key>DATURA: Hello? Yarrow! There’s-</key>
+    <value>DATURA: Pronto? Yarrow ! C'è una-</value>
+  </entry>
+  <entry>
+    <key>YARROW: Oh... #####. Hypothesis: Our failure with the Sun Station ##### you here to ridicule me.</key>
+    <value>YARROW: Oh... #####. Ipotesi: Il nostro fallimento con la Stazione Solare ti ha portato qui ##### rendermi ridicolo.</value>
+  </entry>
+  <entry>
+    <key>YARROW: Oh... hello. Hypothesis: Our failure with the Sun Station brought you here to ridicule me.</key>
+    <value>YARROW: Oh... ciao. Ipotesi: Il nostro fallimento con la Stazione Solare ti ha portato qui solo a rendermi ridicolo.</value>
+  </entry>
+  <entry>
+    <key>&lt;color=brown&gt;SPIRE&lt;/color&gt;: Uh... Hypothesis: ##### would be beneficial to you both if neither of you called each other anymore.</key>
+    <value>&lt;color=brown&gt;SPIRE&lt;/color&gt;: Uh... Ipotesi: ##### una buona idea se vui due non vi chiamaste più.</value>
+  </entry>
+  <entry>
+    <key>&lt;color=brown&gt;SPIRE&lt;/color&gt;: Uh... Hypothesis: it would be beneficial to you both if neither of you called each other anymore.</key>
+    <value>&lt;color=brown&gt;SPIRE&lt;/color&gt;: Uh... Ipotesi: Sarebbe una buona idea se vui due non vi chiamaste più.</value>
+  </entry>
+  <entry>
+    <key>DATURA: #####... Yarrow, are you alright? Yarrow? ##### wait!</key>
+    <value>DATURA: #####... Yarrow, Stai bene? Yarrow? ##### aspetta!</value>
+  </entry>
+  <entry>
+    <key>DATURA: I... Yarrow, are you alright? Yarrow? Hey, wait!</key>
+    <value>DATURA: Io... Yarrow, Stai bene? Yarrow? Ehi, aspetta!</value>
+  </entry>
+  <entry>
+    <key>&lt;color=brown&gt;SPIRE&lt;/color&gt;: Oh, see you later, Yarrow! ##### worry, we’ll figure it out! I believe in us! ...So, Datura, what ##### intent of your call?</key>
+    <value>&lt;color=brown&gt;SPIRE&lt;/color&gt;: Oh, ci vediamo dopo, Yarrow! ##### preoccuparti, ce la caveremo! Credo in noi! ...Allora Datura, per ##### motivo hai chiamato?</value>
+  </entry>
+  <entry>
+    <key>&lt;color=brown&gt;SPIRE&lt;/color&gt;: Oh, see you later, Yarrow! Don’t worry, we’ll figure it out! I believe in us! ...So, Datura, what is the true intent of your call?</key>
+    <value>&lt;color=brown&gt;SPIRE&lt;/color&gt;: Oh, ci vediamo dopo, Yarrow! Non preoccuparti, ce la caveremo! Credo in noi! ...Allora Datura, per quale motivo motivo hai chiamato?</value>
+  </entry>
+  <entry>
+    <key>DATURA: Uh, th-there’s #####! And it’s #####-!</key>
+    <value>DATURA: Uh, c'è una #####! Ed è #####-!</value>
+  </entry>
+  <entry>
+    <key>DATURA: Uh, th-there’s a comet coming! And it’s filled with-!</key>
+    <value>DATURA: Uh, c'è una cometa in arrivo! Ed è piena di-!</value>
+  </entry>
+  <entry>
+    <key>&lt;color=brown&gt;SPIRE&lt;/color&gt;: Oh, you observed ##### too? You and me both! We’ve actually already ##### ##### check #####. ##### thanks anyway, Datura.</key>
+    <value>&lt;color=brown&gt;SPIRE&lt;/color&gt;: Oh, anche tu hai osservato la #####? Anche io! Infatti, abbiamo già ##### ##### controllare #####. ##### grazie comunque, Datura.</value>
+  </entry>
+  <entry>
+    <key>&lt;color=brown&gt;SPIRE&lt;/color&gt;: Oh, you observed the comet too? You and me both! We’ve actually already sent a shuttle to go check it out. But thanks anyway, Datura.</key>
+    <value>&lt;color=brown&gt;SPIRE&lt;/color&gt;: Oh, anche tu hai osservato la #####? Anche io! Infatti, abbiamo già inviato una nave per controllare cosa sia. Ma grazie comunque, Datura.</value>
+  </entry>
+  <entry>
+    <key>&lt;color=brown&gt;SPIRE&lt;/color&gt;: Well, ##### gonna catch up to Yarrow to see if he’s alright. #####! Don’t be a stranger, now!</key>
+    <value>&lt;color=brown&gt;SPIRE&lt;/color&gt;: Beh, ##### un attimo da Yarrow per vedere come sta. #####! Non fare lo straniero, adesso!</value>
+  </entry>
+  <entry>
+    <key>&lt;color=brown&gt;SPIRE&lt;/color&gt;: Well, I’m gonna catch up to Yarrow to see if he’s alright. See ya around! Don’t be a stranger, now!</key>
+    <value>&lt;color=brown&gt;SPIRE&lt;/color&gt;: Beh, vado un attimo da Yarrow per vedere come sta. Ci si vede! Non fare lo straniero, adesso!</value>
+  </entry>
+  <!-- Projection Pool House: Ash Projection Stone: End -->
+  <!-- Projection Pool House: Bells Stone: Start -->
+  <entry>
+    <key>DATURA: BELLS!</key>
+    <value>DATURA: BELLS!</value>
+  </entry>
+  <entry>
+    <key>BELLS: Oh! Yes? What is it?</key>
+    <value>BELLS: Oh! Sì? Cosa c'è?</value>
+  </entry>
+  <entry>
+    <key>DATURA: Wait, let me just... Uh, can I be picked up and brought to Brittle Hollow, like, now... ish?</key>
+    <value>DATURA: Aspetta, fammi solo... Uh... Posso venire teletrasportato su Vuoto Fragile, tipo, adesso?</value>
+  </entry>
+  <entry>
+    <key>BELLS: Now? Uh, bad timing for that, I’m afraid. Pye and her pals are off in the Ember Twin shuttle and, uh, your daughter recently went on her quantum pilgrimage.</key>
+    <value>BELLS: Adesso? Uh, ho paura che non sia un buon momento. Pye e i suoi amici sono sulla nave per Gemello Braci, e uh, tua figlia è da poco partita per il suo pellegrinaggio alla Luna Quantica.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Already?! But... we planned for us to meet at the Gravity Cannon when she returned...</key>
+    <value>DATURA: DI già?! Ma... avevamo in programma di vederci al Cannone Gravitazionale quando fosse tornata...</value>
+  </entry>
+  <entry>
+    <key>BELLS: Aww. Well, she did seem very eager to go as soon as possible; she even attempted to leave before she had visited the Tower of Quantum Knowledge! Perhaps she was eager to reunite?</key>
+    <value>BELLS: Aww. Beh, sembrava che non vedesse l'ora di partire; ha addirittura provato a imbarcarsi senza avere vistitato la Torre della Conoscena Quantica! Forse non vedeva l'ora di rivederti?</value>
+  </entry>
+  <entry>
+    <key>BELLS: Hey, if you want, I can relay a message for you when she arrives at the north pole. First-timers are supposed to call me before going to the sixth location; once they go, we lose communications.</key>
+    <value>BELLS: Ehi, se vuoi posso passarle un tuo messaggio quando arriva al polo nord. Quelli che ci arrivano per la prima volta devono chiamarmi prima di andare al Sesto Luogo: quando ci vanno, perdiamo il segnale.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Oh, yes please. Uh... Tell her I hope she has fun, and that I love her, and that she... uh... should really take her time at the sixth location to take it all in... Perhaps mention the shuttle situation, so she knows there’s no need to rush.</key>
+    <value>DATURA: Oh, sì grazie. Uh... Dille che spero che si diverta, e che le voglio bene, e che dovrebbe... uh... prendersi il suo tempo al Sesto Luogo per vedere tutto... Forse menziona la situazione della nave, così sa che non deve avere fretta.</value>
+  </entry>
+  <entry>
+    <key>BELLS: Alright.</key>
+    <value>BELLS: Va bene.</value>
+  </entry>
+  <entry>
+    <key>DATURA: ...And uh, afterwards, how quickly can you get a message to Filix?</key>
+    <value>DATURA: ...E uh, dopo, quanto veloce riesci a far arrivare un messaggio a Filix?</value>
+  </entry>
+  <entry>
+    <key>BELLS: Hmmm, she’s teaching at the Brittle Hollow school, yes? So: reasonably quickly. What’s your message?</key>
+    <value>BELLS: Hmmm, sta insegnando alla scuola di Vuoto Fragile, giusto? Quindi, abbastanza in fretta. Qual è il messaggio?</value>
+  </entry>
+  <entry>
+    <key>DATURA: Just tell her... I’m sorry... for... everything. And... we’ll be together again soon.</key>
+    <value>DATURA: Dille che... mi dispiace... per... tutto. E che torneremo insieme molto presto.</value>
+  </entry>
+  <entry>
+    <key>BELLS: Okay, will do. ...Any other messages, Datura?</key>
+    <value>BELLS: Okay, sarà fatto. Qualche altro messaggio, Datura?</value>
+  </entry>
+  <entry>
+    <key>DATURA: Haha, uh, no. That’s all. ...Thanks, Bells.</key>
+    <value>DATURA: Ahah, uh, no. È tutto. ...Grazie, Bells.</value>
+  </entry>
+  <!-- Projection Pool House: Bells Stone: End -->
+  <!-- Northern Observatory: Outside: Start -->
+  <entry>
+    <key>DATURA: Lami! If you’re reading this, then I assume you and your friends have returned to come snooping once again.</key>
+    <value>DATURA: Lami! Se stai leggendo questo messaggio, immagino che tu e i tuoi amici siate tornati qui a curiosare.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Sorry, but you’re out of luck! I now have TWO security measures to prevent you teens from getting in here!</key>
+    <value>DATURA: Scusa, ma la tua fortuna è finita! Adesso ho DUE misure di sicurezza per impedire a voi ragazzini di entrare qui dentro!</value>
+  </entry>
+  <entry>
+    <key>DATURA: I know we encourage ’being curious’ and all, but this is not acceptable behaviour! So... Ahaha, I’ve always wanted to say this: Get off my lawn!</key>
+    <value>DATURA: So che incoraggiamo l'"essere curiosi" e tutto, ma questo comportamento non è accettabile! Quindi... Ahahah, ho sempre voluto dirlo. Via dal mio giardino!</value>
+  </entry>
+  <!-- Northern Observatory: Outside: End -->
+  <!-- Northern Observatory: Computer: Start -->
+  <entry>
+    <key><![CDATA[<color=orange>DETECTED SPACECRAFT:</color>]]>\\nNomai Shuttle <![CDATA[<color=red>(Destroyed)</color>]]>\\nFriend’s Ship <![CDATA[<color=red>(Destroyed)</color>]]></key>
+    <value><![CDATA[<color=orange>NAVE RILEVATA:</color>]]>\\nNave Nomai <![CDATA[<color=red>(Distrutta)</color>]]>\\nVascello di Amico <![CDATA[<color=red>(Distrutto)</color>]]></value>
+  </entry>
+  <entry>
+    <key><![CDATA[<color=orange>SPACECRAFT COUNT:</color>]]> 2\\nDoor is unlocked.</key>
+    <value><![CDATA[<color=orange>NUMERO DI NAVI:</color>]]> 2\\nLa porta è aperta.</value>
+  </entry>
+  <!-- Northern Observatory: Computer: End -->
+  <!-- Northern Observatory: Collector: Start -->
+  <entry>
+    <key>FRIEND: Is this your newest painting? Pretty! This is <![CDATA[<color=lightblue>The Collector</color>]]>, is it not?</key>
+    <value>AMICO: Questo è il tuo nuovo dipinto? Carino! È <![CDATA[<color=lightblue>Il Collezionista</color>]]>, vero? </value>
+  </entry>
+  <entry>
+    <key>DATURA: Yes, indeed it is! I was hoping you would recognise it.</key>
+    <value>DATURA: Sì, è lui! Speravo tu lo riconoscessi.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: How do you know of it? That is quite curious!</key>
+    <value>AMICO: Come fai a conoscerlo? Questo è alquanto curioso!</value>
+  </entry>
+  <entry>
+    <key>DATURA: Well, it was big intergalactic news. Bramble planets (like this one) are somewhat known, but this was a mysterious threat magnitudes larger, that many desired to know the cause of, to prevent potential future tragedies.</key>
+    <value>DATURA: Beh, è stata una grande notizia intergalattica. I pianeti a rovo (come questo) sono conosciuti, ma questo è una minaccia di magnitudine molto più grande. Molti vogliono sapere cosa l'ha causato, per prevenire future tragedie.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: I see. Was it ever discovered where <![CDATA[<color=lightblue>The Collector</color>]]> came from or how it formed, then?</key>
+    <value>AMICO: Capisco. Allora è mai stato scoperto da dove si è originato <![CDATA[<color=lightblue>Il Collezionista</color>]]>, o come si è formato? </value>
+  </entry>
+  <entry>
+    <key>DATURA: Not that I’m aware of, I’m afraid. But... I was wanting to ask you: What was it like, from your perspective? When the <![CDATA[<color=lightblue>The Collector</color>]]> arrived?</key>
+    <value>DATURA: Non che io sia a conoscenza. Ma... volevo chiedertelo: com'è stato, dalla tua prospettiva? Quando è arrivato <![CDATA[<color=lightblue>Il Collezionista</color>]]>?</value>
+  </entry>
+  <entry>
+    <key>FRIEND: Well, I was a young child. I noticed strange feelings spreading in the faces of my elders, as if they had knowledge they wished to hide from me and the others!</key>
+    <value>AMICO: Beh, ero un bambino. Ho notato che gli anziani erano preoccupati, come se avessero della conoscenza che volevano nascondere da me e gli altri! </value>
+  </entry>
+  <entry>
+    <key>DATURA: Some things never change, I suppose. Uh, sorry, please continue.</key>
+    <value>DATURA: Certe cose non cambiano mai, immagino. Uh, scusa. Continua, per favore.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: Hahaha. So, my other friend got his parent to explain: There was a planet on the other side of the galaxy! A bad planet.</key>
+    <value>AMICO: Ahahah. Quindi un mio amico ha fatto confessare i suoi genitori: c'era un pianeta dalla parte opposta della galassia! Un pianeta cattivo.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: It had began... evaporating and... moving towards us, releasing a deadly substance into this galaxy (like a toxic gas!) as it drifted through it.</key>
+    <value>AMICO: Aveva cominciato a... evaporare e... a muoversi verso di noi, rilasciando una sostanza mortale nella galassia (come un gas tossico!) mentre si muoveva.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: At the time, my species was pre-interstellar, and, unable to combat this threat, sent out a distress signal, with fragmented hope that someone out there could help!</key>
+    <value>AMICO: Al tempo la mia specie non era capace di viaggi interstellari, e, non essendo in grado di combattere quella minaccia, programmò un segnale di emergenza sperando che qualcuno potesse aiutarli!</value>
+  </entry>
+  <entry>
+    <key>FRIEND: But the planet drew nearer! And threatened to destroy us, and all life in this galaxy.</key>
+    <value>AMICO: Ma il pianeta si avvicinava sempre di più! E minacciava di distruggerci, noi e tutta la vita in questa galassia.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Ah, and then, their distress signal was heard by (who else but) a wandering Nomai Vessel, correct?</key>
+    <value>DATURA: Ah, e poi il loro segnale di emergenza è stato sentito da un Vascello Nomai di passaggio (e chi altri), vero?</value>
+  </entry>
+  <entry>
+    <key>FRIEND: What? I did not know that!</key>
+    <value>AMICO: Cosa? Non lo sapevo!</value>
+  </entry>
+  <entry>
+    <key>DATURA: Ha, that’s likely because, <![CDATA[<i>]]>unlike my clan<![CDATA[</i>]]>, this clan actually sent out a message inviting others to come and help, before warping over alongside them.</key>
+    <value>DATURA: Ha, probabilmente è perché, <![CDATA[<i>]]>al contrario del mio clan<![CDATA[</i>]]>, quello che vi ha aiutato ha lanciato un segnale di emergenza invitando altri popoli ad aiutarli, prima di eseguire la curvatura con il tuo.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: I see. Anyway, after we were gotten to safety, the substance was discovered to expand when hot, but tightly compact in cold conditions! And was effectively neutralized by water.</key>
+    <value>AMICO: Capisco. In ogni caso, una volta che fummo in salvo, scoprimmo che la sostanza si espandeva se riscaldata, ma si contraeva molto in condizioni di temperatura fredde. E veniva completamente neutralizzata dall'acqua.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: Then, we waited and watched as several interstellar species, working together, kindly contained <![CDATA[<color=lightblue>The Collector</color>]]> by collecting the strange matter into various water worlds and comets.</key>
+    <value>AMICO: Poi, abbiamo aspettato mentre numerose specie interstellari, lavorando insieme, hanno contenuto <![CDATA[<color=lightblue>Il Collezionista</color>]]> immettendo la strana sostanza in vari mondi acquatici e comete.</value>
+  </entry>
+  <entry>
+    <key>FRIEND: Then everyone, including us, all went home. Not a long while after, the Eye started sending out it’s signal. I wonder if it saw-</key>
+    <value>AMICO: Poi tutti, inclusi noi, siamo tornati a casa. Non troppo tempo dopo, l'Occhio ha cominciato a emettere il suo segnale. Mi chiedo se avesse visto-</value>
+  </entry>
+  <!-- Northern Observatory: Collector: End -->
+  <!-- Northern Observatory: Find: Start -->
+  <entry>
+    <key>DATURA: Okay! Had a call with Solanum. Hope she and Filix are doing alright... So... let’s take a look through this telescope, and see what... this thing... is.</key>
+    <value>DATURA: Okay! Ho appena chiamato Solanum. Spero che lei e Filix stiano bene... Allora... diamo un'occhiata allo spazio con questo telescopio, e vediamo... cos'è... questa cosa.</value>
+  </entry>
+  <entry>
+    <key>DATURA: ...Ha... Glad I have that recording. It’s nice to hear Friend’s voice again.</key>
+    <value>DATURA: ...Ha... Meno male che ho quella registrazione. È bello sentire ancora la voce di Amico.</value>
+  </entry>
+  <entry>
+    <key>DATURA: I remember thinking it was odd that once <![CDATA[<color=lightblue>The Collector</color>]]> was defeated, Friend’s elders decided to return home to their moon instead of leaving with the others.</key>
+    <value>DATURA: Mi ricordo di aver pensato che una volta che <![CDATA[<color=lightblue>Il Collezionista</color>]]> fosse stato sconfitto, gli anziani di Amico avrebbero deciso di tornare a casa sulla loro luna al posto di andarsene con gli altri.</value>
+  </entry>
+  <entry>
+    <key>DATURA: I think they were given (if they ever did wish to leave) schematics on how to build various kinds of spacecraft and machines, as is customary when encountering a pre-interstellar species.</key>
+    <value>DATURA: Penso che avessero dato loro (se avessero mai voluto andarsene) delle schematiche su come costruire vari tipi di navi spaziali, com'è consono quando si incontra una specie incapace di eseguire viaggi interstellari.</value>
+  </entry>
+  <entry>
+    <key>DATURA: ...However, I don’t know if launching civilizations several centuries worth of technological innovation forward (before they are ready for it) is a good idea.</key>
+    <value>DATURA: ...Comunque, non so se far progredire una civiltà di numerosi secoli di innovazione tecnologica tutti insieme (se non è pronta) sia una buona idea.</value>
+  </entry>
+  <entry>
+    <key>DATURA: The temptation to let the technology consume everything - your world and yourself - is just too great.</key>
+    <value>DATURA: La tentazione di lasciare che la tecnologia consumi tutto - te e il tuo mondo - è troppo grande.</value>
+  </entry>
+  <entry>
+    <key>DATURA: ...Friend’s elders learned this the hard way... it would seem.</key>
+    <value>DATURA: ...Gli anziani di Amico l'hanno imparato con le cattive... o così sembra.</value>
+  </entry>
+  <entry>
+    <key>DATURA: ...Ah! There it is! Now, to take a picture...</key>
+    <value>DATURA: ...Ah! Eccolo lì. Adesso, per fare una fotografia...</value>
+  </entry>
+  <entry>
+    <key>DATURA: ...Oh no.</key>
+    <value>DATURA: ...Oh no.</value>
+  </entry>
+  <!-- Northern Observatory: Find: End -->
+  <!-- Northern Observatory: After Find: Start -->
+  <entry>
+    <key>DATURA: Oh no. No no no no. Please no.</key>
+    <value>DATURA: Oh no. Oh no no NO NO. Ti prego NO.</value>
+  </entry>
+  <entry>
+    <key>DATURA: It can’t be...</key>
+    <value>DATURA: Non è possibile...</value>
+  </entry>
+  <entry>
+    <key>DATURA: Okay, okay... I’m freaking out! When this thing gets too close to the Sun...</key>
+    <value>DATURA: D'accordo, d'accordo... Sono nel panico. Quando questa roba arriva troppo vicino al Sole...</value>
+  </entry>
+  <entry>
+    <key>DATURA: I... I have to warn the others immediately! To... To the Projection Pool!</key>
+    <value>DATURA: I-... Io devo avvisare gli altri immediatamente! Alla Pozza di Proiezione!</value>
+  </entry>
+  <!-- Northern Observatory: After Find: End -->
+  <!-- Northern Observatory: At PPH: Start -->
+  <entry>
+    <key>DATURA: Okay... I’m recording this at my Projection Pool now. I tried to warn the others of the comet, but... they already knew about it.</key>
+    <value>DATURA: Okay... Sto registrando questo messaggio alla Pozza di Proiezione. Ho provato ad avvisare gli altri della cometa, ma... lo sapevano già.</value>
+  </entry>
+  <entry>
+    <key>DATURA: And... I knew Yarrow and I didn’t have the best relationship... but I suppose I didn’t realise how badly I’ve messed it up between us... He... didn’t even look at me in the eyes.</key>
+    <value>DATURA: E... Sapevo che io e Yarrow non avevamo una grande relazione... ma non avevo realizzato quanto fossimo messi male... Lui... non mi ha neanche guardato negli occhi.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Would it... even have changed anything, if I was able to warn them properly? Or would it have only caused panic and distress in their final moments? Maybe it’s for the best I wasn’t able, then.</key>
+    <value>DATURA: Sarebbe... cambiato qualcosa, se fossi stato in grado di avvisarli come si deve? O avrebbe solo causato panico e paura nei loro ultimi momenti? Forse è meglio che io non ne sia stato in grado, allora.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Oh... I can just about see it. The comet... ...We’re all about to die...</key>
+    <value>DATURA: Oh... Riesco a vederlo. La cometa... ...stiamo tutti per morire...</value>
+  </entry>
+  <entry>
+    <key>DATURA: I promised Filix I would see her again...</key>
+    <value>DATURA: Ho promesso a Filix che l'avrei rivista...</value>
+  </entry>
+  <entry>
+    <key>DATURA: ...I missed Solanum growing up. ...And for what? When I got to the Vessel, it was wounded, perhaps not beyond repair but...</key>
+    <value>DATURA: ...Mi sono perso Solanum che cresceva. ...E per cosa? Quando sono giunto al Vascello era ferito, forse non oltre ogni speranza di cura, ma...</value>
+  </entry>
+  <entry>
+    <key>DATURA: ...</key>
+    <value>DATURA: ...</value>
+  </entry>
+  <entry>
+    <key>DATURA: ...wait. Hold on!</key>
+    <value>DATURA: ...aspetta. Aspetta un attimo!</value>
+  </entry>
+  <entry>
+    <key>DATURA: Maybe... Brittle Hollow projection stone... C’mon... Please be there...</key>
+    <value>DATURA: Forse... Pietra Proiezione di Vuoto Fragile... Andiamo... Ti prego, sii lì...</value>
+  </entry>
+  <entry> <!-- here two line is the same as in PPH Bells stone -->
+    <key>DATURA: Wait, let me just... Uh, can I be picked up and-</key>
+    <value>DATURA: Aspetta, fammi solo... Uh... Posso venire teletrasportato su-</value>
+  </entry>
+  <!-- Northern Observatory: At PPH: End -->
+  <!-- Northern Observatory: On Body: Start -->
+  <entry>
+    <key>DATURA: Okay... I’m back at the Observatory now.</key>
+    <value>DATURA: Okay... Sono tornato all'Osservatorio.</value>
+  </entry>
+  <entry>
+    <key>DATURA: The comet... is here. I tried to get off this planet, to at least be with my family... but the shuttles were already both in use.</key>
+    <value>DATURA: La cometa... è qui. Ho provato ad andarmene da questo pianeta, vorrei almeno stare con la mia famiglia... ma entrambe le navi sono già in uso.</value>
+  </entry>
+  <entry>
+    <key>DATURA: I still can’t see the Quantum Moon... Solanum must still be waiting at the sixth location, like I asked Bells to ask her to do. ...That’s... good.</key>
+    <value>DATURA: Non riesco ancora a vedere la Luna Quantica... Solanum deve ancora trovarsi al Sesto Luogo, esattamente come ho chiesto a Bells di dirle di fare. ...Meno... male.</value>
+  </entry>
+  <entry>
+    <key>DATURA: At least... At least someone will... ...oh... no... no!</key>
+    <value>DATURA: Almeno... Almeno qualcuno riuscirà a... ...oh... no... NO!</value>
+  </entry>
+  <entry>
+    <key>DATURA: Did I... Did I do the wrong thing?</key>
+    <value>DATURA: Ho... Ho fatto la cosa sbagliata?</value>
+  </entry>
+  <entry>
+    <key>DATURA: We are all going to die... but Solanum...</key>
+    <value>DATURA: Noi moriremo tutti... ma Solanum...</value>
+  </entry>
+  <entry>
+    <key>DATURA: When she comes back from the Quantum Moon... everyone will be dead! ...She’ll be all alone...</key>
+    <value>DATURA: Quando tornerà indietro dalla Luna Quantica... saranno tutti morti! ...Sarà da sola per sempre...</value>
+  </entry>
+  <entry>
+    <key>DATURA: This... This isn’t what I wanted! I just... I just wanted to save her. ...To save... someone!</key>
+    <value>DATURA: Questo... Questo non è quello che volevo! Volevo solo... Volevo solo salvarla. ...Salvare... qualcuno!</value>
+  </entry>
+  <entry>
+    <key>DATURA: ...Why can’t I do anything right?! I broke my promise with Filix; I messed it up with Friend; and maybe, if I had just gotten along with Yarrow, it might not have all ended like this...</key>
+    <value>DATURA: ...Perché non faccio mai niente di buono?! Ho infranto la mia promessa con Filix; Ho fatto un casino con Amico; e forse, se solo fossi andato d'accordo con Yarrow, non sarebbe finito tutto in questo modo...</value>
+  </entry>
+  <entry>
+    <key>DATURA: And, now... Solanum... I’ve failed you... I’ve failed... everyone.</key>
+    <value>DATURA: E adesso... Solanum... Ti ho deluso... Ho deluso... tutti.</value>
+  </entry>
+  <entry>
+    <key>DATURA: Solanum... If there’s a chance you are reading this: get the Warp Core from Ash Twin, go to the Vessel and leave this place!</key>
+    <value>DATURA: Solanum... Se per caso stai leggendo questo messaggio: prendi il Nucleo di Curvatura Avanzato dal nucleo di Gemello Cenere, raggiungi il Vascello e lascia questo posto!</value>
+  </entry>
+  <entry>
+    <key>DATURA: ...I’m sorry! I never wanted to leave you alone like this!</key>
+    <value>DATURA: ...Mi dispiace! Non ho mai voluto lasciarti in questo modo!</value>
+  </entry>
+  <entry>
+    <key>DATURA: I... never wanted to leave you alone.</key>
+    <value>DATURA: Io... non ho mai voluto lasciarti sola.</value>
+  </entry>
+  <entry>
+    <key>DATURA: ...I wish I had stayed. I wish I didn’t... waste all this time...</key>
+    <value>DATURA: ...Vorrei esserti rimasto accanto. Vorrei non aver sprecato... tutto questo tempo...</value>
+  </entry>
+  <entry>
+    <key>DATURA: I... just wanted to do the right thing. ...I didn’t intend to... intend...</key>
+    <value>DATURA: Io... volevo solo fare la cosa giusta. ...Non avevo intenzione di... di...</value>
+  </entry>
+  <entry>
+    <key>DATURA: ...That’s... not enough, is it? ...As I once said: Good intentions aren’t good enough...</key>
+    <value>DATURA: ...Non... è abbastanza, vero? ...Come io stesso ho detto una volta: le buone intenzioni non sono abbastanza...</value>
+  </entry>
+  <entry>
+    <key>DATURA: I’m sorry, everyone. For letting you all down...</key>
+    <value>DATURA: Mi dispiace. Per avervi deluso tutti...</value>
+  </entry>
+  <entry>
+    <key>DATURA: I’m sorry... I wasn’t... ...better...</key>
+    <value>DATURA: Mi dispiace... per non essere stato... ...migliore...</value>
+  </entry> <!-- same as in Friend but... -->
+  <!-- Northern Observatory: On Body: End -->
+  <table_shipLog>
+    <key>Eye of the Universe</key>
+    <value>Occhio dell'Universo</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Green Fire</key>
+    <value>Fuoco Verde</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Cliffside Home</key>
+    <value>Casa Sul Precipizio</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Observatory</key>
+    <value>Osservatorio</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Northern Observatory</key>
+    <value>Osservatorio a Nord</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Study Tower</key>
+    <value>Torre di Studio</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Top of the Tower</key>
+    <value>In Cima della Torre</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>South Pole Settlement</key>
+    <value>Accampamento al Polo Sud</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>South Pole Shelter</key>
+    <value>Rifugio al Polo Sud</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Bramble Village</key>
+    <value>Villaggio del Rovo</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Painting</key>
+    <value>Dipinto</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Secret Room</key>
+    <value>Stanza Segreta</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Hidden Path</key>
+    <value>Corridoio Segreto</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Secluded Structure</key>
+    <value>Struttura Isolata</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Sealed Entrance</key>
+    <value>Entrata Sigillata</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Inside the Structure</key>
+    <value>All'interno della Struttura</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Shuttle</key>
+    <value>Nave</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Shuttle Crusher</key>
+    <value>Distruggi-Navi</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Projection Pool</key>
+    <value>Pozza di Proiezione</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Missing Projection Pool</key>
+    <value>Pozza di Proiezione mancante</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Projection Pool House</key>
+    <value>Stanza della Pozza di Proiezione</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Anglerfish Hunting</key>
+    <value>A Caccia di Rane Pescatrici</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Hunting Blind</key>
+    <value>Vicolo Cieco di Caccia delle Rane Pescatrici</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>The Collector</key>
+    <value>Il Collezionista</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>The Collector Mural</key>
+    <value>Murale del Collezionista</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Campsite</key>
+    <value>Accampamento</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Initial Campsite</key>
+    <value>Accampamento Iniziale</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Other Side of the Seed</key>
+    <value>L'Altro Lato del Seme</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Bramble Power Station</key>
+    <value>Centrale Elettrica del Rovo</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Bramble Power StationI fired a scout through a bramble seed and it exited out of another somewhere.</key>
+    <value>Ho lanciato lo Scout attraverso un Seme del Rovo ed è uscito da un'altra parte.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Bramble Power StationA power station that uses Bramble Seeds to connect all locations on Dark Bramble to a power source.</key>
+    <value>Una centrale elettrica che usa i Semi del Rovo per collegare tutti i luoghi di interesse di Rovo Oscuso alla corrente elettrica.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Bramble Power StationAccording to a Nomai computer, the ’Gravity Stability System’ has been disabled by a recent Coronal Mass Ejection from the sun that hit Dark Bramble.</key>
+    <value>Secondo un computer Nomai, il "Sistema di Stabilizzazione Gravitazionale" è stato disabilitato da una recente Espulsione di Massa Coronale dal Sole che ha colpito Rovo Oscuro.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Bramble Power StationI used a switch to turn off power to one of the locations.</key>
+    <value>Ho usato un interruttore per disattivare l'approvvigionamento di corrente elettrica a uno dei luoghi.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Bramble Power StationI fired a scout through a bramble seed and it exited out of another on Dark Bramble.</key>
+    <value>Ho lanciato lo Scout attraverso un Seme del Rovo ed è uscito da un'altra parte sulla superficie di Rovo Oscuro.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Initial CampsiteA campsite next to the Shuttle Crusher that I didn’t explore.</key>
+    <value>Un accampamento vicino al Distruggi-Navi che non ho esplorato.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Initial CampsiteWhere a Nomai named ’Datura’ first landed on Dark Bramble and set up camp.</key>
+    <value>Il punto dove un Nomai chiamato "Datura" è arrivato per la prima volta su Rovo Oscuro e ha costruito un accampamento.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Initial CampsiteFeldspar left a recording here saying they explored around and had ’some ideas’ on how to get into places, and offers his help if I want it.</key>
+    <value>Feldspato ha lasciato qui un registratore dove dice che ha esplorato in giro e che ha "qualche idea" su come arrivare in certi luoghi, e che offre il suo aiuto se qualcuno ne necessita.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Hunting BlindDatura, needing a food supply, considered eating... the Anglerfish.</key>
+    <value>Datura, avendo bisogno di cibo, ha preso in considerazione di nutrirsi... della Rana Pescatrice.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Hunting BlindDatura went exploring the depths of Dark Bramble. Partly to find... food.</key>
+    <value>Datura è andato a esplorare l'interno di Rovo Oscuro In parte, per trovare... cibo.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Hunting BlindDatura also discovered that Anglerfish are blind.</key>
+    <value>Datura ha anche scoperto che le Rane Pescatrici sono cieche.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Hunting BlindOn telling the discovery to Yarrow, he was interested at first, but the conversation turned into a big argument.</key>
+    <value>Mentre raccontava della sua scoperta a Yarrow, lui si è dimostrato interessato all'inizio, ma poi la conversazione si è trasformata in un grande litigio.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Hunting BlindDatura found the remains of the Nomai of Escape Pod 3, and his clan’s leader, Escall.</key>
+    <value>Datura ha trovato ciò che è rimasto della Capsula di Salvataggio 3, e del capitano del suo clan, Escall.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Shuttle CrusherDatura landed on Dark Bramble in a shuttle, which he didn’t know what to do with.</key>
+    <value>Datura è atterrato su Rovo Oscuro in una nave, con cui non sapeva che fare.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Shuttle CrusherA Nomai called Datura created this to destroy his shuttle. After damaging the shuttle, its alarm went off, and exploded a while after.</key>
+    <value>Un Nomai chiamato "Datura" ha costruito questo dispositivo per distruggere la sua nave. Dopo averla danneggiata, è partito l'allarme e dopo un po' è esplosa.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Shuttle CrusherSomeone referred to as ’Friend’ also wanted to destroy their ship. After damaging their ship, its alarm went off too. Datura remembered that he should just stand back and wait until it exploded.</key>
+    <value>Anche qualcuno denominato "Amico" voleva distruggere la propria nave. Dopo averla danneggiata, anche il suo allarme è partito. Datura si è ricordato di stare lontano e guardarla esplodere.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Shuttle CrusherI used a switch to activate the crusher.</key>
+    <value>Ho usato un interruttore per attivare il Distruggi-Navi.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Shuttle CrusherIn a recording, Datura told his daughter Solanum about the Vessel crash.</key>
+    <value>In una registrazione, Datura ha raccontato a sua figlia Solanum dello schianto del Vascello.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Projection Pool HouseA structure next to the Study Tower appears to have broken off and fallen into the planet somewhere.</key>
+    <value>Sembra che una struttura vicino alla Torre di Studio si sia staccata e sia caduta da qualche parte all'interno di Rovo Oscuro.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Projection Pool HouseDatura built a projection pool on an island west of his landing site to be able to talk to his wife and daughter.</key>
+    <value>Datura ha costruito una Pozza di Proiezione su un'isola a ovest rispetto al luogo di atterraggio per poter parlare con sua moglie e sua figlia.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Projection Pool HouseDatura tried to leave Dark Bramble, but both shuttles were in use at that time.</key>
+    <value>Datura ha provato a lasciare Rovo Oscuro, ma entrambe le navi erano in uso in quel momento.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Projection Pool HouseDatura asked Bells to tell Solanum there was no need to rush, and to tell Filix that he was sorry and would see her again soon.</key>
+    <value>Datura ha chiesto a Bells di dire a Solanum che non c'era bisogno di fare di fretta, e di dire a Filix che gli dispiaceva e che l'avrebbe rivista presto.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Projection Pool HouseIn a damaged stone, Datura called the others to warn them about something. But, they already knew about it.</key>
+    <value>In una Pietra danneggiata, Datura ha chiamto gli altri per avvertirli di qualcosa. Ma lo sapevano già.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Projection Pool HouseIn the undamaged stone, Datura tried to warn the others about the Interloper. But, they already knew about it.</key>
+    <value>Nella Pietra integra, Datura ha provato ad avvertire gli altri dell'arrivo dell'Intruso. Ma ne erano già al corrente.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Projection Pool HouseDatura and Solanum planned to meet after he had finished something, and after she had returned from the Quantum Moon.</key>
+    <value>Datura e Solanum dovevano incontrarsi dopo che lui avesse concluso alcune faccende, e dopo che lei fosse tornata dalla Luna Quantica.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Study TowerA Nomai named Datura discovered a spherical region in space where the stars flickered occasionally.</key>
+    <value>Un Nomai di nome "Datura" ha scoperto una regione sferica nello spazio in cui le stelle certe volte tremolano.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Study TowerUpon meeting a being from another species, Datura helped build them a house at the South Pole.</key>
+    <value>Quando Datura ha incontrato un essere di un'altra specie, l'ha aiutato a costruirsi una casa al Polo Sud.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Study TowerDatura discovered something that disturbed him, but he had to go his Observatory to confirm it.</key>
+    <value>Datura ha scoperto qualcosa che l'ha disturbato, ma doveva andare all'Osservatorio per confermarlo.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Top of the TowerThe stairs to the top of the Study Tower have collapsed.</key>
+    <value>Le scale che portano alla cima della Torre di Studio sono crollate.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Top of the TowerI can see a wall with Nomai text through the window.</key>
+    <value>Posso vedere un muro con delle scritte Nomai attraverso il vetro.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Top of the TowerDatura added a second security measure to his Observatory. The door will remain shut if another space ship is on Dark Bramble’s surface.</key>
+    <value>Datura ha aggiunto una seconda misura di sicurezza all'Osservatorio. La porta rimarrà chiusa se un'altra nave si trova sulla superficie di Rovo Oscuro.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Bramble VillageUpon meeting a being from another species, Datura helped build them a house at the South Pole.</key>
+    <value>Quando Datura ha incontrato un essere di un'altra specie, l'ha aiutato a costruirsi una casa al Polo Sud.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Bramble VillageDatura built a shelter for himself at the south pole.</key>
+    <value>Datura si è costruito un rifugio al Polo Sud.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Bramble VillageDatura teached Friend the Nomai language, and they teached him art.</key>
+    <value>Datura ha insegnato la lingua Nomai ad Amico, e lui gli ha insegnato l'arte.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Bramble VillageDatura argued at Yarrow that they should be finding a way to leave this star system. Datura, promising Filix he would return, left to Dark Bramble to find the Vessel.</key>
+    <value>Datura ha discusso con Yarrow, dicendogli che avrebbero dovuto cercare un modo per andarsene dal sistema stellare. Datura, promettendo a Filix di ritornare, è partito per Rovo Oscuro per cercare il Vascello.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Bramble VillageDatura is pessimistic about the Eye, and believes it will destroy the universe if someone interacts with it.</key>
+    <value>Datura è pessimista riguardo all'Occhio, e crede che distruggerà l'universo se qualcuno dovesse toccarlo.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Bramble VillageFriend is optimistic about the Eye, and believes it is the creator of universes.</key>
+    <value>Amico è ottimista riguardo all'Occhio, e crede che sia il creatore del'universo.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Bramble VillageIn Friend’s House, I found a staircase that leads down abruptly to a painting of a terrestrial world, with a blue ringed gas giant in the sky.</key>
+    <value>Nella casa di Amico ho trovato una scalinata che porta a un dipinto di un mondo terrestre, con una gigante gassosa con anelli nel cielo.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Secret RoomIn Friend’s House, I found a staircase that leads down abruptly to a painting of a terrestrial world, with a blue ringed gas giant in the sky.</key>
+    <value>Nella casa di Amico ho trovato una scalinata che porta a un dipinto di un mondo terrestre, con una gigante gassosa con anelli nel cielo.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Secret RoomA secret room in Friend’s House contains an image revealing a hidden path behind a jellyfish surrounded by ice.</key>
+    <value>Una stanza segreta nella casa di Amico contiene un'immagine che rivela un passaggio nascosto dietro una medusa intrppolata nel ghiaccio.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Secluded StructureA secret room in Friend’s House contains an image revealing a hidden path behind a jellyfish surrounded by ice.</key>
+    <value>Una stanza segreta nella casa di Amico contiene un'immagine che rivela un passaggio nascosto dietro una medusa intrppolata nel ghiaccio.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Secret RoomDatura and Friend discussed their theories about the Eye, and suggested that they may both be partially true.</key>
+    <value>Datura e Amico hanno parlato delle loro teorie riguardo all'Occhio, e sono arrivati alla conclusione che entrambe possono essere parzialmente vere.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Secluded StructureThe entrance to this building appears to have been sealed. Datura theorised that only an explosion could create an opening.</key>
+    <value>Sembra che l'entrata a questo edificio sia sigillata. Datura ha ipotizzato che solo un'esplosione potrebbe aprirla.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Secluded StructureIf I want to return here, I should use the Mark Location on HUD feature, like Slate told me about.</key>
+    <value>Se voglio tornare qui, sarebbe utile usare la funzione di marcatura della posizione sul display dei dati di volo, come mi ha detto Slate.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Inside the StructureThe entrance to this building appears to have been sealed. Datura theorised that only an explosion could create an opening.</key>
+    <value>Sembra che l'entrata a questo edificio sia sigillata. Datura ha ipotizzato che solo un'esplosione potrebbe aprirla.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Inside the StructureI found the remains of Friend... holding an artifact next to a green fire.</key>
+    <value>Ho trovato i resti di Amico... che tiene in mano un manufatto vicino a un fuoco verde.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Inside the StructureDatura was curious what Friend was hiding from him and sneaked here. He found an artifact and green fire, tripped and knocked himself out, awaking on what appeared to be a different planet.</key>
+    <value>Datura si chiedeva cosa gli stesse nascondendo Amico ed è entrato qui dentro. Ha trovato un manufatto e il fuoco verde, ed è svenuto. Si è svegliato su quello che sembrava un pianeta differente.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Inside the StructureDatura came across Friend’s elders, and accidentally rang an alarm bell which woke one up.</key>
+    <value>Datura ha incontrato gli anziani di Amico, e ne ha accidentalmente svegliato uno con le campane.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Inside the StructureHe was awoken by Friend, with some others having arrived on Dark Bramble.</key>
+    <value>È stato svegliato da Amico, con alcuni del suo clan arrivatu su Rovo Oscuro.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Inside the StructureThey separated them from each other, containing Friend by sealing the entrance.</key>
+    <value>Li hanno separati, e hanno lasciato Amico all'interno sigillando l'entrata.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Cliffside HomeI found... the remains of Friend, holding an artifact next to a green fire.</key>
+    <value>Ho trovato i resti di Amico... che tiene in mano un manufatto vicino a un fuoco verde.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Cliffside HomeI met Friend! They had to communicate using the Nomai language, as I can’t translate theirs.</key>
+    <value>Ho incontrato Amico! Ha dovuto comunicare con me tramite la lingua Nomai, dato che non conosco la sua.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Cliffside HomeFor one of the security measures, Datura used a quantum shard to effect the Northern Observatory’s door, so I must not be looking at the door when entering.</key>
+    <value>Per una delle misure di sicurezza, Datura ha usato una pietra quantica per dare proprietà quantiche alla porta dell'Osservatorio, quindi non devo guardare la porta per entrare.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Cliffside HomeThe Prisoner released the Eye’s signal briefly and was contained in the simulation. He was planned to be released into just the simulation with the others.</key>
+    <value>Il Prigioniero ha rilasciato brevemente il segnale dell'Occhio ed è stato imprigionato nella simulazione. Doveva essere rilasciato nella simulazione con gli alti.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Cliffside HomeBy the time the Nomai arrived, Friend’s elders had ’decayed’ into the simulation. Only a small group of the youngest were still alive outside.</key>
+    <value>Quando sono arrivati i Nomai gli anziani di Amico si erano deteriorati all'interno della simulazione. Solo un piccolo gruppo di giovani era ancora fuori.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>The Collector MuralDatura mentioned something called ’The Collector,’ but didn’t elaborate.</key>
+    <value>Datura ha menzionato qualcosa chiamato "Il Collezionista", ma non ha aggiunto altro.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>The Collector MuralA mysterious planet that spewed out a deadly substance that was contained in water worlds and comets.</key>
+    <value>Un pianeta misterioso che emetteva una sostanza letale. È stata contenuta in mondi acquatici e comete.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Northern ObservatoryThere’s an Observatory on Dark Bramble’s north pole with two security measures keeping the door shut.</key>
+    <value>C'è un Osservatorio sul polo nord di Rovo Oscuro. Ha due misure di sicurezza per entrare.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Northern ObservatoryDatura discovered something that disturbed him, but he had to go his Observatory to confirm it.</key>
+    <value>Datura ha scoperto qualcosa che l'ha disturbato, ma doveva andare all'Osservatorio per confermarlo.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Northern ObservatoryI found Datura’s body...</key>
+    <value>Ho trovato il corpo di Datura...</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Northern ObservatoryAt his projection pool, Datura attempted to warn the others of the Interloper, but they already knew about it.</key>
+    <value>Alla sua Pozza di Proiezione, Datura ha provato ad avvertire gli altri dell'arrivo dell'Intruso. Ma ne erano già al corrente.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Northern ObservatoryDatura was able to get Solanum to be at the Quantum Moon’s sixth location as the Interloper arrived.</key>
+    <value>Datura ha fatto in modo che Solanum fosse nel Sesto Luogo della Luna Quantica quando è arrivato l'Intruso.</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Eye of the UniverseThe Eye. Is it a creator or a destroyer of universes? ...Do I want to find out?</key>
+    <value>L'Occhio dell'Universo. È un creatore o un distruttore di universi? ...Voglio davvero scoprirlo?</value>
+  </table_shipLog>
+  <table_shipLog>
+    <key>Eye of the UniverseIf you are reading this, I assume you have gotten inside the Northern Observatory and have seen the new ending at the Eye. Thank you so much for playing The Outsider! I hope you enjoyed it!</key>
+    <value>Se stai leggendo questo messaggio, immagino che tu sia entrato nell'Osservatorio a Nord e abbia visto il nuovo finale all'Occhio. Grazie mille per aver giocato The Outsider! Spero ti sia divertito!</value>
+  </table_shipLog>
+</TranslationTable_XML>

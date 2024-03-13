@@ -25,7 +25,12 @@ namespace TheOutsider
 
         public static ModMain Instance { get; private set; }
 
+#if DEBUG
+        public static bool isDevelopmentVersion => true;
+#else
         public static bool isDevelopmentVersion => false;
+#endif
+
         public static DebugModShipLogMode debugModShipLog => DebugModShipLogMode.Off;
         public enum DebugModShipLogMode { Off, AutoCompleteAll, RemoveModLogs }
         public static bool IsLoaded { get; set; }
@@ -47,7 +52,7 @@ namespace TheOutsider
             }
             else Log.Success($"The Outsider Loaded!");
 
-            if (isDevelopmentVersion) Log.Error("THIS MESSAGE SHOULD NOT APPEAR! IF IT DOES, SHOUT AT ME.");
+            if (isDevelopmentVersion) Log.Error("THIS MESSAGE SHOULD NOT APPEAR IN A RELEASE! IF IT DOES, SHOUT AT ME.");
 
             IsLoaded = true;
 

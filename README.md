@@ -12,6 +12,7 @@ How to start: Just head over to Dark Bramble and start exploring the various new
 ## Thanks
 * The Modding Discord - for playtesting the mod
 * orclecle - Bug fixes and translation implementation
+* xen - For fixes copied from [New Horizons](https://outerwildsmods.com/mods/newhorizons/) and [Interplanetary Polyglot](https://outerwildsmods.com/mods/interplanetarypolyglot/)
 
 ## Translations
 

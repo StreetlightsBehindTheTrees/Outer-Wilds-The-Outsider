@@ -73,10 +73,10 @@ jobs:
               uses: "actions/upload-artifact@v3"
               with:
                 name: "${{ env.PROJ_USERNAME }}.${{ env.PROJ_NAME }}"
-                path: "${{ env.PROJ_NAME }}/bin/Release"
+                path: "${{ env.TheOutsiderFixes }}/bin/Release"
 
             - name: Zip For Release
-              run: 7z a ${{ env.PROJ_USERNAME }}.${{ env.PROJ_NAME }}.zip ./${{ env.PROJ_NAME }}/bin/Release/**
+              run: 7z a ${{ env.PROJ_USERNAME }}.${{ env.PROJ_NAME }}.zip ./${{ env.TheOutsiderFixes }}/bin/Release/**
 
             - name: Create Release
               uses: "ncipollo/release-action@v1"

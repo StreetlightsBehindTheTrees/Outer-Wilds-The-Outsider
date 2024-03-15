@@ -5,5 +5,5 @@
   "uniqueName": "SBtT.TheOutsider",
   "version": "1.1.1",
   "owmlVersion": "2.9.0",
-  "conflicts": [ "orclecle.TranslationForTheOutsider" ],
+  "conflicts": [ "orclecle.TranslationForTheOutsider" ]
 }

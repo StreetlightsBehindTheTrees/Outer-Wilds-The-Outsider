@@ -1801,7 +1801,7 @@
   <!-- Northern Observatory: Computer: Start -->
   <entry>
     <key><![CDATA[<color=orange>DETECTED SPACECRAFT:</color>]]>\\nNomai Shuttle <![CDATA[<color=red>(Destroyed)</color>]]>\\nFriend’s Ship <![CDATA[<color=red>(Destroyed)</color>]]></key>
-    <value><![CDATA[<color=orange>探测到的飞船：</color>]]>\\N挪麦航天飞机 <![CDATA[<color=red>(彻底损毁)</color>]]>\\N<![CDATA[<color=lightblue>碎空星</color>]]>的飞船 <![CDATA[<color=red>(彻底损毁)</color>]]></value>
+    <value><![CDATA[<color=orange>探测到的飞船：</color>]]>\\N挪麦航天飞机 <![CDATA[<color=red>(彻底损毁)</color>]]>\\N<![CDATA[<color=lime>朋友</color>]]>的飞船 <![CDATA[<color=red>(彻底损毁)</color>]]></value>
   </entry>
   <entry>
     <key><![CDATA[<color=orange>SPACECRAFT COUNT:</color>]]> 2\\nDoor is unlocked.</key>

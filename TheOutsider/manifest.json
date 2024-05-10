@@ -3,7 +3,7 @@
   "author": "Streetlights Behind the Trees",
   "name": "The Outsider",
   "uniqueName": "SBtT.TheOutsider",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "owmlVersion": "2.9.0",
   "conflicts": [ "orclecle.TranslationForTheOutsider" ]
 }

@@ -671,7 +671,7 @@
   </entry>
   <entry>
     <key>DATURA: I was reading in the library, when suddenly we warp! But, on our arrival there was a horrible screeching sound! We had crashed. I try to look for your mother, but I am forced onto an Escape Pod.</key>
-    <value>DATURA: Stavo leggendo nella biblioteca, quando all'improvviso viene attivata la curvatura! Ma al nostro arrivo si sentì un orribile verso stridulo! Ci eravamo schiantati. Provai a crcare tua madre, ma mi trascinarono in una Capsula di Salvataggio.</value>
+    <value>DATURA: Stavo leggendo nella biblioteca, quando all'improvviso viene attivata la curvatura! Ma al nostro arrivo si sentì un orribile verso stridulo! Ci eravamo schiantati. Provai a cercare tua madre, ma mi trascinarono in una Capsula di Salvataggio.</value>
   </entry>
   <entry>
     <key>DATURA: I landed on Ember Twin, and Filix landed on Brittle Hollow. Both groups had to rebuild to survive.</key>
@@ -711,7 +711,7 @@
   </entry>
   <entry>
     <key>DATURA: Well... I did warn you.</key>
-    <value>DATURA: Beh... ti avveo avvisato.</value>
+    <value>DATURA: Beh... ti avevo avvisato.</value>
   </entry>
   <entry>
     <key>FILIX: What are you two talking about?</key>
@@ -1009,7 +1009,7 @@
   </entry>
   <entry>
     <key>YARROW: ...How do you plan to do that? It’s... in Dark Bramble.</key>
-    <value>YARROW: ...Come hai intenzione di fare? È... all'interno di Rovo OScuro.</value>
+    <value>YARROW: ...Come hai intenzione di fare? È... all'interno di Rovo Oscuro.</value>
   </entry>
   <entry>
     <key>DATURA: Then I... will go to Dark Bramble.</key>
@@ -1141,7 +1141,7 @@
   </entry>
   <entry>
     <key>FRIEND: The others had been burnt on the inside, and did not wish to be burnt again, so they ignored us, and told us to move on and stop ’holding onto the past’...</key>
-    <value>AMICo: Gli altri erano stati bruciati profondamente, e non volevano essere bruciati una seconda volta, quindi ci hanno ignorati e ci hanno detto di andare avanti e smettere di "aggrapparci al passato".</value>
+    <value>AMICO: Gli altri erano stati bruciati profondamente, e non volevano essere bruciati una seconda volta, quindi ci hanno ignorati e ci hanno detto di andare avanti e smettere di "aggrapparci al passato".</value>
   </entry>
   <entry>
     <key>FRIEND: I know it in my heart: the Eye is good. I believe there is more to its story than they wish to know.</key>
@@ -1435,7 +1435,7 @@
   </entry>
   <entry>
     <key>FRIEND: Hearing of the Nomai’s arrival, our decayed elders... burned the remaining archived codes for our Prisoner’s vault.</key>
-    <value>AMICO: Avendo sentito dell'arrivo dei Nomai, i nostri anzianin deteriorati... hanno bruciato i codici degli archivi per liberare il Prigioniero che erano rimasti.</value>
+    <value>AMICO: Avendo sentito dell'arrivo dei Nomai, i nostri anziani deteriorati... hanno bruciato i codici degli archivi per liberare il Prigioniero che erano rimasti.</value>
   </entry>
   <entry>
     <key>FRIEND: I planned to free him! And the others outside wanted to help! We are not all monsters, I hope you can believe. But... we discovered there was nothing we could do now.</key>
@@ -1447,7 +1447,7 @@
   </entry>
   <entry>
     <key>FRIEND: Raising it outside also raises the simulated version of the structure, allowing access to the underground from within the simulation (and letting our Prisoner leave to join the rest of the decayed when freed).</key>
-    <value>AMICO: Farla riemergere all'esterno avrebbe fatto anche riemergere la verione simuata della struttura, permettendo l'accesso al sotterraneo dall'interno della simulazione (e permettendo che il nostro Prigioniero passasse il tempo fuori dalla prigionia con il resto dei deteriorati).</value>
+    <value>AMICO: Farla riemergere all'esterno avrebbe fatto anche riemergere la verione simulata della struttura, permettendo l'accesso al sotterraneo dall'interno della simulazione (e permettendo che il nostro Prigioniero passasse il tempo fuori dalla prigionia con il resto dei deteriorati).</value>
   </entry>
   <entry>
     <key>FRIEND: So, even if we freed him from his Vault, he would still be trapped underground. ...And so... I never saw him again.</key>
@@ -1477,7 +1477,7 @@
   </entry>
   <entry>
     <key>FRIEND: He was, however, quite disappointed to hear our Vessel was not able to travel intergalactically. (Not the escape pod he was hoping for!)</key>
-    <value>AMICO: Però, era molto deluso nel sapere che il nostro Vascello non era in grado di compiere viaggi intergalattici. (Non era la via d'uscita che sperava!)</value>
+    <value>AMICO: Però, era molto deluso nel sapere che il nostro Vascello non era in grado di compiere viaggi intergalattici (Non era la via d'uscita che sperava!).</value>
   </entry>
   <!-- Dream Friend House: You and Datura: End -->
   <!-- Dream Friend House: Explain You: Start -->
@@ -1573,7 +1573,7 @@
   </entry>
   <entry>
     <key>SOLANUM: Because... you have a lot more in common with the other Nomai than you think.</key>
-    <value>SOLANUM: Perché... hai molto più in comune con li altri Nomai di quanto tu creda.</value>
+    <value>SOLANUM: Perché... hai molto più in comune con gli altri Nomai di quanto tu creda.</value>
   </entry>
   <entry>
     <key>DATURA: ...I do?</key>
@@ -1651,11 +1651,11 @@
   </entry>
   <entry>
     <key>&lt;color=brown&gt;SPIRE&lt;/color&gt;: Uh... Hypothesis: ##### would be beneficial to you both if neither of you called each other anymore.</key>
-    <value>&lt;color=brown&gt;SPIRE&lt;/color&gt;: Uh... Ipotesi: ##### una buona idea se vui due non vi chiamaste più.</value>
+    <value>&lt;color=brown&gt;SPIRE&lt;/color&gt;: Uh... Ipotesi: ##### una buona idea se voi due non vi chiamaste più.</value>
   </entry>
   <entry>
     <key>&lt;color=brown&gt;SPIRE&lt;/color&gt;: Uh... Hypothesis: it would be beneficial to you both if neither of you called each other anymore.</key>
-    <value>&lt;color=brown&gt;SPIRE&lt;/color&gt;: Uh... Ipotesi: Sarebbe una buona idea se vui due non vi chiamaste più.</value>
+    <value>&lt;color=brown&gt;SPIRE&lt;/color&gt;: Uh... Ipotesi: Sarebbe una buona idea se voi due non vi chiamaste più.</value>
   </entry>
   <entry>
     <key>DATURA: #####... Yarrow, are you alright? Yarrow? ##### wait!</key>

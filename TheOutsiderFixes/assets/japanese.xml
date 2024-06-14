@@ -733,7 +733,7 @@
   </entry>
   <entry>
     <key>Anglerfish Hunting Blind\\n(See, Cycad? I can make puns too!)</key>
-    <value>アンコウハント&lt;i&gt;ウ&lt;/i&gt;の隠れ家\\N(見てるか、Cycad？俺だってダジャレが言えるんだぞ！)</value>
+    <value>アンコウハント&lt;i&gt;ウ&lt;/i&gt;の隠れ家\\n\\N(見てるか、Cycad？俺だってダジャレが言えるんだぞ！)</value>
   </entry>
   <!-- Anglerfish Hunting Blind: Outside: End -->
   <!-- Anglerfish Hunting Blind: 1st Wall: Start -->
@@ -1769,11 +1769,11 @@
   <!-- Northern Observatory: Computer: Start -->
   <entry>
     <key><![CDATA[<color=orange>DETECTED SPACECRAFT:</color>]]>\\nNomai Shuttle <![CDATA[<color=red>(Destroyed)</color>]]>\\nFriend’s Ship <![CDATA[<color=red>(Destroyed)</color>]]></key>
-    <value><![CDATA[<color=orange>検知された宇宙船:</color>]]>\\NNomaiシャトル<![CDATA[<color=red>(破壊済み)</color>]]>\\NFriendの船<![CDATA[<color=red>(破壊済み)</color>]]></value>
+    <value><![CDATA[<color=orange>検知された宇宙船:</color>]]>\\n\\NNomaiシャトル<![CDATA[<color=red>(破壊済み)</color>]]>\\n\\NFriendの船<![CDATA[<color=red>(破壊済み)</color>]]></value>
   </entry>
   <entry>
     <key><![CDATA[<color=orange>SPACECRAFT COUNT:</color>]]> 2\\nDoor is unlocked.</key>
-    <value><![CDATA[<color=orange>宇宙船の数:</color>]]>2\\N扉は開放されています。</value>
+    <value><![CDATA[<color=orange>宇宙船の数:</color>]]>2\\n\\N扉は開放されています。</value>
   </entry>
   <!-- Northern Observatory: Computer: End -->
   <!-- Northern Observatory: Collector: Start -->

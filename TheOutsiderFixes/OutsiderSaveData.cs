@@ -6,6 +6,9 @@ using TheOutsider;
 
 namespace TheOutsiderFixes
 {
+    /// <summary>
+    /// Copied from New Horizons to fix a bug where having just revealed ship logs would brick your save file after uninstalling
+    /// </summary>
     public static class OutsiderSaveData
     {
         private static OutsiderSaveFile _saveFile;

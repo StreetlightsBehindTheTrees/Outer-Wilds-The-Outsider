@@ -640,6 +640,7 @@ namespace TheOutsider.OutsiderHandling
                     ResetStuffOnEnterDreamworld.Elbow = elbow;
                     ResetStuffOnEnterDreamworld.Neck = neck2;
                     ResetStuffOnEnterDreamworld.Jaw = neck2.Find($"{rig}Head/{rig}Jaw");
+                    ResetStuffOnEnterDreamworld.Friend = tf;
 
                     //---------------- Staff ----------------//
                     var wrist = spine4.Find($"{rig}ClavicleL/{rig}ShoulderL/{rig}ElbowL/{rig}WristL");

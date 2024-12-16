@@ -52,6 +52,8 @@ namespace TheOutsider.MonoBehaviours
         public static Transform Elbow { get; set; }
         public static Transform Neck { get; set; }
         public static Transform Jaw { get; set; }
+        public static Transform Friend { get; set; }
+
         Quaternion previousRot;
         void LateUpdate()
         {
@@ -69,29 +71,25 @@ namespace TheOutsider.MonoBehaviours
             var state = convo._state;
             //var controller = convo._solanumAnimController;
 
-            Quaternion targetRot = Neck.rotation; //Default target to animation.
+            Quaternion targetRot = Neck.localRotation; //Default target to animation.
 
             if (state == NomaiConversationManager.State.WatchingPlayer)
             {
                 var playerPos = Locator.GetPlayerBody().GetPosition();
-                Vector3 dir = (playerPos - Neck.position).normalized;
+                var up = Vector3.up;
+                Vector3 dir = Vector3.ProjectOnPlane(Friend.InverseTransformDirection(playerPos - Neck.position).normalized, up); // Local space
 
-                var tf = FriendConversationFixes.Instance.transform;
-                var dot = Vector3.Dot(tf.forward, dir);
-                dot = Mathf.Clamp01(dot);
+                var dot = 1f - Mathf.Clamp01(Mathf.Abs(Vector3.SignedAngle(Vector3.forward, dir, Vector3.up)) / 90f);
 
-                targetRot = Quaternion.LookRotation(dir, Vector3.up);
-                var e = targetRot.eulerAngles;
-                //(x = 0) = forward | + = down
-                //(y = 90) = forward | 0 = left
-                targetRot = Quaternion.Euler(0f, 180f - 90f + e.y, 280f + e.x);
+                // Local rotation
+                targetRot = Quaternion.LookRotation(Quaternion.FromToRotation(Vector3.left, -Vector3.up) * dir, up);
 
-                targetRot = Quaternion.Slerp(Neck.rotation, targetRot, dot); //Look at if in front.
+                targetRot = Quaternion.Slerp(Neck.localRotation, targetRot, dot); //Look at if in front.
             }
 
-            Neck.rotation = Quaternion.Slerp(previousRot, targetRot, Time.deltaTime * 7f);
+            Neck.localRotation = Quaternion.Slerp(previousRot, targetRot, Time.deltaTime * 7f);
 
-            previousRot = Neck.rotation;
+            previousRot = Neck.localRotation;
         }
     }
 }

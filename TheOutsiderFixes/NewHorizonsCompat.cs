@@ -4,6 +4,7 @@ using OWML.ModHelper;
 using System;
 using TheOutsider;
 using TheOutsider.OuterWildsHandling;
+using TheOutsider.OutsiderHandling;
 
 namespace TheOutsiderFixes;
 
@@ -30,6 +31,7 @@ public static class NewHorizonsCompat
 
     [HarmonyPrefix]
     [HarmonyPatch(typeof(SolarSystemHandler), nameof(SolarSystemHandler.OnSceneLoad))]
+    [HarmonyPatch(typeof(OutsiderShipHandler), nameof(OutsiderShipHandler.ShipLog_AwakePrefix))]
     public static bool SkipOutsideSystem() => ShouldLoadOutsider;
 
     [HarmonyPrefix]

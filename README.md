@@ -16,7 +16,7 @@ How to start: Just head over to Dark Bramble and start exploring the various new
 
 ## Translations
 
-Currently JA, pt-BR, zh-CN, RU, FR, DE, and IT are available;
+Currently JA, pt-BR, zh-CN, RU, FR, DE, IT, and ES are available;
 **More translations are welcome!** Please read [Other Languages](#other-languages) for details.
 
 ### EN -> JA
@@ -68,6 +68,10 @@ Completed! Thank you, [@Derko8](https://github.com/Derko8). (See [#32](https://g
 
 Completed! Thank you, [@NerYtheLonesomeHearthian](https://github.com/NerYtheLonesomeHearthian). (See [#33](https://github.com/TRSasasusu/TranslationForTheOutsider/issues/33))
 
+### EN -> ES
+
+Completed! Thank you, [@marcosrullan](https://github.com/marcosrullan). (See [#24](https://github.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider/pull/24))
+
 ### Other Languages
 
-Please make `TheOutsider/assets/<language>.xml` and its pull requests (or an issue). I will add it into next releases.
+Please make `TheOutsiderFixes/assets/<language>.xml` and its pull requests (or an issue). I will add it into next releases.

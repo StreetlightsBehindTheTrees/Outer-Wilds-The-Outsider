@@ -51,7 +51,10 @@ namespace TheOutsiderFixes
                     if (NewHorizonsCompat.ShouldLoadOutsider)
                     {
                         _tuneStatureIslandColliderCoroutine = ModMain.Instance.StartCoroutine(TuneStatureIslandCollider());
-                        _fixEndlessCanyonElevatorCoroutine = ModMain.Instance.StartCoroutine(FixEndlessCanyonElevator());
+                        if (!NewHorizonsCompat.IsNHInstalled)
+                        {
+                            _fixEndlessCanyonElevatorCoroutine = ModMain.Instance.StartCoroutine(FixEndlessCanyonElevator());
+                        }
                         _fixDreamGravityinatorCoroutine = ModMain.Instance.StartCoroutine(FixDreamGravityinator());
                     }
                 }

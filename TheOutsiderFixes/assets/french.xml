@@ -934,7 +934,7 @@
   </entry>
   <entry>
     <key>FRIEND: Curious star system here. More curious beings. I wish others were not decayed, and could meet you.</key>
-    <value>AMI : Curieux système stellaire ici. Des êtres plus curieux les uns que les autres. J'aimerais que les autres ne soient pas décrépis, et puissent te rencontrer.</value>
+    <value>AMI : Curieux système stellaire ici. Des êtres plus curieux les uns que les autres. J'aimerais que les autres n'aient pas dépéri, et puissent te rencontrer.</value>
   </entry>
   <entry>
     <key>DATURA: This thing we have going is... going quite well, I think!</key>
@@ -1344,7 +1344,7 @@
   </entry>
   <entry>
     <key>FRIEND: This was built for one to be a while, as we searched for a new home. However, over time, more and more of us (our elders) decayed irreversibly into this simulation.</key>
-    <value>AMI : Cet endroit devait être éphémère, pendant que nous cherchions une nouvelle maison. Cependant, au fil du temps, de plus en plus d'entre nous (nos aînés) ont irrémédiablement décrépi dans cette simulation.</value>
+    <value>AMI : Cet endroit devait être éphémère, pendant que nous cherchions une nouvelle maison. Cependant, au fil du temps, de plus en plus d'entre nous (nos aînés) ont irrémédiablement dépéri dans cette simulation.</value>
   </entry>
   <entry>
     <key>FRIEND: There were very few of us left alive outside (mostly the youngest), when the Nomai arrived.</key>
@@ -1430,7 +1430,7 @@
   </entry>
   <entry>
     <key>FRIEND: A long while passed and, when the Nomai arrived, all of our elders had decayed into this simulation, with just the youngest still left alive outside.</key>
-    <value>AMI : Un long moment s'est écoulé et, lorsque les Nomaï sont arrivés, tous nos aînés ont décrépi dans cette simulation, et seuls les plus jeunes sont restés en vie à l'extérieur.</value>
+    <value>AMI : Un long moment s'est écoulé et, lorsque les Nomaï sont arrivés, tous nos aînés ont dépéri dans cette simulation, et seuls les plus jeunes sont restés en vie à l'extérieur.</value>
   </entry>
   <entry>
     <key>FRIEND: Hearing of the Nomai’s arrival, our decayed elders... burned the remaining archived codes for our Prisoner’s vault.</key>
@@ -1494,7 +1494,7 @@
   </entry>
   <entry>
     <key>FRIEND: This simulation is now our home. We are all spooky ghosts! My elders decayed willingly, but the youngest died mysteriously, and simultaneously.</key>
-    <value>AMI : Cette simulation est maintenant notre maison. Nous sommes tous des fantômes effrayants ! Mes aînés se sont volontairement laissé décrépir, mais les plus jeunes sont morts mystérieusement, et simultanément.</value>
+    <value>AMI : Cette simulation est maintenant notre maison. Nous sommes tous des fantômes effrayants ! Mes aînés se sont volontairement laissé dépérir, mais les plus jeunes sont morts mystérieusement, et simultanément.</value>
   </entry>
   <entry>
     <key>FRIEND: I wish I could understand your language! What happened? Did something happen to the Nomai too?</key>
@@ -1850,7 +1850,7 @@
   </entry>
   <entry>
     <key>FRIEND: Then everyone, including us, all went home. Not a long while after, the Eye started sending out it’s signal. I wonder if it saw-</key>
-    <value>AMI : Ensuite, tout le monde, y compris nous, sommes rentré à la maison. Peu de temps après, l'Œil a commencé à envoyer son signal. Je me demande s'il a vu-</value>
+    <value>AMI : Ensuite, tout le monde, y compris nous, sommes rentrés à la maison. Peu de temps après, l'Œil a commencé à envoyer son signal. Je me demande s'il a vu-</value>
   </entry>
   <!-- Northern Observatory: Collector: End -->
   <!-- Northern Observatory: Find: Start -->
@@ -2359,7 +2359,7 @@
   </table_shipLog>
   <table_shipLog>
     <key>Cliffside HomeBy the time the Nomai arrived, Friend’s elders had ’decayed’ into the simulation. Only a small group of the youngest were still alive outside.</key>
-    <value>Lorsque les Nomaï sont arrivés, les aînés d'Ami avaient "décrépi" dans la simulation. Seul le petit groupe des plus jeunes était encore en vie à l'extérieur.</value>
+    <value>Lorsque les Nomaï sont arrivés, les aînés d'Ami avaient "dépéri" dans la simulation. Seul le petit groupe des plus jeunes était encore en vie à l'extérieur.</value>
   </table_shipLog>
   <table_shipLog>
     <key>The Collector MuralDatura mentioned something called ’The Collector,’ but didn’t elaborate.</key>

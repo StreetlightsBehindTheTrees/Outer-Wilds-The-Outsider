@@ -1,5 +1,8 @@
 ﻿<Project>
-  <PropertyGroup>
-    <OutputPath>$(AppData)\OuterWildsModManager\OWML\Mods\SBtT.TheOutsider</OutputPath>
+  <PropertyGroup Condition="'$(OS)' == 'Windows_NT'">
+    <OutputPath>$(AppData)/OuterWildsModManager/OWML/Mods/SBtT.TheOutsider</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(OS)' == 'Unix'">
+    <OutputPath>$(HOME)/.local/share/OuterWildsModManager/OWML/Mods/SBtT.TheOutsider</OutputPath>
   </PropertyGroup>
 </Project>

@@ -57,9 +57,15 @@ namespace TheOutsider.MonoBehaviours
         {
             Vector3 dbPos = Locator._darkBramble._owRigidbody.GetPosition();
 
+            // Checks if Ship location is "On" Dark Bramble
             bool shipOnPlanet = Vector3.Distance(Locator.GetShipBody().GetPosition(), dbPos) < shipRadius;
-            //shipOnPlanet |= ; //Or if ship destroyed?
-            if (shipOnPlanet)
+            // If the Ship is destroyed, & it can no longer be "On" Dark Bramble
+            bool shipDestroyed = GameObject.FindObjectOfType<ShipDamageController>().IsDestroyed();
+            // Rule is fulfilled if either the ship is not on the planet OR the ship is destroyed
+            bool shipRuleFulfilled = (shipOnPlanet == false) || (shipDestroyed == true);
+
+            // If this is not fulfilled (== false), then we want the door to be active
+            if (shipRuleFulfilled == false)
             {
                 door.SetActive(true);
                 return;

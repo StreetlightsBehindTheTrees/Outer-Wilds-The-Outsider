@@ -394,7 +394,7 @@ namespace TheOutsider
                 PlayerData.SaveEyeCompletion(); //Return to normal game on reload.
 
             GUIMode.SetRenderMode(GUIMode.RenderMode.FPS);
-            LoadManager.LoadScene(OWScene.Credits_Fast, LoadManager.FadeType.ToBlack, 1f, true);
+            LoadManager.LoadScene(OWScene.Credits_Final, LoadManager.FadeType.ToBlack, 1f, true);
             enabled = false;
 
             OuterWildsHandling.OWPatches.PreventPausing = false;
